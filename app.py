@@ -259,50 +259,43 @@ def generate_contact_pdf(data):
     # Professional PDF Generation for Contact Messages
     pdf = FPDF()
     # Add Arabic font support
-    font_name = "Helvetica" # Default fallback
+    font_name = "CairoCustom"
     
     # Define potential font locations
     server_dir = os.path.abspath(os.path.dirname(__file__))
     local_fonts_dir = os.path.join(server_dir, "fonts")
-    windows_fonts_dir = r"C:\Windows\Fonts"
+    tmp_fonts_dir = "/tmp/fonts"
     
-    # Font names to look for
-    fonts_to_try = [
-        ("CairoCustom", "Cairo-Regular.ttf", "Cairo-Bold.ttf", "Cairo-Italic.ttf"),
-        ("ArialCustom", "arial.ttf", "arialbd.ttf", "ariali.ttf")
-    ]
+    if not os.path.exists(tmp_fonts_dir):
+        try: os.makedirs(tmp_fonts_dir)
+        except: pass
+
+    # Always try to ensure Cairo is downloaded & available in /tmp for Vercel
+    cairo_reg = os.path.join(tmp_fonts_dir, "Cairo-Regular.ttf")
+    cairo_bold = os.path.join(tmp_fonts_dir, "Cairo-Bold.ttf")
     
-    found = False
-    for f_name, reg, bold, ital in fonts_to_try:
-        # Try local first (especially for Vercel/Linux)
-        reg_path = os.path.join(local_fonts_dir, reg)
-        bold_path = os.path.join(local_fonts_dir, bold)
-        ital_path = os.path.join(local_fonts_dir, ital)
-        
-        # Then try Windows if on NT
-        if not os.path.exists(reg_path) and os.name == 'nt':
-            reg_path = os.path.join(windows_fonts_dir, reg)
-            bold_path = os.path.join(windows_fonts_dir, bold)
-            ital_path = os.path.join(windows_fonts_dir, ital)
+    try:
+        import urllib.request
+        # Download fonts to /tmp if they do not exist
+        if not os.path.exists(cairo_reg):
+            urllib.request.urlretrieve("https://github.com/google/fonts/raw/main/ofl/cairo/Cairo-Regular.ttf", cairo_reg)
+        if not os.path.exists(cairo_bold):
+            urllib.request.urlretrieve("https://github.com/google/fonts/raw/main/ofl/cairo/Cairo-Bold.ttf", cairo_bold)
             
-        try:
-            if os.path.exists(reg_path):
-                logger.info(f"Loading font {f_name} from {reg_path}")
-                pdf.add_font(f_name, "", reg_path)
-                font_name = f_name
-                if os.path.exists(bold_path):
-                    pdf.add_font(f_name, "B", bold_path)
-                if os.path.exists(ital_path):
-                    pdf.add_font(f_name, "I", ital_path)
-                found = True
-                break
-        except Exception as e:
-            logger.error(f"Failed to load font {f_name}: {e}")
-            
-    # On Linux/Vercel, we stick to default fonts if nothing else found.
-    if not found:
-        logger.warning("No Arabic font found. Skipping PDF generation to prevent text encoding errors.")
-        return None
+        pdf.add_font(font_name, "", cairo_reg)
+        pdf.add_font(font_name, "B", cairo_bold)
+        logger.info("Successfully loaded Cairo Custom font for Arabic support")
+    except Exception as e:
+        logger.error(f"Failed to load / download Arabic font: {e}")
+        # Fallback to local if download fails
+        reg_local = os.path.join(local_fonts_dir, "Cairo-Regular.ttf")
+        bold_local = os.path.join(local_fonts_dir, "Cairo-Bold.ttf")
+        if os.path.exists(reg_local):
+            pdf.add_font(font_name, "", reg_local)
+            if os.path.exists(bold_local):
+                pdf.add_font(font_name, "B", bold_local)
+        else:
+            font_name = "Helvetica" # Last resort
 
     pdf.add_page()
     
@@ -319,37 +312,42 @@ def generate_contact_pdf(data):
     pdf.set_text_color(255, 255, 255)
     pdf.set_font(font_name, 'B', 14)
     
+    def safe_arabic_text(text):
+        try:
+            return get_display(arabic_reshaper.reshape(str(text)))
+        except:
+            return str(text)
+
     msg_type = data.get('msg_type', '')
     title_text = "Rapport de Message"
     if msg_type == 'activity_request':
-        title_text = "Demande d'Activite"
+        title_text = safe_arabic_text("Demande d'Activité (طلب نشاط)")
     elif msg_type == 'inquiry':
-        title_text = "Inquiry"
+        title_text = safe_arabic_text("Inquiry (استفسار)")
     
     pdf.cell(0, 12, title_text, ln=True, align='C', fill=True)
-    pdf.ln(10)
-    
+
     # Body
     pdf.set_text_color(0, 0, 0)
     pdf.set_font(font_name, 'B', 12)
     pdf.cell(50, 10, "Expéditeur:")
     pdf.set_font(font_name, '', 12)
-    pdf.cell(0, 10, f"{data.get('sender_name')}", ln=True)
+    pdf.cell(0, 10, safe_arabic_text(data.get('sender_name')), ln=True, align='R')
     
     pdf.set_font(font_name, 'B', 12)
     pdf.cell(50, 10, "Email:")
     pdf.set_font(font_name, '', 12)
-    pdf.cell(0, 10, f"{data.get('email')}", ln=True)
+    pdf.cell(0, 10, f"{data.get('email')}", ln=True, align='R')
     
     pdf.set_font(font_name, 'B', 12)
     pdf.cell(50, 10, "Téléphone:")
     pdf.set_font(font_name, '', 12)
-    pdf.cell(0, 10, f"{data.get('phone', 'N/A')}", ln=True)
+    pdf.cell(0, 10, f"{data.get('phone', 'N/A')}", ln=True, align='R')
     
     pdf.set_font(font_name, 'B', 12)
     pdf.cell(50, 10, "Sujet:")
     pdf.set_font(font_name, '', 12)
-    pdf.cell(0, 10, f"{data.get('subject')}")
+    pdf.cell(0, 10, safe_arabic_text(data.get('subject')), align='R')
     pdf.ln(10)
     
     pdf.ln(10)
@@ -362,12 +360,10 @@ def generate_contact_pdf(data):
     # Process Arabic text for message
     raw_message = str(data.get('message', ''))
     try:
-        reshaped_text = arabic_reshaper.reshape(raw_message)
-        bidi_text = get_display(reshaped_text)
-        pdf.multi_cell(0, 7, bidi_text, align='R')
+        pdf.multi_cell(0, 7, safe_arabic_text(raw_message), align='R')
     except Exception as e:
-        logger.error(f"Arabic Reshaping Error: {e}")
-        pdf.multi_cell(0, 7, raw_message)
+        logger.error(f"Arabic Error in Body: {e}")
+        pdf.multi_cell(0, 7, "Message contains unsupported characters.")
     
     # QR Code (SCAN Feature)
     base_url = f"{request.host_url}"
