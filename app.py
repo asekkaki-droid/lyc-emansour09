@@ -580,7 +580,11 @@ def handle_messages():
             subject = f"رسالة جديدة من الموقع: {data.get('subject')}"
             body = f"المرسل: {data.get('sender_name')}\nالبريد: {data.get('email')}\nالهاتف: {data.get('phone')}\nالنوع: {data.get('msg_type')}\nالرسالة:\n{data.get('message')}"
             
-            # Generate PDF report
+            # إذا كان طلب نشاط، احفظه فقط ولا ترسله كإيميل حسب طلب المستخدم
+            if data.get('msg_type') == 'activity_request':
+                return jsonify({'message': 'تم تسجيل طلب النشاط بنجاح في قاعدة البيانات ولتطّلع عليه الإدارة.', 'email_sent': False}), 201
+
+            # Generate PDF report for other types
             pdf_content = generate_contact_pdf(data)
             success, status_or_error = send_email_with_pdf(subject, body, ADMIN_EMAIL, pdf_content, "rapport_contact.pdf")
             
