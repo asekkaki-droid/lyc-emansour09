@@ -322,9 +322,9 @@ def generate_contact_pdf(data):
     msg_type = data.get('msg_type', '')
     title_text = "Rapport de Message"
     if msg_type == 'activity_request':
-        title_text = "Demande d'Activité (طلب نشاط)"
+        title_text = "Demande d'Activite"
     elif msg_type == 'inquiry':
-        title_text = "Inquiry (استفسار)"
+        title_text = "Inquiry"
     
     pdf.cell(0, 12, title_text, ln=True, align='C', fill=True)
     pdf.ln(10)
