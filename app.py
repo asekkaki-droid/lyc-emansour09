@@ -584,8 +584,17 @@ def handle_messages():
             if data.get('msg_type') == 'activity_request':
                 return jsonify({'message': 'تم تسجيل طلب النشاط بنجاح في قاعدة البيانات ولتطّلع عليه الإدارة.', 'email_sent': False}), 201
 
-            # Generate PDF report for other types
-            pdf_content = generate_contact_pdf(data)
+            # Generate PDF report for other types with fallback
+            pdf_content = None
+            try:
+                pdf_content = generate_contact_pdf(data)
+            except Exception as pdf_err:
+                try:
+                    print(f"!!! PDF Generation Failed, sending plain email instead. Error: {str(pdf_err)}".encode('ascii', errors='replace').decode('ascii'))
+                except:
+                    pass
+                pdf_content = None
+                
             success, status_or_error = send_email_with_pdf(subject, body, ADMIN_EMAIL, pdf_content, "rapport_contact.pdf")
             
             if success and status_or_error == "resend":
