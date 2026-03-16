@@ -310,7 +310,7 @@ def generate_contact_pdf(data):
     # Title
     pdf.set_fill_color(18, 58, 122) # Primary Dark
     pdf.set_text_color(255, 255, 255)
-    pdf.set_font(font_name, 'B', 14)
+    pdf.set_font(font_name, '', 14) # Changed from 'B' to '' to avoid helveticaB error on Arabic
     
     def safe_arabic_text(text):
         try:
@@ -347,8 +347,7 @@ def generate_contact_pdf(data):
     pdf.set_font(font_name, 'B', 12)
     pdf.cell(50, 10, "Sujet:")
     pdf.set_font(font_name, '', 12)
-    pdf.cell(0, 10, safe_arabic_text(data.get('subject')), align='R')
-    pdf.ln(10)
+    pdf.cell(0, 10, safe_arabic_text(data.get('subject')), align='R', ln=True)
     
     pdf.ln(10)
     pdf.set_font(font_name, 'B', 12)
