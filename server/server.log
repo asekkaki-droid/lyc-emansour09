@@ -1,0 +1,2226 @@
+2026-03-14 05:23:23,921 - INFO - Starting Lycée Al-Mansour Server...
+2026-03-14 05:23:23,933 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-03-14 05:23:23,933 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-14 05:23:23,933 - INFO -  * Restarting with stat
+2026-03-14 05:23:24,724 - INFO - Starting Lycée Al-Mansour Server...
+2026-03-14 05:23:24,729 - WARNING -  * Debugger is active!
+2026-03-14 05:23:24,731 - INFO -  * Debugger PIN: 355-999-997
+2026-03-14 07:53:22,210 - INFO - Starting Lycée Al-Mansour Server on port 5000...
+2026-03-14 07:53:22,291 - INFO - Serving on http://127.0.0.1:5000
+2026-03-14 07:55:56,126 - INFO - Starting Lycée Al-Mansour Server on port 5000...
+2026-03-14 07:55:56,136 - INFO - Serving on http://127.0.0.1:5000
+2026-03-14 07:56:55,924 - INFO - Starting Lycée Al-Mansour Server on port 5000...
+2026-03-14 07:56:55,936 - INFO - Serving on http://127.0.0.1:5000
+2026-03-14 07:57:04,313 - INFO - maxp pruned
+2026-03-14 07:57:04,313 - INFO - LTSH dropped
+2026-03-14 07:57:04,321 - INFO - hdmx dropped
+2026-03-14 07:57:04,321 - INFO - cmap pruned
+2026-03-14 07:57:04,334 - INFO - kern dropped
+2026-03-14 07:57:04,334 - INFO - post pruned
+2026-03-14 07:57:04,336 - INFO - PCLT dropped
+2026-03-14 07:57:04,337 - INFO - JSTF dropped
+2026-03-14 07:57:04,340 - INFO - DSIG dropped
+2026-03-14 07:57:04,340 - INFO - GDEF dropped
+2026-03-14 07:57:04,340 - INFO - GPOS dropped
+2026-03-14 07:57:04,340 - INFO - GSUB dropped
+2026-03-14 07:57:04,343 - INFO - glyf pruned
+2026-03-14 07:57:04,345 - INFO - Added gid0 to subset
+2026-03-14 07:57:04,345 - INFO - Added first four glyphs to subset
+2026-03-14 07:57:04,345 - INFO - Closing glyph list over 'glyf': 50 glyphs before
+2026-03-14 07:57:04,345 - INFO - Glyph names: ['.notdef', 'A', 'E', 'S', 'T', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'i', 'j', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0628', 'uni0629', 'uni062A', 'uni062C', 'uni0631', 'v', 'x', 'y', 'zero']
+2026-03-14 07:57:04,346 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 36, 40, 54, 55, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96, 911, 915, 917, 925, 941]
+2026-03-14 07:57:04,346 - INFO - Closed glyph list over 'glyf': 55 glyphs after
+2026-03-14 07:57:04,346 - INFO - Glyph names: ['.notdef', 'A', 'E', 'S', 'T', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'i', 'j', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0628', 'uni0629', 'uni062A', 'uni062C', 'uni062D', 'uni0631', 'uni066E', 'uni06D5', 'uniFBB3', 'uniFBB5', 'v', 'x', 'y', 'zero']
+2026-03-14 07:57:04,346 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 36, 40, 54, 55, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96, 776, 911, 915, 917, 925, 929, 941, 1320, 1325, 1326]
+2026-03-14 07:57:04,346 - INFO - Retaining 55 glyphs
+2026-03-14 07:57:04,346 - INFO - head subsetting not needed
+2026-03-14 07:57:04,346 - INFO - hhea subsetting not needed
+2026-03-14 07:57:04,346 - INFO - maxp subsetting not needed
+2026-03-14 07:57:04,346 - INFO - OS/2 subsetting not needed
+2026-03-14 07:57:04,347 - INFO - hmtx subsetted
+2026-03-14 07:57:04,348 - INFO - VDMX subsetting not needed
+2026-03-14 07:57:04,348 - INFO - cmap subsetted
+2026-03-14 07:57:04,348 - INFO - fpgm subsetting not needed
+2026-03-14 07:57:04,348 - INFO - prep subsetting not needed
+2026-03-14 07:57:04,348 - INFO - cvt  subsetting not needed
+2026-03-14 07:57:04,348 - INFO - loca subsetting not needed
+2026-03-14 07:57:04,348 - INFO - post subsetted
+2026-03-14 07:57:04,348 - INFO - gasp subsetting not needed
+2026-03-14 07:57:04,348 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 07:57:04,348 - INFO - name subsetting not needed
+2026-03-14 07:57:04,349 - INFO - glyf subsetted
+2026-03-14 07:57:04,349 - INFO - head pruned
+2026-03-14 07:57:04,349 - INFO - OS/2 Unicode ranges pruned: [0, 1, 13, 67]
+2026-03-14 07:57:04,349 - INFO - OS/2 CodePage ranges pruned: [6]
+2026-03-14 07:57:04,350 - INFO - glyf pruned
+2026-03-14 07:57:04,351 - INFO - name pruned
+2026-03-14 07:57:04,365 - INFO - maxp pruned
+2026-03-14 07:57:04,365 - INFO - LTSH dropped
+2026-03-14 07:57:04,365 - INFO - hdmx dropped
+2026-03-14 07:57:04,365 - INFO - cmap pruned
+2026-03-14 07:57:04,370 - INFO - kern dropped
+2026-03-14 07:57:04,370 - INFO - post pruned
+2026-03-14 07:57:04,370 - INFO - PCLT dropped
+2026-03-14 07:57:04,370 - INFO - JSTF dropped
+2026-03-14 07:57:04,370 - INFO - DSIG dropped
+2026-03-14 07:57:04,370 - INFO - GDEF dropped
+2026-03-14 07:57:04,370 - INFO - GPOS dropped
+2026-03-14 07:57:04,370 - INFO - GSUB dropped
+2026-03-14 07:57:04,371 - INFO - glyf pruned
+2026-03-14 07:57:04,374 - INFO - Added gid0 to subset
+2026-03-14 07:57:04,374 - INFO - Added first four glyphs to subset
+2026-03-14 07:57:04,374 - INFO - Closing glyph list over 'glyf': 55 glyphs before
+2026-03-14 07:57:04,374 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'x', 'y', 'zero']
+2026-03-14 07:57:04,375 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 91, 92, 94, 96, 112, 113]
+2026-03-14 07:57:04,375 - INFO - Closed glyph list over 'glyf': 57 glyphs after
+2026-03-14 07:57:04,375 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'acute', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'grave', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'x', 'y', 'zero']
+2026-03-14 07:57:04,375 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 91, 92, 94, 96, 112, 113, 141]
+2026-03-14 07:57:04,375 - INFO - Retaining 57 glyphs
+2026-03-14 07:57:04,375 - INFO - head subsetting not needed
+2026-03-14 07:57:04,375 - INFO - hhea subsetting not needed
+2026-03-14 07:57:04,375 - INFO - maxp subsetting not needed
+2026-03-14 07:57:04,375 - INFO - OS/2 subsetting not needed
+2026-03-14 07:57:04,376 - INFO - hmtx subsetted
+2026-03-14 07:57:04,376 - INFO - VDMX subsetting not needed
+2026-03-14 07:57:04,377 - INFO - cmap subsetted
+2026-03-14 07:57:04,377 - INFO - fpgm subsetting not needed
+2026-03-14 07:57:04,377 - INFO - prep subsetting not needed
+2026-03-14 07:57:04,377 - INFO - cvt  subsetting not needed
+2026-03-14 07:57:04,378 - INFO - loca subsetting not needed
+2026-03-14 07:57:04,378 - INFO - post subsetted
+2026-03-14 07:57:04,378 - INFO - gasp subsetting not needed
+2026-03-14 07:57:04,378 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 07:57:04,378 - INFO - name subsetting not needed
+2026-03-14 07:57:04,378 - INFO - glyf subsetted
+2026-03-14 07:57:04,378 - INFO - head pruned
+2026-03-14 07:57:04,379 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-14 07:57:04,379 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 07:57:04,379 - INFO - glyf pruned
+2026-03-14 07:57:04,381 - INFO - name pruned
+2026-03-14 07:57:04,394 - INFO - maxp pruned
+2026-03-14 07:57:04,394 - INFO - LTSH dropped
+2026-03-14 07:57:04,395 - INFO - hdmx dropped
+2026-03-14 07:57:04,395 - INFO - cmap pruned
+2026-03-14 07:57:04,395 - INFO - kern dropped
+2026-03-14 07:57:04,395 - INFO - post pruned
+2026-03-14 07:57:04,395 - INFO - PCLT dropped
+2026-03-14 07:57:04,395 - INFO - DSIG dropped
+2026-03-14 07:57:04,395 - INFO - GDEF dropped
+2026-03-14 07:57:04,395 - INFO - GPOS dropped
+2026-03-14 07:57:04,395 - INFO - GSUB dropped
+2026-03-14 07:57:04,397 - INFO - glyf pruned
+2026-03-14 07:57:04,398 - INFO - Added gid0 to subset
+2026-03-14 07:57:04,398 - INFO - Added first four glyphs to subset
+2026-03-14 07:57:04,398 - INFO - Closing glyph list over 'glyf': 25 glyphs before
+2026-03-14 07:57:04,398 - INFO - Glyph names: ['.notdef', 'G', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-14 07:57:04,399 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112]
+2026-03-14 07:57:04,399 - INFO - Closed glyph list over 'glyf': 26 glyphs after
+2026-03-14 07:57:04,399 - INFO - Glyph names: ['.notdef', 'G', 'acute', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-14 07:57:04,399 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112, 141]
+2026-03-14 07:57:04,399 - INFO - Retaining 26 glyphs
+2026-03-14 07:57:04,399 - INFO - head subsetting not needed
+2026-03-14 07:57:04,399 - INFO - hhea subsetting not needed
+2026-03-14 07:57:04,399 - INFO - maxp subsetting not needed
+2026-03-14 07:57:04,399 - INFO - OS/2 subsetting not needed
+2026-03-14 07:57:04,421 - INFO - hmtx subsetted
+2026-03-14 07:57:04,421 - INFO - VDMX subsetting not needed
+2026-03-14 07:57:04,425 - INFO - cmap subsetted
+2026-03-14 07:57:04,425 - INFO - fpgm subsetting not needed
+2026-03-14 07:57:04,425 - INFO - prep subsetting not needed
+2026-03-14 07:57:04,425 - INFO - cvt  subsetting not needed
+2026-03-14 07:57:04,425 - INFO - loca subsetting not needed
+2026-03-14 07:57:04,425 - INFO - post subsetted
+2026-03-14 07:57:04,425 - INFO - gasp subsetting not needed
+2026-03-14 07:57:04,425 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 07:57:04,426 - INFO - name subsetting not needed
+2026-03-14 07:57:04,426 - INFO - glyf subsetted
+2026-03-14 07:57:04,426 - INFO - head pruned
+2026-03-14 07:57:04,427 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-14 07:57:04,427 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 07:57:04,427 - INFO - glyf pruned
+2026-03-14 07:57:04,429 - INFO - name pruned
+2026-03-14 07:57:48,974 - INFO - maxp pruned
+2026-03-14 07:57:48,975 - INFO - LTSH dropped
+2026-03-14 07:57:48,976 - INFO - hdmx dropped
+2026-03-14 07:57:48,977 - INFO - cmap pruned
+2026-03-14 07:57:48,978 - INFO - kern dropped
+2026-03-14 07:57:48,978 - INFO - post pruned
+2026-03-14 07:57:48,979 - INFO - PCLT dropped
+2026-03-14 07:57:48,979 - INFO - JSTF dropped
+2026-03-14 07:57:48,980 - INFO - DSIG dropped
+2026-03-14 07:57:48,980 - INFO - GDEF dropped
+2026-03-14 07:57:48,980 - INFO - GPOS dropped
+2026-03-14 07:57:48,980 - INFO - GSUB dropped
+2026-03-14 07:57:48,982 - INFO - glyf pruned
+2026-03-14 07:57:48,983 - INFO - Added gid0 to subset
+2026-03-14 07:57:48,983 - INFO - Added first four glyphs to subset
+2026-03-14 07:57:48,983 - INFO - Closing glyph list over 'glyf': 51 glyphs before
+2026-03-14 07:57:48,983 - INFO - Glyph names: ['.notdef', 'A', 'D', 'E', 'F', 'H', 'I', 'J', 'K', 'N', 'S', 'U', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'uni0627', 'uni062A', 'uni0639', 'uni0644', 'uni0645', 'uni0648', 'uni064A', 'zero']
+2026-03-14 07:57:48,983 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 36, 39, 40, 41, 43, 44, 45, 46, 49, 54, 56, 68, 69, 70, 71, 72, 74, 76, 79, 80, 81, 82, 85, 86, 87, 94, 96, 909, 917, 969, 989, 993, 1005, 1009]
+2026-03-14 07:57:48,983 - INFO - Closed glyph list over 'glyf': 54 glyphs after
+2026-03-14 07:57:48,983 - INFO - Glyph names: ['.notdef', 'A', 'D', 'E', 'F', 'H', 'I', 'J', 'K', 'N', 'S', 'U', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'uni0627', 'uni062A', 'uni0639', 'uni0644', 'uni0645', 'uni0648', 'uni064A', 'uni066E', 'uni06CC', 'uniFBB5', 'zero']
+2026-03-14 07:57:48,983 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 36, 39, 40, 41, 43, 44, 45, 46, 49, 54, 56, 68, 69, 70, 71, 72, 74, 76, 79, 80, 81, 82, 85, 86, 87, 94, 96, 821, 909, 917, 969, 989, 993, 1005, 1009, 1320, 1326]
+2026-03-14 07:57:48,984 - INFO - Retaining 54 glyphs
+2026-03-14 07:57:48,984 - INFO - head subsetting not needed
+2026-03-14 07:57:48,984 - INFO - hhea subsetting not needed
+2026-03-14 07:57:48,984 - INFO - maxp subsetting not needed
+2026-03-14 07:57:48,984 - INFO - OS/2 subsetting not needed
+2026-03-14 07:57:48,985 - INFO - hmtx subsetted
+2026-03-14 07:57:48,985 - INFO - VDMX subsetting not needed
+2026-03-14 07:57:48,986 - INFO - cmap subsetted
+2026-03-14 07:57:48,986 - INFO - fpgm subsetting not needed
+2026-03-14 07:57:48,986 - INFO - prep subsetting not needed
+2026-03-14 07:57:48,986 - INFO - cvt  subsetting not needed
+2026-03-14 07:57:48,986 - INFO - loca subsetting not needed
+2026-03-14 07:57:48,986 - INFO - post subsetted
+2026-03-14 07:57:48,986 - INFO - gasp subsetting not needed
+2026-03-14 07:57:48,986 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 07:57:48,986 - INFO - name subsetting not needed
+2026-03-14 07:57:48,987 - INFO - glyf subsetted
+2026-03-14 07:57:48,987 - INFO - head pruned
+2026-03-14 07:57:48,987 - INFO - OS/2 Unicode ranges pruned: [0, 1, 13, 67]
+2026-03-14 07:57:48,987 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 07:57:48,987 - INFO - glyf pruned
+2026-03-14 07:57:48,988 - INFO - name pruned
+2026-03-14 07:57:49,005 - INFO - maxp pruned
+2026-03-14 07:57:49,005 - INFO - LTSH dropped
+2026-03-14 07:57:49,005 - INFO - hdmx dropped
+2026-03-14 07:57:49,005 - INFO - cmap pruned
+2026-03-14 07:57:49,005 - INFO - kern dropped
+2026-03-14 07:57:49,005 - INFO - post pruned
+2026-03-14 07:57:49,005 - INFO - PCLT dropped
+2026-03-14 07:57:49,005 - INFO - JSTF dropped
+2026-03-14 07:57:49,006 - INFO - DSIG dropped
+2026-03-14 07:57:49,006 - INFO - GDEF dropped
+2026-03-14 07:57:49,006 - INFO - GPOS dropped
+2026-03-14 07:57:49,006 - INFO - GSUB dropped
+2026-03-14 07:57:49,008 - INFO - glyf pruned
+2026-03-14 07:57:49,011 - INFO - Added gid0 to subset
+2026-03-14 07:57:49,011 - INFO - Added first four glyphs to subset
+2026-03-14 07:57:49,011 - INFO - Closing glyph list over 'glyf': 55 glyphs before
+2026-03-14 07:57:49,011 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'x', 'y', 'zero']
+2026-03-14 07:57:49,012 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 91, 92, 94, 96, 112, 113]
+2026-03-14 07:57:49,012 - INFO - Closed glyph list over 'glyf': 57 glyphs after
+2026-03-14 07:57:49,012 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'acute', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'grave', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'x', 'y', 'zero']
+2026-03-14 07:57:49,012 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 91, 92, 94, 96, 112, 113, 141]
+2026-03-14 07:57:49,013 - INFO - Retaining 57 glyphs
+2026-03-14 07:57:49,013 - INFO - head subsetting not needed
+2026-03-14 07:57:49,013 - INFO - hhea subsetting not needed
+2026-03-14 07:57:49,013 - INFO - maxp subsetting not needed
+2026-03-14 07:57:49,013 - INFO - OS/2 subsetting not needed
+2026-03-14 07:57:49,015 - INFO - hmtx subsetted
+2026-03-14 07:57:49,015 - INFO - VDMX subsetting not needed
+2026-03-14 07:57:49,015 - INFO - cmap subsetted
+2026-03-14 07:57:49,015 - INFO - fpgm subsetting not needed
+2026-03-14 07:57:49,015 - INFO - prep subsetting not needed
+2026-03-14 07:57:49,015 - INFO - cvt  subsetting not needed
+2026-03-14 07:57:49,015 - INFO - loca subsetting not needed
+2026-03-14 07:57:49,015 - INFO - post subsetted
+2026-03-14 07:57:49,016 - INFO - gasp subsetting not needed
+2026-03-14 07:57:49,016 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 07:57:49,016 - INFO - name subsetting not needed
+2026-03-14 07:57:49,017 - INFO - glyf subsetted
+2026-03-14 07:57:49,017 - INFO - head pruned
+2026-03-14 07:57:49,017 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-14 07:57:49,017 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 07:57:49,018 - INFO - glyf pruned
+2026-03-14 07:57:49,019 - INFO - name pruned
+2026-03-14 07:57:49,033 - INFO - maxp pruned
+2026-03-14 07:57:49,033 - INFO - LTSH dropped
+2026-03-14 07:57:49,033 - INFO - hdmx dropped
+2026-03-14 07:57:49,033 - INFO - cmap pruned
+2026-03-14 07:57:49,033 - INFO - kern dropped
+2026-03-14 07:57:49,034 - INFO - post pruned
+2026-03-14 07:57:49,034 - INFO - PCLT dropped
+2026-03-14 07:57:49,034 - INFO - DSIG dropped
+2026-03-14 07:57:49,034 - INFO - GDEF dropped
+2026-03-14 07:57:49,034 - INFO - GPOS dropped
+2026-03-14 07:57:49,034 - INFO - GSUB dropped
+2026-03-14 07:57:49,059 - INFO - glyf pruned
+2026-03-14 07:57:49,061 - INFO - Added gid0 to subset
+2026-03-14 07:57:49,061 - INFO - Added first four glyphs to subset
+2026-03-14 07:57:49,061 - INFO - Closing glyph list over 'glyf': 25 glyphs before
+2026-03-14 07:57:49,061 - INFO - Glyph names: ['.notdef', 'G', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-14 07:57:49,061 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112]
+2026-03-14 07:57:49,061 - INFO - Closed glyph list over 'glyf': 26 glyphs after
+2026-03-14 07:57:49,061 - INFO - Glyph names: ['.notdef', 'G', 'acute', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-14 07:57:49,061 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112, 141]
+2026-03-14 07:57:49,061 - INFO - Retaining 26 glyphs
+2026-03-14 07:57:49,062 - INFO - head subsetting not needed
+2026-03-14 07:57:49,062 - INFO - hhea subsetting not needed
+2026-03-14 07:57:49,062 - INFO - maxp subsetting not needed
+2026-03-14 07:57:49,062 - INFO - OS/2 subsetting not needed
+2026-03-14 07:57:49,063 - INFO - hmtx subsetted
+2026-03-14 07:57:49,063 - INFO - VDMX subsetting not needed
+2026-03-14 07:57:49,063 - INFO - cmap subsetted
+2026-03-14 07:57:49,063 - INFO - fpgm subsetting not needed
+2026-03-14 07:57:49,063 - INFO - prep subsetting not needed
+2026-03-14 07:57:49,063 - INFO - cvt  subsetting not needed
+2026-03-14 07:57:49,063 - INFO - loca subsetting not needed
+2026-03-14 07:57:49,063 - INFO - post subsetted
+2026-03-14 07:57:49,063 - INFO - gasp subsetting not needed
+2026-03-14 07:57:49,063 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 07:57:49,063 - INFO - name subsetting not needed
+2026-03-14 07:57:49,064 - INFO - glyf subsetted
+2026-03-14 07:57:49,065 - INFO - head pruned
+2026-03-14 07:57:49,065 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-14 07:57:49,065 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 07:57:49,065 - INFO - glyf pruned
+2026-03-14 07:57:49,067 - INFO - name pruned
+2026-03-14 07:59:06,879 - INFO - maxp pruned
+2026-03-14 07:59:06,879 - INFO - LTSH dropped
+2026-03-14 07:59:06,879 - INFO - hdmx dropped
+2026-03-14 07:59:06,879 - INFO - cmap pruned
+2026-03-14 07:59:06,880 - INFO - kern dropped
+2026-03-14 07:59:06,880 - INFO - post pruned
+2026-03-14 07:59:06,880 - INFO - PCLT dropped
+2026-03-14 07:59:06,880 - INFO - JSTF dropped
+2026-03-14 07:59:06,880 - INFO - DSIG dropped
+2026-03-14 07:59:06,880 - INFO - GDEF dropped
+2026-03-14 07:59:06,880 - INFO - GPOS dropped
+2026-03-14 07:59:06,880 - INFO - GSUB dropped
+2026-03-14 07:59:06,882 - INFO - glyf pruned
+2026-03-14 07:59:06,883 - INFO - Added gid0 to subset
+2026-03-14 07:59:06,883 - INFO - Added first four glyphs to subset
+2026-03-14 07:59:06,883 - INFO - Closing glyph list over 'glyf': 48 glyphs before
+2026-03-14 07:59:06,883 - INFO - Glyph names: ['.notdef', 'A', 'E', 'H', 'I', 'J', 'K', 'N', 'S', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'uni0627', 'uni062A', 'uni0639', 'uni0644', 'uni0645', 'uni0648', 'uni064A', 'zero']
+2026-03-14 07:59:06,883 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 36, 40, 43, 44, 45, 46, 49, 54, 68, 69, 70, 71, 72, 74, 76, 79, 80, 81, 82, 85, 86, 87, 94, 96, 909, 917, 969, 989, 993, 1005, 1009]
+2026-03-14 07:59:06,883 - INFO - Closed glyph list over 'glyf': 51 glyphs after
+2026-03-14 07:59:06,884 - INFO - Glyph names: ['.notdef', 'A', 'E', 'H', 'I', 'J', 'K', 'N', 'S', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'uni0627', 'uni062A', 'uni0639', 'uni0644', 'uni0645', 'uni0648', 'uni064A', 'uni066E', 'uni06CC', 'uniFBB5', 'zero']
+2026-03-14 07:59:06,884 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 36, 40, 43, 44, 45, 46, 49, 54, 68, 69, 70, 71, 72, 74, 76, 79, 80, 81, 82, 85, 86, 87, 94, 96, 821, 909, 917, 969, 989, 993, 1005, 1009, 1320, 1326]
+2026-03-14 07:59:06,884 - INFO - Retaining 51 glyphs
+2026-03-14 07:59:06,884 - INFO - head subsetting not needed
+2026-03-14 07:59:06,884 - INFO - hhea subsetting not needed
+2026-03-14 07:59:06,884 - INFO - maxp subsetting not needed
+2026-03-14 07:59:06,884 - INFO - OS/2 subsetting not needed
+2026-03-14 07:59:06,885 - INFO - hmtx subsetted
+2026-03-14 07:59:06,885 - INFO - VDMX subsetting not needed
+2026-03-14 07:59:06,886 - INFO - cmap subsetted
+2026-03-14 07:59:06,886 - INFO - fpgm subsetting not needed
+2026-03-14 07:59:06,886 - INFO - prep subsetting not needed
+2026-03-14 07:59:06,886 - INFO - cvt  subsetting not needed
+2026-03-14 07:59:06,886 - INFO - loca subsetting not needed
+2026-03-14 07:59:06,886 - INFO - post subsetted
+2026-03-14 07:59:06,886 - INFO - gasp subsetting not needed
+2026-03-14 07:59:06,886 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 07:59:06,886 - INFO - name subsetting not needed
+2026-03-14 07:59:06,887 - INFO - glyf subsetted
+2026-03-14 07:59:06,887 - INFO - head pruned
+2026-03-14 07:59:06,887 - INFO - OS/2 Unicode ranges pruned: [0, 1, 13, 67]
+2026-03-14 07:59:06,887 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 07:59:06,887 - INFO - glyf pruned
+2026-03-14 07:59:06,889 - INFO - name pruned
+2026-03-14 07:59:06,904 - INFO - maxp pruned
+2026-03-14 07:59:06,905 - INFO - LTSH dropped
+2026-03-14 07:59:06,905 - INFO - hdmx dropped
+2026-03-14 07:59:06,905 - INFO - cmap pruned
+2026-03-14 07:59:06,905 - INFO - kern dropped
+2026-03-14 07:59:06,905 - INFO - post pruned
+2026-03-14 07:59:06,905 - INFO - PCLT dropped
+2026-03-14 07:59:06,905 - INFO - JSTF dropped
+2026-03-14 07:59:06,905 - INFO - DSIG dropped
+2026-03-14 07:59:06,905 - INFO - GDEF dropped
+2026-03-14 07:59:06,905 - INFO - GPOS dropped
+2026-03-14 07:59:06,905 - INFO - GSUB dropped
+2026-03-14 07:59:06,909 - INFO - glyf pruned
+2026-03-14 07:59:06,910 - INFO - Added gid0 to subset
+2026-03-14 07:59:06,910 - INFO - Added first four glyphs to subset
+2026-03-14 07:59:06,910 - INFO - Closing glyph list over 'glyf': 55 glyphs before
+2026-03-14 07:59:06,910 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'x', 'y', 'zero']
+2026-03-14 07:59:06,911 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 91, 92, 94, 96, 112, 113]
+2026-03-14 07:59:06,911 - INFO - Closed glyph list over 'glyf': 57 glyphs after
+2026-03-14 07:59:06,911 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'acute', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'grave', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'x', 'y', 'zero']
+2026-03-14 07:59:06,911 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 91, 92, 94, 96, 112, 113, 141]
+2026-03-14 07:59:06,911 - INFO - Retaining 57 glyphs
+2026-03-14 07:59:06,911 - INFO - head subsetting not needed
+2026-03-14 07:59:06,911 - INFO - hhea subsetting not needed
+2026-03-14 07:59:06,911 - INFO - maxp subsetting not needed
+2026-03-14 07:59:06,911 - INFO - OS/2 subsetting not needed
+2026-03-14 07:59:06,913 - INFO - hmtx subsetted
+2026-03-14 07:59:06,913 - INFO - VDMX subsetting not needed
+2026-03-14 07:59:06,914 - INFO - cmap subsetted
+2026-03-14 07:59:06,914 - INFO - fpgm subsetting not needed
+2026-03-14 07:59:06,914 - INFO - prep subsetting not needed
+2026-03-14 07:59:06,914 - INFO - cvt  subsetting not needed
+2026-03-14 07:59:06,914 - INFO - loca subsetting not needed
+2026-03-14 07:59:06,914 - INFO - post subsetted
+2026-03-14 07:59:06,915 - INFO - gasp subsetting not needed
+2026-03-14 07:59:06,915 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 07:59:06,915 - INFO - name subsetting not needed
+2026-03-14 07:59:06,916 - INFO - glyf subsetted
+2026-03-14 07:59:06,916 - INFO - head pruned
+2026-03-14 07:59:06,917 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-14 07:59:06,917 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 07:59:06,917 - INFO - glyf pruned
+2026-03-14 07:59:06,919 - INFO - name pruned
+2026-03-14 07:59:06,939 - INFO - maxp pruned
+2026-03-14 07:59:06,939 - INFO - LTSH dropped
+2026-03-14 07:59:06,939 - INFO - hdmx dropped
+2026-03-14 07:59:06,939 - INFO - cmap pruned
+2026-03-14 07:59:06,940 - INFO - kern dropped
+2026-03-14 07:59:06,941 - INFO - post pruned
+2026-03-14 07:59:06,941 - INFO - PCLT dropped
+2026-03-14 07:59:06,941 - INFO - DSIG dropped
+2026-03-14 07:59:06,941 - INFO - GDEF dropped
+2026-03-14 07:59:06,941 - INFO - GPOS dropped
+2026-03-14 07:59:06,941 - INFO - GSUB dropped
+2026-03-14 07:59:06,943 - INFO - glyf pruned
+2026-03-14 07:59:06,944 - INFO - Added gid0 to subset
+2026-03-14 07:59:06,944 - INFO - Added first four glyphs to subset
+2026-03-14 07:59:06,944 - INFO - Closing glyph list over 'glyf': 25 glyphs before
+2026-03-14 07:59:06,944 - INFO - Glyph names: ['.notdef', 'G', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-14 07:59:06,945 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112]
+2026-03-14 07:59:06,945 - INFO - Closed glyph list over 'glyf': 26 glyphs after
+2026-03-14 07:59:06,945 - INFO - Glyph names: ['.notdef', 'G', 'acute', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-14 07:59:06,945 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112, 141]
+2026-03-14 07:59:06,945 - INFO - Retaining 26 glyphs
+2026-03-14 07:59:06,945 - INFO - head subsetting not needed
+2026-03-14 07:59:06,945 - INFO - hhea subsetting not needed
+2026-03-14 07:59:06,945 - INFO - maxp subsetting not needed
+2026-03-14 07:59:06,945 - INFO - OS/2 subsetting not needed
+2026-03-14 07:59:06,946 - INFO - hmtx subsetted
+2026-03-14 07:59:06,946 - INFO - VDMX subsetting not needed
+2026-03-14 07:59:06,947 - INFO - cmap subsetted
+2026-03-14 07:59:06,947 - INFO - fpgm subsetting not needed
+2026-03-14 07:59:06,947 - INFO - prep subsetting not needed
+2026-03-14 07:59:06,947 - INFO - cvt  subsetting not needed
+2026-03-14 07:59:06,947 - INFO - loca subsetting not needed
+2026-03-14 07:59:06,947 - INFO - post subsetted
+2026-03-14 07:59:06,947 - INFO - gasp subsetting not needed
+2026-03-14 07:59:06,947 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 07:59:06,947 - INFO - name subsetting not needed
+2026-03-14 07:59:06,947 - INFO - glyf subsetted
+2026-03-14 07:59:06,948 - INFO - head pruned
+2026-03-14 07:59:06,948 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-14 07:59:06,948 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 07:59:06,949 - INFO - glyf pruned
+2026-03-14 07:59:06,950 - INFO - name pruned
+2026-03-14 07:59:44,133 - INFO - maxp pruned
+2026-03-14 07:59:44,133 - INFO - LTSH dropped
+2026-03-14 07:59:44,133 - INFO - hdmx dropped
+2026-03-14 07:59:44,133 - INFO - cmap pruned
+2026-03-14 07:59:44,133 - INFO - kern dropped
+2026-03-14 07:59:44,136 - INFO - post pruned
+2026-03-14 07:59:44,136 - INFO - PCLT dropped
+2026-03-14 07:59:44,136 - INFO - JSTF dropped
+2026-03-14 07:59:44,136 - INFO - DSIG dropped
+2026-03-14 07:59:44,136 - INFO - GDEF dropped
+2026-03-14 07:59:44,136 - INFO - GPOS dropped
+2026-03-14 07:59:44,136 - INFO - GSUB dropped
+2026-03-14 07:59:44,139 - INFO - glyf pruned
+2026-03-14 07:59:44,141 - INFO - Added gid0 to subset
+2026-03-14 07:59:44,141 - INFO - Added first four glyphs to subset
+2026-03-14 07:59:44,141 - INFO - Closing glyph list over 'glyf': 50 glyphs before
+2026-03-14 07:59:44,141 - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'E', 'H', 'I', 'K', 'N', 'S', 'W', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'uni0627', 'uni062A', 'uni0639', 'uni0644', 'uni0645', 'uni0648', 'uni064A', 'zero']
+2026-03-14 07:59:44,141 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 36, 38, 39, 40, 43, 44, 46, 49, 54, 58, 68, 69, 70, 71, 72, 74, 76, 79, 80, 81, 82, 85, 86, 87, 94, 96, 909, 917, 969, 989, 993, 1005, 1009]
+2026-03-14 07:59:44,142 - INFO - Closed glyph list over 'glyf': 53 glyphs after
+2026-03-14 07:59:44,142 - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'E', 'H', 'I', 'K', 'N', 'S', 'W', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'uni0627', 'uni062A', 'uni0639', 'uni0644', 'uni0645', 'uni0648', 'uni064A', 'uni066E', 'uni06CC', 'uniFBB5', 'zero']
+2026-03-14 07:59:44,142 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 36, 38, 39, 40, 43, 44, 46, 49, 54, 58, 68, 69, 70, 71, 72, 74, 76, 79, 80, 81, 82, 85, 86, 87, 94, 96, 821, 909, 917, 969, 989, 993, 1005, 1009, 1320, 1326]
+2026-03-14 07:59:44,142 - INFO - Retaining 53 glyphs
+2026-03-14 07:59:44,142 - INFO - head subsetting not needed
+2026-03-14 07:59:44,142 - INFO - hhea subsetting not needed
+2026-03-14 07:59:44,142 - INFO - maxp subsetting not needed
+2026-03-14 07:59:44,143 - INFO - OS/2 subsetting not needed
+2026-03-14 07:59:44,143 - INFO - hmtx subsetted
+2026-03-14 07:59:44,143 - INFO - VDMX subsetting not needed
+2026-03-14 07:59:44,145 - INFO - cmap subsetted
+2026-03-14 07:59:44,145 - INFO - fpgm subsetting not needed
+2026-03-14 07:59:44,145 - INFO - prep subsetting not needed
+2026-03-14 07:59:44,145 - INFO - cvt  subsetting not needed
+2026-03-14 07:59:44,145 - INFO - loca subsetting not needed
+2026-03-14 07:59:44,145 - INFO - post subsetted
+2026-03-14 07:59:44,145 - INFO - gasp subsetting not needed
+2026-03-14 07:59:44,145 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 07:59:44,145 - INFO - name subsetting not needed
+2026-03-14 07:59:44,146 - INFO - glyf subsetted
+2026-03-14 07:59:44,146 - INFO - head pruned
+2026-03-14 07:59:44,146 - INFO - OS/2 Unicode ranges pruned: [0, 1, 13, 67]
+2026-03-14 07:59:44,146 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 07:59:44,147 - INFO - glyf pruned
+2026-03-14 07:59:44,148 - INFO - name pruned
+2026-03-14 07:59:44,164 - INFO - maxp pruned
+2026-03-14 07:59:44,164 - INFO - LTSH dropped
+2026-03-14 07:59:44,164 - INFO - hdmx dropped
+2026-03-14 07:59:44,164 - INFO - cmap pruned
+2026-03-14 07:59:44,165 - INFO - kern dropped
+2026-03-14 07:59:44,165 - INFO - post pruned
+2026-03-14 07:59:44,165 - INFO - PCLT dropped
+2026-03-14 07:59:44,165 - INFO - JSTF dropped
+2026-03-14 07:59:44,165 - INFO - DSIG dropped
+2026-03-14 07:59:44,165 - INFO - GDEF dropped
+2026-03-14 07:59:44,165 - INFO - GPOS dropped
+2026-03-14 07:59:44,165 - INFO - GSUB dropped
+2026-03-14 07:59:44,167 - INFO - glyf pruned
+2026-03-14 07:59:44,169 - INFO - Added gid0 to subset
+2026-03-14 07:59:44,169 - INFO - Added first four glyphs to subset
+2026-03-14 07:59:44,169 - INFO - Closing glyph list over 'glyf': 58 glyphs before
+2026-03-14 07:59:44,169 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'q', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'v', 'x', 'y', 'zero']
+2026-03-14 07:59:44,170 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 66, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 91, 92, 94, 96, 112, 113]
+2026-03-14 07:59:44,170 - INFO - Closed glyph list over 'glyf': 60 glyphs after
+2026-03-14 07:59:44,170 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'acute', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'grave', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'q', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'v', 'x', 'y', 'zero']
+2026-03-14 07:59:44,170 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 66, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 91, 92, 94, 96, 112, 113, 141]
+2026-03-14 07:59:44,170 - INFO - Retaining 60 glyphs
+2026-03-14 07:59:44,170 - INFO - head subsetting not needed
+2026-03-14 07:59:44,170 - INFO - hhea subsetting not needed
+2026-03-14 07:59:44,170 - INFO - maxp subsetting not needed
+2026-03-14 07:59:44,170 - INFO - OS/2 subsetting not needed
+2026-03-14 07:59:44,173 - INFO - hmtx subsetted
+2026-03-14 07:59:44,173 - INFO - VDMX subsetting not needed
+2026-03-14 07:59:44,174 - INFO - cmap subsetted
+2026-03-14 07:59:44,174 - INFO - fpgm subsetting not needed
+2026-03-14 07:59:44,174 - INFO - prep subsetting not needed
+2026-03-14 07:59:44,174 - INFO - cvt  subsetting not needed
+2026-03-14 07:59:44,174 - INFO - loca subsetting not needed
+2026-03-14 07:59:44,174 - INFO - post subsetted
+2026-03-14 07:59:44,174 - INFO - gasp subsetting not needed
+2026-03-14 07:59:44,174 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 07:59:44,174 - INFO - name subsetting not needed
+2026-03-14 07:59:44,176 - INFO - glyf subsetted
+2026-03-14 07:59:44,176 - INFO - head pruned
+2026-03-14 07:59:44,176 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-14 07:59:44,176 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 07:59:44,176 - INFO - glyf pruned
+2026-03-14 07:59:44,178 - INFO - name pruned
+2026-03-14 07:59:44,192 - INFO - maxp pruned
+2026-03-14 07:59:44,192 - INFO - LTSH dropped
+2026-03-14 07:59:44,192 - INFO - hdmx dropped
+2026-03-14 07:59:44,192 - INFO - cmap pruned
+2026-03-14 07:59:44,192 - INFO - kern dropped
+2026-03-14 07:59:44,193 - INFO - post pruned
+2026-03-14 07:59:44,193 - INFO - PCLT dropped
+2026-03-14 07:59:44,193 - INFO - DSIG dropped
+2026-03-14 07:59:44,194 - INFO - GDEF dropped
+2026-03-14 07:59:44,194 - INFO - GPOS dropped
+2026-03-14 07:59:44,194 - INFO - GSUB dropped
+2026-03-14 07:59:44,196 - INFO - glyf pruned
+2026-03-14 07:59:44,197 - INFO - Added gid0 to subset
+2026-03-14 07:59:44,197 - INFO - Added first four glyphs to subset
+2026-03-14 07:59:44,197 - INFO - Closing glyph list over 'glyf': 25 glyphs before
+2026-03-14 07:59:44,197 - INFO - Glyph names: ['.notdef', 'G', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-14 07:59:44,198 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112]
+2026-03-14 07:59:44,198 - INFO - Closed glyph list over 'glyf': 26 glyphs after
+2026-03-14 07:59:44,198 - INFO - Glyph names: ['.notdef', 'G', 'acute', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-14 07:59:44,198 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112, 141]
+2026-03-14 07:59:44,198 - INFO - Retaining 26 glyphs
+2026-03-14 07:59:44,198 - INFO - head subsetting not needed
+2026-03-14 07:59:44,198 - INFO - hhea subsetting not needed
+2026-03-14 07:59:44,198 - INFO - maxp subsetting not needed
+2026-03-14 07:59:44,198 - INFO - OS/2 subsetting not needed
+2026-03-14 07:59:44,200 - INFO - hmtx subsetted
+2026-03-14 07:59:44,200 - INFO - VDMX subsetting not needed
+2026-03-14 07:59:44,200 - INFO - cmap subsetted
+2026-03-14 07:59:44,200 - INFO - fpgm subsetting not needed
+2026-03-14 07:59:44,200 - INFO - prep subsetting not needed
+2026-03-14 07:59:44,200 - INFO - cvt  subsetting not needed
+2026-03-14 07:59:44,200 - INFO - loca subsetting not needed
+2026-03-14 07:59:44,200 - INFO - post subsetted
+2026-03-14 07:59:44,200 - INFO - gasp subsetting not needed
+2026-03-14 07:59:44,200 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 07:59:44,200 - INFO - name subsetting not needed
+2026-03-14 07:59:44,201 - INFO - glyf subsetted
+2026-03-14 07:59:44,201 - INFO - head pruned
+2026-03-14 07:59:44,201 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-14 07:59:44,201 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 07:59:44,202 - INFO - glyf pruned
+2026-03-14 07:59:44,203 - INFO - name pruned
+2026-03-14 08:04:13,066 - INFO - Starting Lycée Al-Mansour Server on port 5000...
+2026-03-14 08:04:13,077 - INFO - Serving on http://127.0.0.1:5000
+2026-03-14 08:05:04,361 - INFO - maxp pruned
+2026-03-14 08:05:04,362 - INFO - LTSH dropped
+2026-03-14 08:05:04,363 - INFO - hdmx dropped
+2026-03-14 08:05:04,364 - INFO - cmap pruned
+2026-03-14 08:05:04,367 - INFO - kern dropped
+2026-03-14 08:05:04,368 - INFO - post pruned
+2026-03-14 08:05:04,368 - INFO - PCLT dropped
+2026-03-14 08:05:04,368 - INFO - JSTF dropped
+2026-03-14 08:05:04,369 - INFO - DSIG dropped
+2026-03-14 08:05:04,369 - INFO - GDEF dropped
+2026-03-14 08:05:04,369 - INFO - GPOS dropped
+2026-03-14 08:05:04,369 - INFO - GSUB dropped
+2026-03-14 08:05:04,374 - INFO - glyf pruned
+2026-03-14 08:05:04,376 - INFO - Added gid0 to subset
+2026-03-14 08:05:04,376 - INFO - Added first four glyphs to subset
+2026-03-14 08:05:04,376 - INFO - Closing glyph list over 'glyf': 49 glyphs before
+2026-03-14 08:05:04,377 - INFO - Glyph names: ['.notdef', 'A', 'E', 'N', 'S', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'uni0624', 'uni0627', 'uni0628', 'uni062A', 'uni062B', 'uni0639', 'uni0644', 'uni0645', 'uni0646', 'uni0647', 'uni0648', 'uni064A', 'zero']
+2026-03-14 08:05:04,378 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 36, 40, 49, 54, 68, 69, 70, 71, 72, 74, 76, 79, 80, 81, 82, 85, 86, 87, 94, 96, 901, 909, 911, 917, 921, 969, 989, 993, 997, 1001, 1005, 1009]
+2026-03-14 08:05:04,378 - INFO - Closed glyph list over 'glyf': 56 glyphs after
+2026-03-14 08:05:04,378 - INFO - Glyph names: ['.notdef', 'A', 'E', 'N', 'S', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'uni0624', 'uni0627', 'uni0628', 'uni062A', 'uni062B', 'uni0639', 'uni0644', 'uni0645', 'uni0646', 'uni0647', 'uni0648', 'uni064A', 'uni066E', 'uni06BA', 'uni06CC', 'uni06D5', 'uniFBB3', 'uniFBB5', 'uniFBB7', 'zero']
+2026-03-14 08:05:04,379 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 36, 40, 49, 54, 68, 69, 70, 71, 72, 74, 76, 79, 80, 81, 82, 85, 86, 87, 94, 96, 776, 821, 901, 909, 911, 917, 921, 969, 989, 993, 997, 1001, 1005, 1009, 1320, 1325, 1326, 1327, 1551]
+2026-03-14 08:05:04,379 - INFO - Retaining 56 glyphs
+2026-03-14 08:05:04,380 - INFO - head subsetting not needed
+2026-03-14 08:05:04,380 - INFO - hhea subsetting not needed
+2026-03-14 08:05:04,381 - INFO - maxp subsetting not needed
+2026-03-14 08:05:04,381 - INFO - OS/2 subsetting not needed
+2026-03-14 08:05:04,384 - INFO - hmtx subsetted
+2026-03-14 08:05:04,384 - INFO - VDMX subsetting not needed
+2026-03-14 08:05:04,385 - INFO - cmap subsetted
+2026-03-14 08:05:04,385 - INFO - fpgm subsetting not needed
+2026-03-14 08:05:04,385 - INFO - prep subsetting not needed
+2026-03-14 08:05:04,385 - INFO - cvt  subsetting not needed
+2026-03-14 08:05:04,386 - INFO - loca subsetting not needed
+2026-03-14 08:05:04,386 - INFO - post subsetted
+2026-03-14 08:05:04,386 - INFO - gasp subsetting not needed
+2026-03-14 08:05:04,386 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 08:05:04,386 - INFO - name subsetting not needed
+2026-03-14 08:05:04,388 - INFO - glyf subsetted
+2026-03-14 08:05:04,388 - INFO - head pruned
+2026-03-14 08:05:04,389 - INFO - OS/2 Unicode ranges pruned: [0, 1, 13, 67]
+2026-03-14 08:05:04,389 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 08:05:04,391 - INFO - glyf pruned
+2026-03-14 08:05:04,397 - INFO - name pruned
+2026-03-14 08:05:04,430 - INFO - maxp pruned
+2026-03-14 08:05:04,430 - INFO - LTSH dropped
+2026-03-14 08:05:04,435 - INFO - hdmx dropped
+2026-03-14 08:05:04,435 - INFO - cmap pruned
+2026-03-14 08:05:04,435 - INFO - kern dropped
+2026-03-14 08:05:04,435 - INFO - post pruned
+2026-03-14 08:05:04,435 - INFO - PCLT dropped
+2026-03-14 08:05:04,435 - INFO - JSTF dropped
+2026-03-14 08:05:04,435 - INFO - DSIG dropped
+2026-03-14 08:05:04,435 - INFO - GDEF dropped
+2026-03-14 08:05:04,436 - INFO - GPOS dropped
+2026-03-14 08:05:04,436 - INFO - GSUB dropped
+2026-03-14 08:05:04,440 - INFO - glyf pruned
+2026-03-14 08:05:04,441 - INFO - Added gid0 to subset
+2026-03-14 08:05:04,441 - INFO - Added first four glyphs to subset
+2026-03-14 08:05:04,441 - INFO - Closing glyph list over 'glyf': 66 glyphs before
+2026-03-14 08:05:04,441 - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0627', 'uni0628', 'uni0634', 'uni0637', 'uni0644', 'uni0646', 'v', 'x', 'y', 'zero']
+2026-03-14 08:05:04,442 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 39, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96, 112, 113, 909, 911, 949, 961, 989, 997]
+2026-03-14 08:05:04,442 - INFO - Closed glyph list over 'glyf': 73 glyphs after
+2026-03-14 08:05:04,443 - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'acute', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'grave', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0627', 'uni0628', 'uni0633', 'uni0634', 'uni0637', 'uni0644', 'uni0646', 'uni066E', 'uni06BA', 'uniFBB3', 'uniFBB7', 'v', 'x', 'y', 'zero']
+2026-03-14 08:05:04,443 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 39, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96, 112, 113, 141, 909, 911, 945, 949, 961, 989, 997, 1320, 1325, 1327, 1551]
+2026-03-14 08:05:04,444 - INFO - Retaining 73 glyphs
+2026-03-14 08:05:04,444 - INFO - head subsetting not needed
+2026-03-14 08:05:04,444 - INFO - hhea subsetting not needed
+2026-03-14 08:05:04,444 - INFO - maxp subsetting not needed
+2026-03-14 08:05:04,445 - INFO - OS/2 subsetting not needed
+2026-03-14 08:05:04,486 - INFO - hmtx subsetted
+2026-03-14 08:05:04,488 - INFO - VDMX subsetting not needed
+2026-03-14 08:05:04,488 - INFO - cmap subsetted
+2026-03-14 08:05:04,488 - INFO - fpgm subsetting not needed
+2026-03-14 08:05:04,488 - INFO - prep subsetting not needed
+2026-03-14 08:05:04,488 - INFO - cvt  subsetting not needed
+2026-03-14 08:05:04,488 - INFO - loca subsetting not needed
+2026-03-14 08:05:04,488 - INFO - post subsetted
+2026-03-14 08:05:04,488 - INFO - gasp subsetting not needed
+2026-03-14 08:05:04,492 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 08:05:04,493 - INFO - name subsetting not needed
+2026-03-14 08:05:04,496 - INFO - glyf subsetted
+2026-03-14 08:05:04,497 - INFO - head pruned
+2026-03-14 08:05:04,498 - INFO - OS/2 Unicode ranges pruned: [0, 1, 13, 67]
+2026-03-14 08:05:04,499 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 08:05:04,500 - INFO - glyf pruned
+2026-03-14 08:05:04,509 - INFO - name pruned
+2026-03-14 08:05:04,574 - INFO - maxp pruned
+2026-03-14 08:05:04,575 - INFO - LTSH dropped
+2026-03-14 08:05:04,575 - INFO - hdmx dropped
+2026-03-14 08:05:04,575 - INFO - cmap pruned
+2026-03-14 08:05:04,575 - INFO - kern dropped
+2026-03-14 08:05:04,575 - INFO - post pruned
+2026-03-14 08:05:04,575 - INFO - PCLT dropped
+2026-03-14 08:05:04,575 - INFO - DSIG dropped
+2026-03-14 08:05:04,575 - INFO - GDEF dropped
+2026-03-14 08:05:04,576 - INFO - GPOS dropped
+2026-03-14 08:05:04,576 - INFO - GSUB dropped
+2026-03-14 08:05:04,639 - INFO - glyf pruned
+2026-03-14 08:05:04,640 - INFO - Added gid0 to subset
+2026-03-14 08:05:04,640 - INFO - Added first four glyphs to subset
+2026-03-14 08:05:04,640 - INFO - Closing glyph list over 'glyf': 25 glyphs before
+2026-03-14 08:05:04,640 - INFO - Glyph names: ['.notdef', 'G', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-14 08:05:04,641 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112]
+2026-03-14 08:05:04,642 - INFO - Closed glyph list over 'glyf': 26 glyphs after
+2026-03-14 08:05:04,642 - INFO - Glyph names: ['.notdef', 'G', 'acute', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-14 08:05:04,642 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112, 141]
+2026-03-14 08:05:04,642 - INFO - Retaining 26 glyphs
+2026-03-14 08:05:04,642 - INFO - head subsetting not needed
+2026-03-14 08:05:04,643 - INFO - hhea subsetting not needed
+2026-03-14 08:05:04,643 - INFO - maxp subsetting not needed
+2026-03-14 08:05:04,643 - INFO - OS/2 subsetting not needed
+2026-03-14 08:05:04,644 - INFO - hmtx subsetted
+2026-03-14 08:05:04,644 - INFO - VDMX subsetting not needed
+2026-03-14 08:05:04,645 - INFO - cmap subsetted
+2026-03-14 08:05:04,645 - INFO - fpgm subsetting not needed
+2026-03-14 08:05:04,645 - INFO - prep subsetting not needed
+2026-03-14 08:05:04,645 - INFO - cvt  subsetting not needed
+2026-03-14 08:05:04,645 - INFO - loca subsetting not needed
+2026-03-14 08:05:04,645 - INFO - post subsetted
+2026-03-14 08:05:04,645 - INFO - gasp subsetting not needed
+2026-03-14 08:05:04,646 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 08:05:04,646 - INFO - name subsetting not needed
+2026-03-14 08:05:04,646 - INFO - glyf subsetted
+2026-03-14 08:05:04,647 - INFO - head pruned
+2026-03-14 08:05:04,647 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-14 08:05:04,647 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 08:05:04,648 - INFO - glyf pruned
+2026-03-14 08:05:04,651 - INFO - name pruned
+2026-03-14 08:05:31,098 - INFO - maxp pruned
+2026-03-14 08:05:31,098 - INFO - LTSH dropped
+2026-03-14 08:05:31,098 - INFO - hdmx dropped
+2026-03-14 08:05:31,098 - INFO - cmap pruned
+2026-03-14 08:05:31,100 - INFO - kern dropped
+2026-03-14 08:05:31,100 - INFO - post pruned
+2026-03-14 08:05:31,100 - INFO - PCLT dropped
+2026-03-14 08:05:31,100 - INFO - JSTF dropped
+2026-03-14 08:05:31,100 - INFO - DSIG dropped
+2026-03-14 08:05:31,100 - INFO - GDEF dropped
+2026-03-14 08:05:31,100 - INFO - GPOS dropped
+2026-03-14 08:05:31,100 - INFO - GSUB dropped
+2026-03-14 08:05:31,106 - INFO - glyf pruned
+2026-03-14 08:05:31,110 - INFO - Added gid0 to subset
+2026-03-14 08:05:31,110 - INFO - Added first four glyphs to subset
+2026-03-14 08:05:31,110 - INFO - Closing glyph list over 'glyf': 51 glyphs before
+2026-03-14 08:05:31,110 - INFO - Glyph names: ['.notdef', 'A', 'E', 'N', 'S', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'uni0624', 'uni0627', 'uni062A', 'uni062B', 'uni0633', 'uni0635', 'uni0639', 'uni0644', 'uni0645', 'uni0646', 'uni0647', 'uni0648', 'uni0649', 'uni064A', 'zero']
+2026-03-14 08:05:31,112 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 36, 40, 49, 54, 68, 69, 70, 71, 72, 74, 76, 79, 80, 81, 82, 85, 86, 87, 94, 96, 901, 909, 917, 921, 945, 953, 969, 989, 993, 997, 1001, 1005, 1007, 1009]
+2026-03-14 08:05:31,112 - INFO - Closed glyph list over 'glyf': 58 glyphs after
+2026-03-14 08:05:31,113 - INFO - Glyph names: ['.notdef', 'A', 'E', 'N', 'S', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'uni0624', 'uni0627', 'uni062A', 'uni062B', 'uni0633', 'uni0635', 'uni0639', 'uni0644', 'uni0645', 'uni0646', 'uni0647', 'uni0648', 'uni0649', 'uni064A', 'uni066E', 'uni06BA', 'uni06CC', 'uni06D5', 'uniFBB3', 'uniFBB5', 'uniFBB7', 'zero']
+2026-03-14 08:05:31,113 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 36, 40, 49, 54, 68, 69, 70, 71, 72, 74, 76, 79, 80, 81, 82, 85, 86, 87, 94, 96, 776, 821, 901, 909, 917, 921, 945, 953, 969, 989, 993, 997, 1001, 1005, 1007, 1009, 1320, 1325, 1326, 1327, 1551]
+2026-03-14 08:05:31,113 - INFO - Retaining 58 glyphs
+2026-03-14 08:05:31,114 - INFO - head subsetting not needed
+2026-03-14 08:05:31,114 - INFO - hhea subsetting not needed
+2026-03-14 08:05:31,114 - INFO - maxp subsetting not needed
+2026-03-14 08:05:31,114 - INFO - OS/2 subsetting not needed
+2026-03-14 08:05:31,118 - INFO - hmtx subsetted
+2026-03-14 08:05:31,118 - INFO - VDMX subsetting not needed
+2026-03-14 08:05:31,120 - INFO - cmap subsetted
+2026-03-14 08:05:31,120 - INFO - fpgm subsetting not needed
+2026-03-14 08:05:31,120 - INFO - prep subsetting not needed
+2026-03-14 08:05:31,120 - INFO - cvt  subsetting not needed
+2026-03-14 08:05:31,121 - INFO - loca subsetting not needed
+2026-03-14 08:05:31,121 - INFO - post subsetted
+2026-03-14 08:05:31,122 - INFO - gasp subsetting not needed
+2026-03-14 08:05:31,122 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 08:05:31,122 - INFO - name subsetting not needed
+2026-03-14 08:05:31,123 - INFO - glyf subsetted
+2026-03-14 08:05:31,124 - INFO - head pruned
+2026-03-14 08:05:31,124 - INFO - OS/2 Unicode ranges pruned: [0, 1, 13, 67]
+2026-03-14 08:05:31,124 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 08:05:31,126 - INFO - glyf pruned
+2026-03-14 08:05:31,130 - INFO - name pruned
+2026-03-14 08:05:31,156 - INFO - maxp pruned
+2026-03-14 08:05:31,156 - INFO - LTSH dropped
+2026-03-14 08:05:31,156 - INFO - hdmx dropped
+2026-03-14 08:05:31,156 - INFO - cmap pruned
+2026-03-14 08:05:31,157 - INFO - kern dropped
+2026-03-14 08:05:31,157 - INFO - post pruned
+2026-03-14 08:05:31,157 - INFO - PCLT dropped
+2026-03-14 08:05:31,157 - INFO - JSTF dropped
+2026-03-14 08:05:31,164 - INFO - DSIG dropped
+2026-03-14 08:05:31,164 - INFO - GDEF dropped
+2026-03-14 08:05:31,164 - INFO - GPOS dropped
+2026-03-14 08:05:31,164 - INFO - GSUB dropped
+2026-03-14 08:05:31,195 - INFO - glyf pruned
+2026-03-14 08:05:31,197 - INFO - Added gid0 to subset
+2026-03-14 08:05:31,198 - INFO - Added first four glyphs to subset
+2026-03-14 08:05:31,198 - INFO - Closing glyph list over 'glyf': 55 glyphs before
+2026-03-14 08:05:31,198 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'x', 'y', 'zero']
+2026-03-14 08:05:31,198 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 91, 92, 94, 96, 112, 113]
+2026-03-14 08:05:31,199 - INFO - Closed glyph list over 'glyf': 57 glyphs after
+2026-03-14 08:05:31,199 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'acute', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'grave', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'x', 'y', 'zero']
+2026-03-14 08:05:31,199 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 91, 92, 94, 96, 112, 113, 141]
+2026-03-14 08:05:31,199 - INFO - Retaining 57 glyphs
+2026-03-14 08:05:31,200 - INFO - head subsetting not needed
+2026-03-14 08:05:31,200 - INFO - hhea subsetting not needed
+2026-03-14 08:05:31,200 - INFO - maxp subsetting not needed
+2026-03-14 08:05:31,200 - INFO - OS/2 subsetting not needed
+2026-03-14 08:05:31,202 - INFO - hmtx subsetted
+2026-03-14 08:05:31,202 - INFO - VDMX subsetting not needed
+2026-03-14 08:05:31,203 - INFO - cmap subsetted
+2026-03-14 08:05:31,203 - INFO - fpgm subsetting not needed
+2026-03-14 08:05:31,203 - INFO - prep subsetting not needed
+2026-03-14 08:05:31,203 - INFO - cvt  subsetting not needed
+2026-03-14 08:05:31,203 - INFO - loca subsetting not needed
+2026-03-14 08:05:31,203 - INFO - post subsetted
+2026-03-14 08:05:31,203 - INFO - gasp subsetting not needed
+2026-03-14 08:05:31,203 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 08:05:31,203 - INFO - name subsetting not needed
+2026-03-14 08:05:31,204 - INFO - glyf subsetted
+2026-03-14 08:05:31,204 - INFO - head pruned
+2026-03-14 08:05:31,206 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-14 08:05:31,206 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 08:05:31,206 - INFO - glyf pruned
+2026-03-14 08:05:31,212 - INFO - name pruned
+2026-03-14 08:05:31,251 - INFO - maxp pruned
+2026-03-14 08:05:31,251 - INFO - LTSH dropped
+2026-03-14 08:05:31,252 - INFO - hdmx dropped
+2026-03-14 08:05:31,252 - INFO - cmap pruned
+2026-03-14 08:05:31,252 - INFO - kern dropped
+2026-03-14 08:05:31,253 - INFO - post pruned
+2026-03-14 08:05:31,253 - INFO - PCLT dropped
+2026-03-14 08:05:31,253 - INFO - DSIG dropped
+2026-03-14 08:05:31,253 - INFO - GDEF dropped
+2026-03-14 08:05:31,253 - INFO - GPOS dropped
+2026-03-14 08:05:31,253 - INFO - GSUB dropped
+2026-03-14 08:05:31,256 - INFO - glyf pruned
+2026-03-14 08:05:31,258 - INFO - Added gid0 to subset
+2026-03-14 08:05:31,258 - INFO - Added first four glyphs to subset
+2026-03-14 08:05:31,258 - INFO - Closing glyph list over 'glyf': 25 glyphs before
+2026-03-14 08:05:31,258 - INFO - Glyph names: ['.notdef', 'G', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-14 08:05:31,259 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112]
+2026-03-14 08:05:31,259 - INFO - Closed glyph list over 'glyf': 26 glyphs after
+2026-03-14 08:05:31,259 - INFO - Glyph names: ['.notdef', 'G', 'acute', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-14 08:05:31,259 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112, 141]
+2026-03-14 08:05:31,260 - INFO - Retaining 26 glyphs
+2026-03-14 08:05:31,260 - INFO - head subsetting not needed
+2026-03-14 08:05:31,261 - INFO - hhea subsetting not needed
+2026-03-14 08:05:31,262 - INFO - maxp subsetting not needed
+2026-03-14 08:05:31,262 - INFO - OS/2 subsetting not needed
+2026-03-14 08:05:31,266 - INFO - hmtx subsetted
+2026-03-14 08:05:31,266 - INFO - VDMX subsetting not needed
+2026-03-14 08:05:31,267 - INFO - cmap subsetted
+2026-03-14 08:05:31,267 - INFO - fpgm subsetting not needed
+2026-03-14 08:05:31,267 - INFO - prep subsetting not needed
+2026-03-14 08:05:31,268 - INFO - cvt  subsetting not needed
+2026-03-14 08:05:31,268 - INFO - loca subsetting not needed
+2026-03-14 08:05:31,268 - INFO - post subsetted
+2026-03-14 08:05:31,268 - INFO - gasp subsetting not needed
+2026-03-14 08:05:31,268 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 08:05:31,268 - INFO - name subsetting not needed
+2026-03-14 08:05:31,270 - INFO - glyf subsetted
+2026-03-14 08:05:31,270 - INFO - head pruned
+2026-03-14 08:05:31,270 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-14 08:05:31,271 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 08:05:31,271 - INFO - glyf pruned
+2026-03-14 08:05:31,274 - INFO - name pruned
+2026-03-14 08:20:35,548 - INFO - Starting Lycée Al-Mansour Server on port 5000...
+2026-03-14 08:20:35,560 - INFO - Serving on http://127.0.0.1:5000
+2026-03-14 08:34:57,558 - INFO - maxp pruned
+2026-03-14 08:34:57,558 - INFO - LTSH dropped
+2026-03-14 08:34:57,559 - INFO - hdmx dropped
+2026-03-14 08:34:57,560 - INFO - cmap pruned
+2026-03-14 08:34:57,562 - INFO - kern dropped
+2026-03-14 08:34:57,563 - INFO - post pruned
+2026-03-14 08:34:57,564 - INFO - PCLT dropped
+2026-03-14 08:34:57,564 - INFO - JSTF dropped
+2026-03-14 08:34:57,566 - INFO - DSIG dropped
+2026-03-14 08:34:57,566 - INFO - GDEF dropped
+2026-03-14 08:34:57,566 - INFO - GPOS dropped
+2026-03-14 08:34:57,566 - INFO - GSUB dropped
+2026-03-14 08:34:57,572 - INFO - glyf pruned
+2026-03-14 08:34:57,575 - INFO - Added gid0 to subset
+2026-03-14 08:34:57,575 - INFO - Added first four glyphs to subset
+2026-03-14 08:34:57,576 - INFO - Closing glyph list over 'glyf': 45 glyphs before
+2026-03-14 08:34:57,577 - INFO - Glyph names: ['.notdef', 'E', 'S', 'T', 'U', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'i', 'j', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'v', 'x', 'y', 'zero']
+2026-03-14 08:34:57,578 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 40, 54, 55, 56, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96]
+2026-03-14 08:34:57,578 - INFO - Closed glyph list over 'glyf': 45 glyphs after
+2026-03-14 08:34:57,578 - INFO - Glyph names: ['.notdef', 'E', 'S', 'T', 'U', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'i', 'j', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'v', 'x', 'y', 'zero']
+2026-03-14 08:34:57,579 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 40, 54, 55, 56, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96]
+2026-03-14 08:34:57,580 - INFO - Retaining 45 glyphs
+2026-03-14 08:34:57,580 - INFO - head subsetting not needed
+2026-03-14 08:34:57,581 - INFO - hhea subsetting not needed
+2026-03-14 08:34:57,581 - INFO - maxp subsetting not needed
+2026-03-14 08:34:57,581 - INFO - OS/2 subsetting not needed
+2026-03-14 08:34:57,584 - INFO - hmtx subsetted
+2026-03-14 08:34:57,584 - INFO - VDMX subsetting not needed
+2026-03-14 08:34:57,586 - INFO - cmap subsetted
+2026-03-14 08:34:57,586 - INFO - fpgm subsetting not needed
+2026-03-14 08:34:57,586 - INFO - prep subsetting not needed
+2026-03-14 08:34:57,586 - INFO - cvt  subsetting not needed
+2026-03-14 08:34:57,586 - INFO - loca subsetting not needed
+2026-03-14 08:34:57,586 - INFO - post subsetted
+2026-03-14 08:34:57,586 - INFO - gasp subsetting not needed
+2026-03-14 08:34:57,586 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 08:34:57,586 - INFO - name subsetting not needed
+2026-03-14 08:34:57,587 - INFO - glyf subsetted
+2026-03-14 08:34:57,587 - INFO - head pruned
+2026-03-14 08:34:57,588 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-14 08:34:57,588 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 08:34:57,588 - INFO - glyf pruned
+2026-03-14 08:34:57,590 - INFO - name pruned
+2026-03-14 08:34:57,601 - INFO - maxp pruned
+2026-03-14 08:34:57,601 - INFO - LTSH dropped
+2026-03-14 08:34:57,601 - INFO - hdmx dropped
+2026-03-14 08:34:57,601 - INFO - cmap pruned
+2026-03-14 08:34:57,601 - INFO - kern dropped
+2026-03-14 08:34:57,601 - INFO - post pruned
+2026-03-14 08:34:57,601 - INFO - PCLT dropped
+2026-03-14 08:34:57,601 - INFO - JSTF dropped
+2026-03-14 08:34:57,601 - INFO - DSIG dropped
+2026-03-14 08:34:57,601 - INFO - GDEF dropped
+2026-03-14 08:34:57,601 - INFO - GPOS dropped
+2026-03-14 08:34:57,601 - INFO - GSUB dropped
+2026-03-14 08:34:57,611 - INFO - glyf pruned
+2026-03-14 08:34:57,612 - INFO - Added gid0 to subset
+2026-03-14 08:34:57,613 - INFO - Added first four glyphs to subset
+2026-03-14 08:34:57,613 - INFO - Closing glyph list over 'glyf': 63 glyphs before
+2026-03-14 08:34:57,614 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'q', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0627', 'uni062A', 'uni0631', 'uni0633', 'uni0641', 'x', 'y', 'zero']
+2026-03-14 08:34:57,614 - INFO - Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 91, 92, 94, 96, 112, 113, 909, 917, 941, 945, 977]
+2026-03-14 08:34:57,615 - INFO - Closed glyph list over 'glyf': 69 glyphs after
+2026-03-14 08:34:57,616 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'acute', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'grave', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'q', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0627', 'uni062A', 'uni0631', 'uni0633', 'uni0641', 'uni066E', 'uni06A1', 'uniFBB3', 'uniFBB5', 'x', 'y', 'zero']
+2026-03-14 08:34:57,616 - INFO - Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 91, 92, 94, 96, 112, 113, 141, 909, 917, 941, 945, 977, 1320, 1325, 1326, 1466]
+2026-03-14 08:34:57,616 - INFO - Retaining 69 glyphs
+2026-03-14 08:34:57,617 - INFO - head subsetting not needed
+2026-03-14 08:34:57,617 - INFO - hhea subsetting not needed
+2026-03-14 08:34:57,617 - INFO - maxp subsetting not needed
+2026-03-14 08:34:57,617 - INFO - OS/2 subsetting not needed
+2026-03-14 08:34:57,619 - INFO - hmtx subsetted
+2026-03-14 08:34:57,619 - INFO - VDMX subsetting not needed
+2026-03-14 08:34:57,619 - INFO - cmap subsetted
+2026-03-14 08:34:57,620 - INFO - fpgm subsetting not needed
+2026-03-14 08:34:57,620 - INFO - prep subsetting not needed
+2026-03-14 08:34:57,620 - INFO - cvt  subsetting not needed
+2026-03-14 08:34:57,620 - INFO - loca subsetting not needed
+2026-03-14 08:34:57,620 - INFO - post subsetted
+2026-03-14 08:34:57,620 - INFO - gasp subsetting not needed
+2026-03-14 08:34:57,620 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 08:34:57,620 - INFO - name subsetting not needed
+2026-03-14 08:34:57,621 - INFO - glyf subsetted
+2026-03-14 08:34:57,621 - INFO - head pruned
+2026-03-14 08:34:57,622 - INFO - OS/2 Unicode ranges pruned: [0, 1, 13, 67]
+2026-03-14 08:34:57,622 - INFO - OS/2 CodePage ranges pruned: [6]
+2026-03-14 08:34:57,623 - INFO - glyf pruned
+2026-03-14 08:34:57,624 - INFO - name pruned
+2026-03-14 08:34:57,641 - INFO - maxp pruned
+2026-03-14 08:34:57,641 - INFO - LTSH dropped
+2026-03-14 08:34:57,641 - INFO - hdmx dropped
+2026-03-14 08:34:57,641 - INFO - cmap pruned
+2026-03-14 08:34:57,642 - INFO - kern dropped
+2026-03-14 08:34:57,642 - INFO - post pruned
+2026-03-14 08:34:57,642 - INFO - PCLT dropped
+2026-03-14 08:34:57,642 - INFO - DSIG dropped
+2026-03-14 08:34:57,642 - INFO - GDEF dropped
+2026-03-14 08:34:57,642 - INFO - GPOS dropped
+2026-03-14 08:34:57,642 - INFO - GSUB dropped
+2026-03-14 08:34:57,671 - INFO - glyf pruned
+2026-03-14 08:34:57,674 - INFO - Added gid0 to subset
+2026-03-14 08:34:57,674 - INFO - Added first four glyphs to subset
+2026-03-14 08:34:57,674 - INFO - Closing glyph list over 'glyf': 25 glyphs before
+2026-03-14 08:34:57,674 - INFO - Glyph names: ['.notdef', 'G', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-14 08:34:57,674 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112]
+2026-03-14 08:34:57,674 - INFO - Closed glyph list over 'glyf': 26 glyphs after
+2026-03-14 08:34:57,675 - INFO - Glyph names: ['.notdef', 'G', 'acute', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-14 08:34:57,675 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112, 141]
+2026-03-14 08:34:57,675 - INFO - Retaining 26 glyphs
+2026-03-14 08:34:57,676 - INFO - head subsetting not needed
+2026-03-14 08:34:57,676 - INFO - hhea subsetting not needed
+2026-03-14 08:34:57,676 - INFO - maxp subsetting not needed
+2026-03-14 08:34:57,676 - INFO - OS/2 subsetting not needed
+2026-03-14 08:34:57,677 - INFO - hmtx subsetted
+2026-03-14 08:34:57,678 - INFO - VDMX subsetting not needed
+2026-03-14 08:34:57,678 - INFO - cmap subsetted
+2026-03-14 08:34:57,679 - INFO - fpgm subsetting not needed
+2026-03-14 08:34:57,679 - INFO - prep subsetting not needed
+2026-03-14 08:34:57,679 - INFO - cvt  subsetting not needed
+2026-03-14 08:34:57,679 - INFO - loca subsetting not needed
+2026-03-14 08:34:57,679 - INFO - post subsetted
+2026-03-14 08:34:57,679 - INFO - gasp subsetting not needed
+2026-03-14 08:34:57,679 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 08:34:57,680 - INFO - name subsetting not needed
+2026-03-14 08:34:57,681 - INFO - glyf subsetted
+2026-03-14 08:34:57,682 - INFO - head pruned
+2026-03-14 08:34:57,682 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-14 08:34:57,682 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 08:34:57,682 - INFO - glyf pruned
+2026-03-14 08:34:57,684 - INFO - name pruned
+2026-03-14 08:35:46,129 - INFO - maxp pruned
+2026-03-14 08:35:46,129 - INFO - LTSH dropped
+2026-03-14 08:35:46,130 - INFO - hdmx dropped
+2026-03-14 08:35:46,130 - INFO - cmap pruned
+2026-03-14 08:35:46,130 - INFO - kern dropped
+2026-03-14 08:35:46,130 - INFO - post pruned
+2026-03-14 08:35:46,130 - INFO - PCLT dropped
+2026-03-14 08:35:46,131 - INFO - JSTF dropped
+2026-03-14 08:35:46,131 - INFO - DSIG dropped
+2026-03-14 08:35:46,131 - INFO - GDEF dropped
+2026-03-14 08:35:46,131 - INFO - GPOS dropped
+2026-03-14 08:35:46,131 - INFO - GSUB dropped
+2026-03-14 08:35:46,139 - INFO - glyf pruned
+2026-03-14 08:35:46,141 - INFO - Added gid0 to subset
+2026-03-14 08:35:46,141 - INFO - Added first four glyphs to subset
+2026-03-14 08:35:46,141 - INFO - Closing glyph list over 'glyf': 50 glyphs before
+2026-03-14 08:35:46,142 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'G', 'R', 'S', 'T', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'period', 'q', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'v', 'x', 'y', 'zero']
+2026-03-14 08:35:46,142 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 35, 36, 38, 40, 42, 53, 54, 55, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 91, 92, 94, 96]
+2026-03-14 08:35:46,143 - INFO - Closed glyph list over 'glyf': 50 glyphs after
+2026-03-14 08:35:46,143 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'G', 'R', 'S', 'T', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'hyphen', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'period', 'q', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'v', 'x', 'y', 'zero']
+2026-03-14 08:35:46,143 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 35, 36, 38, 40, 42, 53, 54, 55, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 91, 92, 94, 96]
+2026-03-14 08:35:46,144 - INFO - Retaining 50 glyphs
+2026-03-14 08:35:46,144 - INFO - head subsetting not needed
+2026-03-14 08:35:46,144 - INFO - hhea subsetting not needed
+2026-03-14 08:35:46,144 - INFO - maxp subsetting not needed
+2026-03-14 08:35:46,144 - INFO - OS/2 subsetting not needed
+2026-03-14 08:35:46,145 - INFO - hmtx subsetted
+2026-03-14 08:35:46,145 - INFO - VDMX subsetting not needed
+2026-03-14 08:35:46,147 - INFO - cmap subsetted
+2026-03-14 08:35:46,147 - INFO - fpgm subsetting not needed
+2026-03-14 08:35:46,147 - INFO - prep subsetting not needed
+2026-03-14 08:35:46,147 - INFO - cvt  subsetting not needed
+2026-03-14 08:35:46,147 - INFO - loca subsetting not needed
+2026-03-14 08:35:46,147 - INFO - post subsetted
+2026-03-14 08:35:46,147 - INFO - gasp subsetting not needed
+2026-03-14 08:35:46,147 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 08:35:46,148 - INFO - name subsetting not needed
+2026-03-14 08:35:46,149 - INFO - glyf subsetted
+2026-03-14 08:35:46,149 - INFO - head pruned
+2026-03-14 08:35:46,150 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-14 08:35:46,150 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 08:35:46,150 - INFO - glyf pruned
+2026-03-14 08:35:46,152 - INFO - name pruned
+2026-03-14 08:35:46,172 - INFO - maxp pruned
+2026-03-14 08:35:46,173 - INFO - LTSH dropped
+2026-03-14 08:35:46,173 - INFO - hdmx dropped
+2026-03-14 08:35:46,173 - INFO - cmap pruned
+2026-03-14 08:35:46,173 - INFO - kern dropped
+2026-03-14 08:35:46,173 - INFO - post pruned
+2026-03-14 08:35:46,173 - INFO - PCLT dropped
+2026-03-14 08:35:46,173 - INFO - JSTF dropped
+2026-03-14 08:35:46,173 - INFO - DSIG dropped
+2026-03-14 08:35:46,173 - INFO - GDEF dropped
+2026-03-14 08:35:46,173 - INFO - GPOS dropped
+2026-03-14 08:35:46,174 - INFO - GSUB dropped
+2026-03-14 08:35:46,176 - INFO - glyf pruned
+2026-03-14 08:35:46,178 - INFO - Added gid0 to subset
+2026-03-14 08:35:46,178 - INFO - Added first four glyphs to subset
+2026-03-14 08:35:46,178 - INFO - Closing glyph list over 'glyf': 66 glyphs before
+2026-03-14 08:35:46,178 - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0627', 'uni0628', 'uni0634', 'uni0637', 'uni0644', 'uni0646', 'v', 'x', 'y', 'zero']
+2026-03-14 08:35:46,178 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 39, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96, 112, 113, 909, 911, 949, 961, 989, 997]
+2026-03-14 08:35:46,178 - INFO - Closed glyph list over 'glyf': 73 glyphs after
+2026-03-14 08:35:46,178 - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'acute', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'grave', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0627', 'uni0628', 'uni0633', 'uni0634', 'uni0637', 'uni0644', 'uni0646', 'uni066E', 'uni06BA', 'uniFBB3', 'uniFBB7', 'v', 'x', 'y', 'zero']
+2026-03-14 08:35:46,178 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 39, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96, 112, 113, 141, 909, 911, 945, 949, 961, 989, 997, 1320, 1325, 1327, 1551]
+2026-03-14 08:35:46,179 - INFO - Retaining 73 glyphs
+2026-03-14 08:35:46,179 - INFO - head subsetting not needed
+2026-03-14 08:35:46,179 - INFO - hhea subsetting not needed
+2026-03-14 08:35:46,179 - INFO - maxp subsetting not needed
+2026-03-14 08:35:46,179 - INFO - OS/2 subsetting not needed
+2026-03-14 08:35:46,181 - INFO - hmtx subsetted
+2026-03-14 08:35:46,181 - INFO - VDMX subsetting not needed
+2026-03-14 08:35:46,182 - INFO - cmap subsetted
+2026-03-14 08:35:46,182 - INFO - fpgm subsetting not needed
+2026-03-14 08:35:46,182 - INFO - prep subsetting not needed
+2026-03-14 08:35:46,182 - INFO - cvt  subsetting not needed
+2026-03-14 08:35:46,182 - INFO - loca subsetting not needed
+2026-03-14 08:35:46,182 - INFO - post subsetted
+2026-03-14 08:35:46,182 - INFO - gasp subsetting not needed
+2026-03-14 08:35:46,182 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 08:35:46,182 - INFO - name subsetting not needed
+2026-03-14 08:35:46,184 - INFO - glyf subsetted
+2026-03-14 08:35:46,184 - INFO - head pruned
+2026-03-14 08:35:46,185 - INFO - OS/2 Unicode ranges pruned: [0, 1, 13, 67]
+2026-03-14 08:35:46,185 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 08:35:46,185 - INFO - glyf pruned
+2026-03-14 08:35:46,188 - INFO - name pruned
+2026-03-14 08:35:46,209 - INFO - maxp pruned
+2026-03-14 08:35:46,209 - INFO - LTSH dropped
+2026-03-14 08:35:46,209 - INFO - hdmx dropped
+2026-03-14 08:35:46,209 - INFO - cmap pruned
+2026-03-14 08:35:46,209 - INFO - kern dropped
+2026-03-14 08:35:46,209 - INFO - post pruned
+2026-03-14 08:35:46,209 - INFO - PCLT dropped
+2026-03-14 08:35:46,209 - INFO - DSIG dropped
+2026-03-14 08:35:46,209 - INFO - GDEF dropped
+2026-03-14 08:35:46,210 - INFO - GPOS dropped
+2026-03-14 08:35:46,210 - INFO - GSUB dropped
+2026-03-14 08:35:46,212 - INFO - glyf pruned
+2026-03-14 08:35:46,215 - INFO - Added gid0 to subset
+2026-03-14 08:35:46,215 - INFO - Added first four glyphs to subset
+2026-03-14 08:35:46,215 - INFO - Closing glyph list over 'glyf': 25 glyphs before
+2026-03-14 08:35:46,215 - INFO - Glyph names: ['.notdef', 'G', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-14 08:35:46,217 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112]
+2026-03-14 08:35:46,217 - INFO - Closed glyph list over 'glyf': 26 glyphs after
+2026-03-14 08:35:46,217 - INFO - Glyph names: ['.notdef', 'G', 'acute', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-14 08:35:46,218 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112, 141]
+2026-03-14 08:35:46,218 - INFO - Retaining 26 glyphs
+2026-03-14 08:35:46,219 - INFO - head subsetting not needed
+2026-03-14 08:35:46,219 - INFO - hhea subsetting not needed
+2026-03-14 08:35:46,219 - INFO - maxp subsetting not needed
+2026-03-14 08:35:46,219 - INFO - OS/2 subsetting not needed
+2026-03-14 08:35:46,220 - INFO - hmtx subsetted
+2026-03-14 08:35:46,221 - INFO - VDMX subsetting not needed
+2026-03-14 08:35:46,222 - INFO - cmap subsetted
+2026-03-14 08:35:46,222 - INFO - fpgm subsetting not needed
+2026-03-14 08:35:46,222 - INFO - prep subsetting not needed
+2026-03-14 08:35:46,222 - INFO - cvt  subsetting not needed
+2026-03-14 08:35:46,222 - INFO - loca subsetting not needed
+2026-03-14 08:35:46,222 - INFO - post subsetted
+2026-03-14 08:35:46,222 - INFO - gasp subsetting not needed
+2026-03-14 08:35:46,222 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-14 08:35:46,222 - INFO - name subsetting not needed
+2026-03-14 08:35:46,223 - INFO - glyf subsetted
+2026-03-14 08:35:46,223 - INFO - head pruned
+2026-03-14 08:35:46,223 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-14 08:35:46,223 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-14 08:35:46,224 - INFO - glyf pruned
+2026-03-14 08:35:46,226 - INFO - name pruned
+2026-03-15 05:31:21,822 - INFO - Starting Lycée Al-Mansour Server on port 5000...
+2026-03-15 05:31:21,967 - INFO - Serving on http://127.0.0.1:5000
+2026-03-15 05:37:28,134 - INFO - Starting Lycée Al-Mansour Server on port 5000...
+2026-03-15 05:37:28,145 - INFO - Serving on http://127.0.0.1:5000
+2026-03-15 05:55:07,586 - INFO - maxp pruned
+2026-03-15 05:55:07,594 - INFO - LTSH dropped
+2026-03-15 05:55:07,594 - INFO - hdmx dropped
+2026-03-15 05:55:07,594 - INFO - cmap pruned
+2026-03-15 05:55:07,594 - INFO - kern dropped
+2026-03-15 05:55:07,595 - INFO - post pruned
+2026-03-15 05:55:07,595 - INFO - PCLT dropped
+2026-03-15 05:55:07,595 - INFO - JSTF dropped
+2026-03-15 05:55:07,595 - INFO - DSIG dropped
+2026-03-15 05:55:07,596 - INFO - GDEF dropped
+2026-03-15 05:55:07,596 - INFO - GPOS dropped
+2026-03-15 05:55:07,596 - INFO - GSUB dropped
+2026-03-15 05:55:07,605 - INFO - glyf pruned
+2026-03-15 05:55:07,609 - INFO - Added gid0 to subset
+2026-03-15 05:55:07,609 - INFO - Added first four glyphs to subset
+2026-03-15 05:55:07,609 - INFO - Closing glyph list over 'glyf': 40 glyphs before
+2026-03-15 05:55:07,610 - INFO - Glyph names: ['.notdef', 'A', 'E', 'H', 'N', 'S', 'T', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'zero']
+2026-03-15 05:55:07,610 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 36, 40, 43, 49, 54, 55, 68, 69, 70, 71, 72, 74, 76, 79, 80, 81, 82, 85, 86, 87, 94, 96]
+2026-03-15 05:55:07,610 - INFO - Closed glyph list over 'glyf': 40 glyphs after
+2026-03-15 05:55:07,610 - INFO - Glyph names: ['.notdef', 'A', 'E', 'H', 'N', 'S', 'T', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'slash', 'space', 't', 'three', 'two', 'zero']
+2026-03-15 05:55:07,610 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 36, 40, 43, 49, 54, 55, 68, 69, 70, 71, 72, 74, 76, 79, 80, 81, 82, 85, 86, 87, 94, 96]
+2026-03-15 05:55:07,610 - INFO - Retaining 40 glyphs
+2026-03-15 05:55:07,610 - INFO - head subsetting not needed
+2026-03-15 05:55:07,610 - INFO - hhea subsetting not needed
+2026-03-15 05:55:07,610 - INFO - maxp subsetting not needed
+2026-03-15 05:55:07,610 - INFO - OS/2 subsetting not needed
+2026-03-15 05:55:07,617 - INFO - hmtx subsetted
+2026-03-15 05:55:07,617 - INFO - VDMX subsetting not needed
+2026-03-15 05:55:07,618 - INFO - cmap subsetted
+2026-03-15 05:55:07,618 - INFO - fpgm subsetting not needed
+2026-03-15 05:55:07,618 - INFO - prep subsetting not needed
+2026-03-15 05:55:07,618 - INFO - cvt  subsetting not needed
+2026-03-15 05:55:07,618 - INFO - loca subsetting not needed
+2026-03-15 05:55:07,618 - INFO - post subsetted
+2026-03-15 05:55:07,618 - INFO - gasp subsetting not needed
+2026-03-15 05:55:07,618 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-15 05:55:07,618 - INFO - name subsetting not needed
+2026-03-15 05:55:07,620 - INFO - glyf subsetted
+2026-03-15 05:55:07,620 - INFO - head pruned
+2026-03-15 05:55:07,621 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-15 05:55:07,621 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-15 05:55:07,622 - INFO - glyf pruned
+2026-03-15 05:55:07,629 - INFO - name pruned
+2026-03-15 05:55:07,667 - INFO - maxp pruned
+2026-03-15 05:55:07,668 - INFO - LTSH dropped
+2026-03-15 05:55:07,668 - INFO - hdmx dropped
+2026-03-15 05:55:07,668 - INFO - cmap pruned
+2026-03-15 05:55:07,669 - INFO - kern dropped
+2026-03-15 05:55:07,669 - INFO - post pruned
+2026-03-15 05:55:07,669 - INFO - PCLT dropped
+2026-03-15 05:55:07,670 - INFO - JSTF dropped
+2026-03-15 05:55:07,670 - INFO - DSIG dropped
+2026-03-15 05:55:07,670 - INFO - GDEF dropped
+2026-03-15 05:55:07,670 - INFO - GPOS dropped
+2026-03-15 05:55:07,670 - INFO - GSUB dropped
+2026-03-15 05:55:07,676 - INFO - glyf pruned
+2026-03-15 05:55:07,679 - INFO - Added gid0 to subset
+2026-03-15 05:55:07,680 - INFO - Added first four glyphs to subset
+2026-03-15 05:55:07,680 - INFO - Closing glyph list over 'glyf': 55 glyphs before
+2026-03-15 05:55:07,680 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'x', 'y', 'zero']
+2026-03-15 05:55:07,681 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 91, 92, 94, 96, 112, 113]
+2026-03-15 05:55:07,681 - INFO - Closed glyph list over 'glyf': 57 glyphs after
+2026-03-15 05:55:07,681 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'acute', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'grave', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'x', 'y', 'zero']
+2026-03-15 05:55:07,682 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 91, 92, 94, 96, 112, 113, 141]
+2026-03-15 05:55:07,683 - INFO - Retaining 57 glyphs
+2026-03-15 05:55:07,683 - INFO - head subsetting not needed
+2026-03-15 05:55:07,684 - INFO - hhea subsetting not needed
+2026-03-15 05:55:07,684 - INFO - maxp subsetting not needed
+2026-03-15 05:55:07,684 - INFO - OS/2 subsetting not needed
+2026-03-15 05:55:07,687 - INFO - hmtx subsetted
+2026-03-15 05:55:07,687 - INFO - VDMX subsetting not needed
+2026-03-15 05:55:07,688 - INFO - cmap subsetted
+2026-03-15 05:55:07,688 - INFO - fpgm subsetting not needed
+2026-03-15 05:55:07,688 - INFO - prep subsetting not needed
+2026-03-15 05:55:07,688 - INFO - cvt  subsetting not needed
+2026-03-15 05:55:07,688 - INFO - loca subsetting not needed
+2026-03-15 05:55:07,689 - INFO - post subsetted
+2026-03-15 05:55:07,689 - INFO - gasp subsetting not needed
+2026-03-15 05:55:07,689 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-15 05:55:07,690 - INFO - name subsetting not needed
+2026-03-15 05:55:07,691 - INFO - glyf subsetted
+2026-03-15 05:55:07,692 - INFO - head pruned
+2026-03-15 05:55:07,692 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-15 05:55:07,692 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-15 05:55:07,693 - INFO - glyf pruned
+2026-03-15 05:55:07,699 - INFO - name pruned
+2026-03-15 05:55:07,726 - INFO - maxp pruned
+2026-03-15 05:55:07,726 - INFO - LTSH dropped
+2026-03-15 05:55:07,726 - INFO - hdmx dropped
+2026-03-15 05:55:07,726 - INFO - cmap pruned
+2026-03-15 05:55:07,726 - INFO - kern dropped
+2026-03-15 05:55:07,726 - INFO - post pruned
+2026-03-15 05:55:07,726 - INFO - PCLT dropped
+2026-03-15 05:55:07,727 - INFO - DSIG dropped
+2026-03-15 05:55:07,727 - INFO - GDEF dropped
+2026-03-15 05:55:07,727 - INFO - GPOS dropped
+2026-03-15 05:55:07,727 - INFO - GSUB dropped
+2026-03-15 05:55:07,732 - INFO - glyf pruned
+2026-03-15 05:55:07,734 - INFO - Added gid0 to subset
+2026-03-15 05:55:07,735 - INFO - Added first four glyphs to subset
+2026-03-15 05:55:07,735 - INFO - Closing glyph list over 'glyf': 25 glyphs before
+2026-03-15 05:55:07,735 - INFO - Glyph names: ['.notdef', 'G', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-15 05:55:07,736 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112]
+2026-03-15 05:55:07,736 - INFO - Closed glyph list over 'glyf': 26 glyphs after
+2026-03-15 05:55:07,736 - INFO - Glyph names: ['.notdef', 'G', 'acute', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-15 05:55:07,736 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112, 141]
+2026-03-15 05:55:07,737 - INFO - Retaining 26 glyphs
+2026-03-15 05:55:07,737 - INFO - head subsetting not needed
+2026-03-15 05:55:07,737 - INFO - hhea subsetting not needed
+2026-03-15 05:55:07,738 - INFO - maxp subsetting not needed
+2026-03-15 05:55:07,738 - INFO - OS/2 subsetting not needed
+2026-03-15 05:55:07,741 - INFO - hmtx subsetted
+2026-03-15 05:55:07,741 - INFO - VDMX subsetting not needed
+2026-03-15 05:55:07,742 - INFO - cmap subsetted
+2026-03-15 05:55:07,742 - INFO - fpgm subsetting not needed
+2026-03-15 05:55:07,742 - INFO - prep subsetting not needed
+2026-03-15 05:55:07,743 - INFO - cvt  subsetting not needed
+2026-03-15 05:55:07,743 - INFO - loca subsetting not needed
+2026-03-15 05:55:07,743 - INFO - post subsetted
+2026-03-15 05:55:07,743 - INFO - gasp subsetting not needed
+2026-03-15 05:55:07,743 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-15 05:55:07,743 - INFO - name subsetting not needed
+2026-03-15 05:55:07,744 - INFO - glyf subsetted
+2026-03-15 05:55:07,744 - INFO - head pruned
+2026-03-15 05:55:07,744 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-15 05:55:07,744 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-15 05:55:07,745 - INFO - glyf pruned
+2026-03-15 05:55:07,748 - INFO - name pruned
+2026-03-15 05:56:50,439 - INFO - maxp pruned
+2026-03-15 05:56:50,440 - INFO - LTSH dropped
+2026-03-15 05:56:50,441 - INFO - hdmx dropped
+2026-03-15 05:56:50,441 - INFO - cmap pruned
+2026-03-15 05:56:50,441 - INFO - kern dropped
+2026-03-15 05:56:50,441 - INFO - post pruned
+2026-03-15 05:56:50,442 - INFO - PCLT dropped
+2026-03-15 05:56:50,442 - INFO - JSTF dropped
+2026-03-15 05:56:50,442 - INFO - DSIG dropped
+2026-03-15 05:56:50,443 - INFO - GDEF dropped
+2026-03-15 05:56:50,443 - INFO - GPOS dropped
+2026-03-15 05:56:50,443 - INFO - GSUB dropped
+2026-03-15 05:56:50,452 - INFO - glyf pruned
+2026-03-15 05:56:50,456 - INFO - Added gid0 to subset
+2026-03-15 05:56:50,457 - INFO - Added first four glyphs to subset
+2026-03-15 05:56:50,457 - INFO - Closing glyph list over 'glyf': 45 glyphs before
+2026-03-15 05:56:50,457 - INFO - Glyph names: ['.notdef', 'E', 'S', 'T', 'U', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'i', 'j', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'v', 'x', 'y', 'zero']
+2026-03-15 05:56:50,459 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 40, 54, 55, 56, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96]
+2026-03-15 05:56:50,459 - INFO - Closed glyph list over 'glyf': 45 glyphs after
+2026-03-15 05:56:50,459 - INFO - Glyph names: ['.notdef', 'E', 'S', 'T', 'U', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'i', 'j', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'v', 'x', 'y', 'zero']
+2026-03-15 05:56:50,460 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 40, 54, 55, 56, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96]
+2026-03-15 05:56:50,461 - INFO - Retaining 45 glyphs
+2026-03-15 05:56:50,462 - INFO - head subsetting not needed
+2026-03-15 05:56:50,462 - INFO - hhea subsetting not needed
+2026-03-15 05:56:50,462 - INFO - maxp subsetting not needed
+2026-03-15 05:56:50,463 - INFO - OS/2 subsetting not needed
+2026-03-15 05:56:50,470 - INFO - hmtx subsetted
+2026-03-15 05:56:50,471 - INFO - VDMX subsetting not needed
+2026-03-15 05:56:50,474 - INFO - cmap subsetted
+2026-03-15 05:56:50,474 - INFO - fpgm subsetting not needed
+2026-03-15 05:56:50,474 - INFO - prep subsetting not needed
+2026-03-15 05:56:50,475 - INFO - cvt  subsetting not needed
+2026-03-15 05:56:50,475 - INFO - loca subsetting not needed
+2026-03-15 05:56:50,475 - INFO - post subsetted
+2026-03-15 05:56:50,476 - INFO - gasp subsetting not needed
+2026-03-15 05:56:50,476 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-15 05:56:50,476 - INFO - name subsetting not needed
+2026-03-15 05:56:50,480 - INFO - glyf subsetted
+2026-03-15 05:56:50,481 - INFO - head pruned
+2026-03-15 05:56:50,482 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-15 05:56:50,482 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-15 05:56:50,483 - INFO - glyf pruned
+2026-03-15 05:56:50,494 - INFO - name pruned
+2026-03-15 05:56:50,556 - INFO - maxp pruned
+2026-03-15 05:56:50,557 - INFO - LTSH dropped
+2026-03-15 05:56:50,557 - INFO - hdmx dropped
+2026-03-15 05:56:50,557 - INFO - cmap pruned
+2026-03-15 05:56:50,557 - INFO - kern dropped
+2026-03-15 05:56:50,558 - INFO - post pruned
+2026-03-15 05:56:50,559 - INFO - PCLT dropped
+2026-03-15 05:56:50,559 - INFO - JSTF dropped
+2026-03-15 05:56:50,559 - INFO - DSIG dropped
+2026-03-15 05:56:50,559 - INFO - GDEF dropped
+2026-03-15 05:56:50,559 - INFO - GPOS dropped
+2026-03-15 05:56:50,559 - INFO - GSUB dropped
+2026-03-15 05:56:50,572 - INFO - glyf pruned
+2026-03-15 05:56:50,577 - INFO - Added gid0 to subset
+2026-03-15 05:56:50,579 - INFO - Added first four glyphs to subset
+2026-03-15 05:56:50,579 - INFO - Closing glyph list over 'glyf': 63 glyphs before
+2026-03-15 05:56:50,579 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'q', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0627', 'uni062A', 'uni0631', 'uni0633', 'uni0641', 'x', 'y', 'zero']
+2026-03-15 05:56:50,581 - INFO - Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 91, 92, 94, 96, 112, 113, 909, 917, 941, 945, 977]
+2026-03-15 05:56:50,582 - INFO - Closed glyph list over 'glyf': 69 glyphs after
+2026-03-15 05:56:50,583 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'acute', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'grave', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'q', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0627', 'uni062A', 'uni0631', 'uni0633', 'uni0641', 'uni066E', 'uni06A1', 'uniFBB3', 'uniFBB5', 'x', 'y', 'zero']
+2026-03-15 05:56:50,583 - INFO - Glyph IDs:   [0, 1, 2, 3, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 91, 92, 94, 96, 112, 113, 141, 909, 917, 941, 945, 977, 1320, 1325, 1326, 1466]
+2026-03-15 05:56:50,584 - INFO - Retaining 69 glyphs
+2026-03-15 05:56:50,586 - INFO - head subsetting not needed
+2026-03-15 05:56:50,586 - INFO - hhea subsetting not needed
+2026-03-15 05:56:50,586 - INFO - maxp subsetting not needed
+2026-03-15 05:56:50,586 - INFO - OS/2 subsetting not needed
+2026-03-15 05:56:50,594 - INFO - hmtx subsetted
+2026-03-15 05:56:50,594 - INFO - VDMX subsetting not needed
+2026-03-15 05:56:50,596 - INFO - cmap subsetted
+2026-03-15 05:56:50,596 - INFO - fpgm subsetting not needed
+2026-03-15 05:56:50,596 - INFO - prep subsetting not needed
+2026-03-15 05:56:50,596 - INFO - cvt  subsetting not needed
+2026-03-15 05:56:50,596 - INFO - loca subsetting not needed
+2026-03-15 05:56:50,597 - INFO - post subsetted
+2026-03-15 05:56:50,597 - INFO - gasp subsetting not needed
+2026-03-15 05:56:50,597 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-15 05:56:50,598 - INFO - name subsetting not needed
+2026-03-15 05:56:50,599 - INFO - glyf subsetted
+2026-03-15 05:56:50,600 - INFO - head pruned
+2026-03-15 05:56:50,601 - INFO - OS/2 Unicode ranges pruned: [0, 1, 13, 67]
+2026-03-15 05:56:50,601 - INFO - OS/2 CodePage ranges pruned: [6]
+2026-03-15 05:56:50,603 - INFO - glyf pruned
+2026-03-15 05:56:50,614 - INFO - name pruned
+2026-03-15 05:56:50,677 - INFO - maxp pruned
+2026-03-15 05:56:50,678 - INFO - LTSH dropped
+2026-03-15 05:56:50,679 - INFO - hdmx dropped
+2026-03-15 05:56:50,680 - INFO - cmap pruned
+2026-03-15 05:56:50,680 - INFO - kern dropped
+2026-03-15 05:56:50,681 - INFO - post pruned
+2026-03-15 05:56:50,681 - INFO - PCLT dropped
+2026-03-15 05:56:50,682 - INFO - DSIG dropped
+2026-03-15 05:56:50,683 - INFO - GDEF dropped
+2026-03-15 05:56:50,683 - INFO - GPOS dropped
+2026-03-15 05:56:50,683 - INFO - GSUB dropped
+2026-03-15 05:56:50,961 - INFO - glyf pruned
+2026-03-15 05:56:50,973 - INFO - Added gid0 to subset
+2026-03-15 05:56:50,974 - INFO - Added first four glyphs to subset
+2026-03-15 05:56:50,974 - INFO - Closing glyph list over 'glyf': 25 glyphs before
+2026-03-15 05:56:50,974 - INFO - Glyph names: ['.notdef', 'G', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-15 05:56:50,976 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112]
+2026-03-15 05:56:50,977 - INFO - Closed glyph list over 'glyf': 26 glyphs after
+2026-03-15 05:56:50,977 - INFO - Glyph names: ['.notdef', 'G', 'acute', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-15 05:56:50,978 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112, 141]
+2026-03-15 05:56:50,979 - INFO - Retaining 26 glyphs
+2026-03-15 05:56:50,980 - INFO - head subsetting not needed
+2026-03-15 05:56:50,980 - INFO - hhea subsetting not needed
+2026-03-15 05:56:50,980 - INFO - maxp subsetting not needed
+2026-03-15 05:56:50,980 - INFO - OS/2 subsetting not needed
+2026-03-15 05:56:50,984 - INFO - hmtx subsetted
+2026-03-15 05:56:50,985 - INFO - VDMX subsetting not needed
+2026-03-15 05:56:50,987 - INFO - cmap subsetted
+2026-03-15 05:56:50,987 - INFO - fpgm subsetting not needed
+2026-03-15 05:56:50,988 - INFO - prep subsetting not needed
+2026-03-15 05:56:50,989 - INFO - cvt  subsetting not needed
+2026-03-15 05:56:50,989 - INFO - loca subsetting not needed
+2026-03-15 05:56:50,990 - INFO - post subsetted
+2026-03-15 05:56:50,990 - INFO - gasp subsetting not needed
+2026-03-15 05:56:50,990 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-15 05:56:50,991 - INFO - name subsetting not needed
+2026-03-15 05:56:50,993 - INFO - glyf subsetted
+2026-03-15 05:56:50,994 - INFO - head pruned
+2026-03-15 05:56:50,995 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-15 05:56:50,996 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-15 05:56:50,997 - INFO - glyf pruned
+2026-03-15 05:56:51,004 - INFO - name pruned
+2026-03-15 06:01:12,113 - INFO - maxp pruned
+2026-03-15 06:01:12,125 - INFO - LTSH dropped
+2026-03-15 06:01:12,125 - INFO - hdmx dropped
+2026-03-15 06:01:12,125 - INFO - cmap pruned
+2026-03-15 06:01:12,126 - INFO - kern dropped
+2026-03-15 06:01:12,126 - INFO - post pruned
+2026-03-15 06:01:12,126 - INFO - PCLT dropped
+2026-03-15 06:01:12,126 - INFO - JSTF dropped
+2026-03-15 06:01:12,126 - INFO - DSIG dropped
+2026-03-15 06:01:12,127 - INFO - GDEF dropped
+2026-03-15 06:01:12,127 - INFO - GPOS dropped
+2026-03-15 06:01:12,127 - INFO - GSUB dropped
+2026-03-15 06:01:12,133 - INFO - glyf pruned
+2026-03-15 06:01:12,136 - INFO - Added gid0 to subset
+2026-03-15 06:01:12,136 - INFO - Added first four glyphs to subset
+2026-03-15 06:01:12,136 - INFO - Closing glyph list over 'glyf': 47 glyphs before
+2026-03-15 06:01:12,136 - INFO - Glyph names: ['.notdef', 'A', 'E', 'I', 'S', 'T', 'U', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'period', 'q', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'v', 'x', 'y', 'zero']
+2026-03-15 06:01:12,138 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 36, 40, 44, 54, 55, 56, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 91, 92, 94, 96]
+2026-03-15 06:01:12,138 - INFO - Closed glyph list over 'glyf': 47 glyphs after
+2026-03-15 06:01:12,138 - INFO - Glyph names: ['.notdef', 'A', 'E', 'I', 'S', 'T', 'U', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'period', 'q', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'v', 'x', 'y', 'zero']
+2026-03-15 06:01:12,139 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 36, 40, 44, 54, 55, 56, 68, 69, 70, 71, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 91, 92, 94, 96]
+2026-03-15 06:01:12,140 - INFO - Retaining 47 glyphs
+2026-03-15 06:01:12,141 - INFO - head subsetting not needed
+2026-03-15 06:01:12,141 - INFO - hhea subsetting not needed
+2026-03-15 06:01:12,141 - INFO - maxp subsetting not needed
+2026-03-15 06:01:12,142 - INFO - OS/2 subsetting not needed
+2026-03-15 06:01:12,146 - INFO - hmtx subsetted
+2026-03-15 06:01:12,147 - INFO - VDMX subsetting not needed
+2026-03-15 06:01:12,148 - INFO - cmap subsetted
+2026-03-15 06:01:12,148 - INFO - fpgm subsetting not needed
+2026-03-15 06:01:12,148 - INFO - prep subsetting not needed
+2026-03-15 06:01:12,149 - INFO - cvt  subsetting not needed
+2026-03-15 06:01:12,149 - INFO - loca subsetting not needed
+2026-03-15 06:01:12,149 - INFO - post subsetted
+2026-03-15 06:01:12,149 - INFO - gasp subsetting not needed
+2026-03-15 06:01:12,149 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-15 06:01:12,149 - INFO - name subsetting not needed
+2026-03-15 06:01:12,151 - INFO - glyf subsetted
+2026-03-15 06:01:12,152 - INFO - head pruned
+2026-03-15 06:01:12,152 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-15 06:01:12,153 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-15 06:01:12,153 - INFO - glyf pruned
+2026-03-15 06:01:12,160 - INFO - name pruned
+2026-03-15 06:01:12,225 - INFO - maxp pruned
+2026-03-15 06:01:12,226 - INFO - LTSH dropped
+2026-03-15 06:01:12,226 - INFO - hdmx dropped
+2026-03-15 06:01:12,226 - INFO - cmap pruned
+2026-03-15 06:01:12,227 - INFO - kern dropped
+2026-03-15 06:01:12,227 - INFO - post pruned
+2026-03-15 06:01:12,228 - INFO - PCLT dropped
+2026-03-15 06:01:12,228 - INFO - JSTF dropped
+2026-03-15 06:01:12,228 - INFO - DSIG dropped
+2026-03-15 06:01:12,228 - INFO - GDEF dropped
+2026-03-15 06:01:12,228 - INFO - GPOS dropped
+2026-03-15 06:01:12,228 - INFO - GSUB dropped
+2026-03-15 06:01:12,243 - INFO - glyf pruned
+2026-03-15 06:01:12,247 - INFO - Added gid0 to subset
+2026-03-15 06:01:12,247 - INFO - Added first four glyphs to subset
+2026-03-15 06:01:12,248 - INFO - Closing glyph list over 'glyf': 66 glyphs before
+2026-03-15 06:01:12,248 - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0627', 'uni0628', 'uni0634', 'uni0637', 'uni0644', 'uni0646', 'v', 'x', 'y', 'zero']
+2026-03-15 06:01:12,249 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 39, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96, 112, 113, 909, 911, 949, 961, 989, 997]
+2026-03-15 06:01:12,249 - INFO - Closed glyph list over 'glyf': 73 glyphs after
+2026-03-15 06:01:12,249 - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'acute', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'grave', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0627', 'uni0628', 'uni0633', 'uni0634', 'uni0637', 'uni0644', 'uni0646', 'uni066E', 'uni06BA', 'uniFBB3', 'uniFBB7', 'v', 'x', 'y', 'zero']
+2026-03-15 06:01:12,250 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 39, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96, 112, 113, 141, 909, 911, 945, 949, 961, 989, 997, 1320, 1325, 1327, 1551]
+2026-03-15 06:01:12,251 - INFO - Retaining 73 glyphs
+2026-03-15 06:01:12,251 - INFO - head subsetting not needed
+2026-03-15 06:01:12,251 - INFO - hhea subsetting not needed
+2026-03-15 06:01:12,252 - INFO - maxp subsetting not needed
+2026-03-15 06:01:12,252 - INFO - OS/2 subsetting not needed
+2026-03-15 06:01:12,255 - INFO - hmtx subsetted
+2026-03-15 06:01:12,256 - INFO - VDMX subsetting not needed
+2026-03-15 06:01:12,260 - INFO - cmap subsetted
+2026-03-15 06:01:12,261 - INFO - fpgm subsetting not needed
+2026-03-15 06:01:12,262 - INFO - prep subsetting not needed
+2026-03-15 06:01:12,264 - INFO - cvt  subsetting not needed
+2026-03-15 06:01:12,265 - INFO - loca subsetting not needed
+2026-03-15 06:01:12,265 - INFO - post subsetted
+2026-03-15 06:01:12,265 - INFO - gasp subsetting not needed
+2026-03-15 06:01:12,265 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-15 06:01:12,266 - INFO - name subsetting not needed
+2026-03-15 06:01:12,268 - INFO - glyf subsetted
+2026-03-15 06:01:12,269 - INFO - head pruned
+2026-03-15 06:01:12,270 - INFO - OS/2 Unicode ranges pruned: [0, 1, 13, 67]
+2026-03-15 06:01:12,271 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-15 06:01:12,272 - INFO - glyf pruned
+2026-03-15 06:01:12,278 - INFO - name pruned
+2026-03-15 06:01:12,327 - INFO - maxp pruned
+2026-03-15 06:01:12,327 - INFO - LTSH dropped
+2026-03-15 06:01:12,329 - INFO - hdmx dropped
+2026-03-15 06:01:12,329 - INFO - cmap pruned
+2026-03-15 06:01:12,329 - INFO - kern dropped
+2026-03-15 06:01:12,330 - INFO - post pruned
+2026-03-15 06:01:12,330 - INFO - PCLT dropped
+2026-03-15 06:01:12,330 - INFO - DSIG dropped
+2026-03-15 06:01:12,330 - INFO - GDEF dropped
+2026-03-15 06:01:12,330 - INFO - GPOS dropped
+2026-03-15 06:01:12,330 - INFO - GSUB dropped
+2026-03-15 06:01:12,337 - INFO - glyf pruned
+2026-03-15 06:01:12,339 - INFO - Added gid0 to subset
+2026-03-15 06:01:12,340 - INFO - Added first four glyphs to subset
+2026-03-15 06:01:12,340 - INFO - Closing glyph list over 'glyf': 25 glyphs before
+2026-03-15 06:01:12,340 - INFO - Glyph names: ['.notdef', 'G', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-15 06:01:12,341 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112]
+2026-03-15 06:01:12,341 - INFO - Closed glyph list over 'glyf': 26 glyphs after
+2026-03-15 06:01:12,341 - INFO - Glyph names: ['.notdef', 'G', 'acute', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-15 06:01:12,342 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112, 141]
+2026-03-15 06:01:12,342 - INFO - Retaining 26 glyphs
+2026-03-15 06:01:12,342 - INFO - head subsetting not needed
+2026-03-15 06:01:12,342 - INFO - hhea subsetting not needed
+2026-03-15 06:01:12,342 - INFO - maxp subsetting not needed
+2026-03-15 06:01:12,343 - INFO - OS/2 subsetting not needed
+2026-03-15 06:01:12,346 - INFO - hmtx subsetted
+2026-03-15 06:01:12,347 - INFO - VDMX subsetting not needed
+2026-03-15 06:01:12,348 - INFO - cmap subsetted
+2026-03-15 06:01:12,349 - INFO - fpgm subsetting not needed
+2026-03-15 06:01:12,349 - INFO - prep subsetting not needed
+2026-03-15 06:01:12,349 - INFO - cvt  subsetting not needed
+2026-03-15 06:01:12,349 - INFO - loca subsetting not needed
+2026-03-15 06:01:12,349 - INFO - post subsetted
+2026-03-15 06:01:12,349 - INFO - gasp subsetting not needed
+2026-03-15 06:01:12,350 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-15 06:01:12,350 - INFO - name subsetting not needed
+2026-03-15 06:01:12,353 - INFO - glyf subsetted
+2026-03-15 06:01:12,354 - INFO - head pruned
+2026-03-15 06:01:12,355 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-15 06:01:12,355 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-15 06:01:12,356 - INFO - glyf pruned
+2026-03-15 06:01:12,366 - INFO - name pruned
+2026-03-15 06:07:56,479 - INFO - maxp pruned
+2026-03-15 06:07:56,479 - INFO - LTSH dropped
+2026-03-15 06:07:56,479 - INFO - hdmx dropped
+2026-03-15 06:07:56,479 - INFO - cmap pruned
+2026-03-15 06:07:56,479 - INFO - kern dropped
+2026-03-15 06:07:56,485 - INFO - post pruned
+2026-03-15 06:07:56,485 - INFO - PCLT dropped
+2026-03-15 06:07:56,485 - INFO - JSTF dropped
+2026-03-15 06:07:56,485 - INFO - DSIG dropped
+2026-03-15 06:07:56,486 - INFO - GDEF dropped
+2026-03-15 06:07:56,486 - INFO - GPOS dropped
+2026-03-15 06:07:56,486 - INFO - GSUB dropped
+2026-03-15 06:07:56,491 - INFO - glyf pruned
+2026-03-15 06:07:56,493 - INFO - Added gid0 to subset
+2026-03-15 06:07:56,493 - INFO - Added first four glyphs to subset
+2026-03-15 06:07:56,493 - INFO - Closing glyph list over 'glyf': 49 glyphs before
+2026-03-15 06:07:56,493 - INFO - Glyph names: ['.notdef', 'E', 'S', 'a', 'agrave', 'at', 'b', 'braceleft', 'braceright', 'c', 'ccedilla', 'd', 'e', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni0627', 'uni062A', 'uni0631', 'uni0636', 'uni0639', 'uni0644', 'uni0646', 'uni0647', 'uni0649', 'y', 'zero']
+2026-03-15 06:07:56,493 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 40, 54, 66, 68, 69, 70, 71, 72, 74, 76, 79, 80, 81, 82, 85, 86, 87, 88, 92, 94, 96, 106, 111, 909, 917, 941, 957, 969, 989, 997, 1001, 1007]
+2026-03-15 06:07:56,493 - INFO - Closed glyph list over 'glyf': 58 glyphs after
+2026-03-15 06:07:56,493 - INFO - Glyph names: ['.notdef', 'E', 'S', 'a', 'agrave', 'at', 'b', 'braceleft', 'braceright', 'c', 'ccedilla', 'cedilla', 'd', 'e', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'grave', 'i', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'underscore', 'uni0627', 'uni062A', 'uni0631', 'uni0635', 'uni0636', 'uni0639', 'uni0644', 'uni0646', 'uni0647', 'uni0649', 'uni066E', 'uni06BA', 'uni06CC', 'uni06D5', 'uniFBB3', 'uniFBB5', 'y', 'zero']
+2026-03-15 06:07:56,493 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 40, 54, 66, 67, 68, 69, 70, 71, 72, 74, 76, 79, 80, 81, 82, 85, 86, 87, 88, 92, 94, 96, 106, 111, 220, 776, 821, 909, 917, 941, 953, 957, 969, 989, 997, 1001, 1007, 1320, 1325, 1326, 1551]
+2026-03-15 06:07:56,493 - INFO - Retaining 58 glyphs
+2026-03-15 06:07:56,493 - INFO - head subsetting not needed
+2026-03-15 06:07:56,493 - INFO - hhea subsetting not needed
+2026-03-15 06:07:56,493 - INFO - maxp subsetting not needed
+2026-03-15 06:07:56,493 - INFO - OS/2 subsetting not needed
+2026-03-15 06:07:56,493 - INFO - hmtx subsetted
+2026-03-15 06:07:56,493 - INFO - VDMX subsetting not needed
+2026-03-15 06:07:56,500 - INFO - cmap subsetted
+2026-03-15 06:07:56,500 - INFO - fpgm subsetting not needed
+2026-03-15 06:07:56,500 - INFO - prep subsetting not needed
+2026-03-15 06:07:56,500 - INFO - cvt  subsetting not needed
+2026-03-15 06:07:56,502 - INFO - loca subsetting not needed
+2026-03-15 06:07:56,502 - INFO - post subsetted
+2026-03-15 06:07:56,502 - INFO - gasp subsetting not needed
+2026-03-15 06:07:56,502 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-15 06:07:56,503 - INFO - name subsetting not needed
+2026-03-15 06:07:56,504 - INFO - glyf subsetted
+2026-03-15 06:07:56,504 - INFO - head pruned
+2026-03-15 06:07:56,504 - INFO - OS/2 Unicode ranges pruned: [0, 1, 13, 67]
+2026-03-15 06:07:56,504 - INFO - OS/2 CodePage ranges pruned: [6]
+2026-03-15 06:07:56,504 - INFO - glyf pruned
+2026-03-15 06:07:56,511 - INFO - name pruned
+2026-03-15 06:07:56,540 - INFO - maxp pruned
+2026-03-15 06:07:56,541 - INFO - LTSH dropped
+2026-03-15 06:07:56,541 - INFO - hdmx dropped
+2026-03-15 06:07:56,541 - INFO - cmap pruned
+2026-03-15 06:07:56,541 - INFO - kern dropped
+2026-03-15 06:07:56,541 - INFO - post pruned
+2026-03-15 06:07:56,541 - INFO - PCLT dropped
+2026-03-15 06:07:56,541 - INFO - JSTF dropped
+2026-03-15 06:07:56,541 - INFO - DSIG dropped
+2026-03-15 06:07:56,542 - INFO - GDEF dropped
+2026-03-15 06:07:56,542 - INFO - GPOS dropped
+2026-03-15 06:07:56,542 - INFO - GSUB dropped
+2026-03-15 06:07:56,546 - INFO - glyf pruned
+2026-03-15 06:07:56,548 - INFO - Added gid0 to subset
+2026-03-15 06:07:56,548 - INFO - Added first four glyphs to subset
+2026-03-15 06:07:56,548 - INFO - Closing glyph list over 'glyf': 55 glyphs before
+2026-03-15 06:07:56,548 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'x', 'y', 'zero']
+2026-03-15 06:07:56,549 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 91, 92, 94, 96, 112, 113]
+2026-03-15 06:07:56,549 - INFO - Closed glyph list over 'glyf': 57 glyphs after
+2026-03-15 06:07:56,549 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'acute', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'grave', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'x', 'y', 'zero']
+2026-03-15 06:07:56,549 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 91, 92, 94, 96, 112, 113, 141]
+2026-03-15 06:07:56,549 - INFO - Retaining 57 glyphs
+2026-03-15 06:07:56,549 - INFO - head subsetting not needed
+2026-03-15 06:07:56,549 - INFO - hhea subsetting not needed
+2026-03-15 06:07:56,550 - INFO - maxp subsetting not needed
+2026-03-15 06:07:56,550 - INFO - OS/2 subsetting not needed
+2026-03-15 06:07:56,553 - INFO - hmtx subsetted
+2026-03-15 06:07:56,553 - INFO - VDMX subsetting not needed
+2026-03-15 06:07:56,554 - INFO - cmap subsetted
+2026-03-15 06:07:56,554 - INFO - fpgm subsetting not needed
+2026-03-15 06:07:56,554 - INFO - prep subsetting not needed
+2026-03-15 06:07:56,555 - INFO - cvt  subsetting not needed
+2026-03-15 06:07:56,555 - INFO - loca subsetting not needed
+2026-03-15 06:07:56,555 - INFO - post subsetted
+2026-03-15 06:07:56,555 - INFO - gasp subsetting not needed
+2026-03-15 06:07:56,555 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-15 06:07:56,555 - INFO - name subsetting not needed
+2026-03-15 06:07:56,556 - INFO - glyf subsetted
+2026-03-15 06:07:56,556 - INFO - head pruned
+2026-03-15 06:07:56,556 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-15 06:07:56,556 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-15 06:07:56,557 - INFO - glyf pruned
+2026-03-15 06:07:56,560 - INFO - name pruned
+2026-03-15 06:07:56,620 - INFO - maxp pruned
+2026-03-15 06:07:56,622 - INFO - LTSH dropped
+2026-03-15 06:07:56,622 - INFO - hdmx dropped
+2026-03-15 06:07:56,622 - INFO - cmap pruned
+2026-03-15 06:07:56,622 - INFO - kern dropped
+2026-03-15 06:07:56,622 - INFO - post pruned
+2026-03-15 06:07:56,622 - INFO - PCLT dropped
+2026-03-15 06:07:56,623 - INFO - DSIG dropped
+2026-03-15 06:07:56,623 - INFO - GDEF dropped
+2026-03-15 06:07:56,623 - INFO - GPOS dropped
+2026-03-15 06:07:56,623 - INFO - GSUB dropped
+2026-03-15 06:07:56,627 - INFO - glyf pruned
+2026-03-15 06:07:56,629 - INFO - Added gid0 to subset
+2026-03-15 06:07:56,629 - INFO - Added first four glyphs to subset
+2026-03-15 06:07:56,630 - INFO - Closing glyph list over 'glyf': 25 glyphs before
+2026-03-15 06:07:56,630 - INFO - Glyph names: ['.notdef', 'G', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-15 06:07:56,630 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112]
+2026-03-15 06:07:56,630 - INFO - Closed glyph list over 'glyf': 26 glyphs after
+2026-03-15 06:07:56,630 - INFO - Glyph names: ['.notdef', 'G', 'acute', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-15 06:07:56,630 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112, 141]
+2026-03-15 06:07:56,631 - INFO - Retaining 26 glyphs
+2026-03-15 06:07:56,631 - INFO - head subsetting not needed
+2026-03-15 06:07:56,631 - INFO - hhea subsetting not needed
+2026-03-15 06:07:56,631 - INFO - maxp subsetting not needed
+2026-03-15 06:07:56,631 - INFO - OS/2 subsetting not needed
+2026-03-15 06:07:56,634 - INFO - hmtx subsetted
+2026-03-15 06:07:56,665 - INFO - VDMX subsetting not needed
+2026-03-15 06:07:56,672 - INFO - cmap subsetted
+2026-03-15 06:07:56,672 - INFO - fpgm subsetting not needed
+2026-03-15 06:07:56,672 - INFO - prep subsetting not needed
+2026-03-15 06:07:56,672 - INFO - cvt  subsetting not needed
+2026-03-15 06:07:56,672 - INFO - loca subsetting not needed
+2026-03-15 06:07:56,672 - INFO - post subsetted
+2026-03-15 06:07:56,672 - INFO - gasp subsetting not needed
+2026-03-15 06:07:56,672 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-15 06:07:56,672 - INFO - name subsetting not needed
+2026-03-15 06:07:56,675 - INFO - glyf subsetted
+2026-03-15 06:07:56,676 - INFO - head pruned
+2026-03-15 06:07:56,676 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-15 06:07:56,677 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-15 06:07:56,678 - INFO - glyf pruned
+2026-03-15 06:07:56,679 - INFO - name pruned
+2026-03-16 03:32:12,421 - INFO - Starting Lycée Al-Mansour Server on port 5000...
+2026-03-16 03:32:12,466 - INFO - Serving on http://127.0.0.1:5000
+2026-03-16 04:03:34,115 - INFO - Default admin created with hashed password.
+2026-03-16 04:03:34,129 - INFO - Statistics initialized.
+2026-03-16 05:41:11,771 - INFO - Loading font CairoCustom from C:\Users\Dell\Desktop\Nouveau dossier (7)\lyceeAL-Mansour\server\fonts\Cairo-Regular.ttf
+2026-03-16 05:41:11,784 - ERROR - Failed to load font CairoCustom: Not a TrueType or OpenType font (bad sfntVersion)
+2026-03-16 05:41:11,784 - INFO - Loading font ArialCustom from C:\Windows\Fonts\arial.ttf
+2026-03-16 05:41:12,571 - INFO - maxp pruned
+2026-03-16 05:41:12,574 - INFO - LTSH dropped
+2026-03-16 05:41:12,593 - INFO - hdmx dropped
+2026-03-16 05:41:12,593 - INFO - cmap pruned
+2026-03-16 05:41:12,670 - INFO - kern dropped
+2026-03-16 05:41:12,670 - INFO - post pruned
+2026-03-16 05:41:12,690 - INFO - PCLT dropped
+2026-03-16 05:41:12,690 - INFO - JSTF dropped
+2026-03-16 05:41:12,701 - INFO - DSIG dropped
+2026-03-16 05:41:12,701 - INFO - GDEF dropped
+2026-03-16 05:41:12,701 - INFO - GPOS dropped
+2026-03-16 05:41:12,701 - INFO - GSUB dropped
+2026-03-16 05:41:12,711 - INFO - glyf pruned
+2026-03-16 05:41:12,719 - INFO - Added gid0 to subset
+2026-03-16 05:41:12,719 - INFO - Added first four glyphs to subset
+2026-03-16 05:41:12,719 - INFO - Closing glyph list over 'glyf': 41 glyphs before
+2026-03-16 05:41:12,719 - INFO - Glyph names: ['.notdef', 'E', 'G', 'H', 'S', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'x', 'zero']
+2026-03-16 05:41:12,721 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 40, 42, 43, 54, 68, 69, 70, 71, 72, 74, 76, 77, 78, 79, 80, 81, 82, 85, 86, 87, 88, 91, 94, 96]
+2026-03-16 05:41:12,721 - INFO - Closed glyph list over 'glyf': 41 glyphs after
+2026-03-16 05:41:12,721 - INFO - Glyph names: ['.notdef', 'E', 'G', 'H', 'S', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'x', 'zero']
+2026-03-16 05:41:12,721 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 40, 42, 43, 54, 68, 69, 70, 71, 72, 74, 76, 77, 78, 79, 80, 81, 82, 85, 86, 87, 88, 91, 94, 96]
+2026-03-16 05:41:12,721 - INFO - Retaining 41 glyphs
+2026-03-16 05:41:12,721 - INFO - head subsetting not needed
+2026-03-16 05:41:12,724 - INFO - hhea subsetting not needed
+2026-03-16 05:41:12,724 - INFO - maxp subsetting not needed
+2026-03-16 05:41:12,724 - INFO - OS/2 subsetting not needed
+2026-03-16 05:41:12,868 - INFO - hmtx subsetted
+2026-03-16 05:41:12,869 - INFO - VDMX subsetting not needed
+2026-03-16 05:41:12,871 - INFO - cmap subsetted
+2026-03-16 05:41:12,871 - INFO - fpgm subsetting not needed
+2026-03-16 05:41:12,871 - INFO - prep subsetting not needed
+2026-03-16 05:41:12,871 - INFO - cvt  subsetting not needed
+2026-03-16 05:41:12,871 - INFO - loca subsetting not needed
+2026-03-16 05:41:12,873 - INFO - post subsetted
+2026-03-16 05:41:12,873 - INFO - gasp subsetting not needed
+2026-03-16 05:41:12,873 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-16 05:41:12,873 - INFO - name subsetting not needed
+2026-03-16 05:41:12,877 - INFO - glyf subsetted
+2026-03-16 05:41:12,877 - INFO - head pruned
+2026-03-16 05:41:12,878 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-16 05:41:12,879 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-16 05:41:12,881 - INFO - glyf pruned
+2026-03-16 05:41:12,891 - INFO - name pruned
+2026-03-16 05:41:12,941 - INFO - maxp pruned
+2026-03-16 05:41:12,941 - INFO - LTSH dropped
+2026-03-16 05:41:12,941 - INFO - hdmx dropped
+2026-03-16 05:41:12,941 - INFO - cmap pruned
+2026-03-16 05:41:12,941 - INFO - kern dropped
+2026-03-16 05:41:12,941 - INFO - post pruned
+2026-03-16 05:41:12,941 - INFO - PCLT dropped
+2026-03-16 05:41:12,941 - INFO - JSTF dropped
+2026-03-16 05:41:12,941 - INFO - DSIG dropped
+2026-03-16 05:41:12,941 - INFO - GDEF dropped
+2026-03-16 05:41:12,941 - INFO - GPOS dropped
+2026-03-16 05:41:12,941 - INFO - GSUB dropped
+2026-03-16 05:41:12,950 - INFO - glyf pruned
+2026-03-16 05:41:12,950 - INFO - Added gid0 to subset
+2026-03-16 05:41:12,950 - INFO - Added first four glyphs to subset
+2026-03-16 05:41:12,950 - INFO - Closing glyph list over 'glyf': 66 glyphs before
+2026-03-16 05:41:12,950 - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0627', 'uni0628', 'uni0634', 'uni0637', 'uni0644', 'uni0646', 'v', 'x', 'y', 'zero']
+2026-03-16 05:41:12,950 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 39, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96, 112, 113, 909, 911, 949, 961, 989, 997]
+2026-03-16 05:41:12,950 - INFO - Closed glyph list over 'glyf': 73 glyphs after
+2026-03-16 05:41:12,950 - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'acute', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'grave', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0627', 'uni0628', 'uni0633', 'uni0634', 'uni0637', 'uni0644', 'uni0646', 'uni066E', 'uni06BA', 'uniFBB3', 'uniFBB7', 'v', 'x', 'y', 'zero']
+2026-03-16 05:41:12,950 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 39, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96, 112, 113, 141, 909, 911, 945, 949, 961, 989, 997, 1320, 1325, 1327, 1551]
+2026-03-16 05:41:12,950 - INFO - Retaining 73 glyphs
+2026-03-16 05:41:12,950 - INFO - head subsetting not needed
+2026-03-16 05:41:12,950 - INFO - hhea subsetting not needed
+2026-03-16 05:41:12,950 - INFO - maxp subsetting not needed
+2026-03-16 05:41:12,950 - INFO - OS/2 subsetting not needed
+2026-03-16 05:41:12,966 - INFO - hmtx subsetted
+2026-03-16 05:41:12,966 - INFO - VDMX subsetting not needed
+2026-03-16 05:41:12,967 - INFO - cmap subsetted
+2026-03-16 05:41:12,967 - INFO - fpgm subsetting not needed
+2026-03-16 05:41:12,967 - INFO - prep subsetting not needed
+2026-03-16 05:41:12,967 - INFO - cvt  subsetting not needed
+2026-03-16 05:41:12,967 - INFO - loca subsetting not needed
+2026-03-16 05:41:12,967 - INFO - post subsetted
+2026-03-16 05:41:12,967 - INFO - gasp subsetting not needed
+2026-03-16 05:41:12,967 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-16 05:41:12,967 - INFO - name subsetting not needed
+2026-03-16 05:41:12,967 - INFO - glyf subsetted
+2026-03-16 05:41:12,967 - INFO - head pruned
+2026-03-16 05:41:12,967 - INFO - OS/2 Unicode ranges pruned: [0, 1, 13, 67]
+2026-03-16 05:41:12,967 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-16 05:41:12,967 - INFO - glyf pruned
+2026-03-16 05:41:12,983 - INFO - name pruned
+2026-03-16 05:41:13,060 - INFO - maxp pruned
+2026-03-16 05:41:13,060 - INFO - LTSH dropped
+2026-03-16 05:41:13,060 - INFO - hdmx dropped
+2026-03-16 05:41:13,060 - INFO - cmap pruned
+2026-03-16 05:41:13,060 - INFO - kern dropped
+2026-03-16 05:41:13,060 - INFO - post pruned
+2026-03-16 05:41:13,060 - INFO - PCLT dropped
+2026-03-16 05:41:13,060 - INFO - DSIG dropped
+2026-03-16 05:41:13,060 - INFO - GDEF dropped
+2026-03-16 05:41:13,060 - INFO - GPOS dropped
+2026-03-16 05:41:13,060 - INFO - GSUB dropped
+2026-03-16 05:41:13,070 - INFO - glyf pruned
+2026-03-16 05:41:13,074 - INFO - Added gid0 to subset
+2026-03-16 05:41:13,074 - INFO - Added first four glyphs to subset
+2026-03-16 05:41:13,074 - INFO - Closing glyph list over 'glyf': 25 glyphs before
+2026-03-16 05:41:13,074 - INFO - Glyph names: ['.notdef', 'G', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-16 05:41:13,076 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112]
+2026-03-16 05:41:13,076 - INFO - Closed glyph list over 'glyf': 26 glyphs after
+2026-03-16 05:41:13,077 - INFO - Glyph names: ['.notdef', 'G', 'acute', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-16 05:41:13,077 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112, 141]
+2026-03-16 05:41:13,077 - INFO - Retaining 26 glyphs
+2026-03-16 05:41:13,079 - INFO - head subsetting not needed
+2026-03-16 05:41:13,079 - INFO - hhea subsetting not needed
+2026-03-16 05:41:13,079 - INFO - maxp subsetting not needed
+2026-03-16 05:41:13,079 - INFO - OS/2 subsetting not needed
+2026-03-16 05:41:13,083 - INFO - hmtx subsetted
+2026-03-16 05:41:13,083 - INFO - VDMX subsetting not needed
+2026-03-16 05:41:13,083 - INFO - cmap subsetted
+2026-03-16 05:41:13,083 - INFO - fpgm subsetting not needed
+2026-03-16 05:41:13,083 - INFO - prep subsetting not needed
+2026-03-16 05:41:13,083 - INFO - cvt  subsetting not needed
+2026-03-16 05:41:13,083 - INFO - loca subsetting not needed
+2026-03-16 05:41:13,083 - INFO - post subsetted
+2026-03-16 05:41:13,083 - INFO - gasp subsetting not needed
+2026-03-16 05:41:13,083 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-16 05:41:13,090 - INFO - name subsetting not needed
+2026-03-16 05:41:13,090 - INFO - glyf subsetted
+2026-03-16 05:41:13,092 - INFO - head pruned
+2026-03-16 05:41:13,093 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-16 05:41:13,093 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-16 05:41:13,093 - INFO - glyf pruned
+2026-03-16 05:41:13,100 - INFO - name pruned
+2026-03-16 05:41:14,519 - ERROR - SMTP Fallback Failed: [Errno 22] Invalid argument
+2026-03-16 05:44:13,134 - INFO - Loading font CairoCustom from C:\Users\Dell\Desktop\Nouveau dossier (7)\lyceeAL-Mansour\server\fonts\Cairo-Regular.ttf
+2026-03-16 05:44:13,134 - ERROR - Failed to load font CairoCustom: Not a TrueType or OpenType font (bad sfntVersion)
+2026-03-16 05:44:13,134 - INFO - Loading font ArialCustom from C:\Windows\Fonts\arial.ttf
+2026-03-16 05:44:13,389 - INFO - maxp pruned
+2026-03-16 05:44:13,389 - INFO - LTSH dropped
+2026-03-16 05:44:13,389 - INFO - hdmx dropped
+2026-03-16 05:44:13,394 - INFO - cmap pruned
+2026-03-16 05:44:13,394 - INFO - kern dropped
+2026-03-16 05:44:13,395 - INFO - post pruned
+2026-03-16 05:44:13,395 - INFO - PCLT dropped
+2026-03-16 05:44:13,395 - INFO - JSTF dropped
+2026-03-16 05:44:13,395 - INFO - DSIG dropped
+2026-03-16 05:44:13,395 - INFO - GDEF dropped
+2026-03-16 05:44:13,395 - INFO - GPOS dropped
+2026-03-16 05:44:13,395 - INFO - GSUB dropped
+2026-03-16 05:44:13,406 - INFO - glyf pruned
+2026-03-16 05:44:13,412 - INFO - Added gid0 to subset
+2026-03-16 05:44:13,412 - INFO - Added first four glyphs to subset
+2026-03-16 05:44:13,412 - INFO - Closing glyph list over 'glyf': 46 glyphs before
+2026-03-16 05:44:13,412 - INFO - Glyph names: ['.notdef', 'D', 'E', 'F', 'I', 'J', 'K', 'O', 'S', 'V', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'zero']
+2026-03-16 05:44:13,412 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 39, 40, 41, 44, 45, 46, 50, 54, 57, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 85, 86, 87, 88, 94, 96]
+2026-03-16 05:44:13,412 - INFO - Closed glyph list over 'glyf': 46 glyphs after
+2026-03-16 05:44:13,418 - INFO - Glyph names: ['.notdef', 'D', 'E', 'F', 'I', 'J', 'K', 'O', 'S', 'V', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'zero']
+2026-03-16 05:44:13,418 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 39, 40, 41, 44, 45, 46, 50, 54, 57, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 85, 86, 87, 88, 94, 96]
+2026-03-16 05:44:13,419 - INFO - Retaining 46 glyphs
+2026-03-16 05:44:13,419 - INFO - head subsetting not needed
+2026-03-16 05:44:13,422 - INFO - hhea subsetting not needed
+2026-03-16 05:44:13,422 - INFO - maxp subsetting not needed
+2026-03-16 05:44:13,422 - INFO - OS/2 subsetting not needed
+2026-03-16 05:44:13,428 - INFO - hmtx subsetted
+2026-03-16 05:44:13,428 - INFO - VDMX subsetting not needed
+2026-03-16 05:44:13,430 - INFO - cmap subsetted
+2026-03-16 05:44:13,430 - INFO - fpgm subsetting not needed
+2026-03-16 05:44:13,430 - INFO - prep subsetting not needed
+2026-03-16 05:44:13,430 - INFO - cvt  subsetting not needed
+2026-03-16 05:44:13,430 - INFO - loca subsetting not needed
+2026-03-16 05:44:13,430 - INFO - post subsetted
+2026-03-16 05:44:13,430 - INFO - gasp subsetting not needed
+2026-03-16 05:44:13,430 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-16 05:44:13,430 - INFO - name subsetting not needed
+2026-03-16 05:44:13,430 - INFO - glyf subsetted
+2026-03-16 05:44:13,430 - INFO - head pruned
+2026-03-16 05:44:13,430 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-16 05:44:13,430 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-16 05:44:13,430 - INFO - glyf pruned
+2026-03-16 05:44:13,451 - INFO - name pruned
+2026-03-16 05:44:13,563 - INFO - maxp pruned
+2026-03-16 05:44:13,563 - INFO - LTSH dropped
+2026-03-16 05:44:13,563 - INFO - hdmx dropped
+2026-03-16 05:44:13,563 - INFO - cmap pruned
+2026-03-16 05:44:13,563 - INFO - kern dropped
+2026-03-16 05:44:13,563 - INFO - post pruned
+2026-03-16 05:44:13,568 - INFO - PCLT dropped
+2026-03-16 05:44:13,568 - INFO - JSTF dropped
+2026-03-16 05:44:13,568 - INFO - DSIG dropped
+2026-03-16 05:44:13,568 - INFO - GDEF dropped
+2026-03-16 05:44:13,568 - INFO - GPOS dropped
+2026-03-16 05:44:13,568 - INFO - GSUB dropped
+2026-03-16 05:44:13,580 - INFO - glyf pruned
+2026-03-16 05:44:13,594 - INFO - Added gid0 to subset
+2026-03-16 05:44:13,594 - INFO - Added first four glyphs to subset
+2026-03-16 05:44:13,594 - INFO - Closing glyph list over 'glyf': 66 glyphs before
+2026-03-16 05:44:13,594 - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0627', 'uni0628', 'uni0634', 'uni0637', 'uni0644', 'uni0646', 'v', 'x', 'y', 'zero']
+2026-03-16 05:44:13,596 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 39, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96, 112, 113, 909, 911, 949, 961, 989, 997]
+2026-03-16 05:44:13,596 - INFO - Closed glyph list over 'glyf': 73 glyphs after
+2026-03-16 05:44:13,596 - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'acute', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'grave', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0627', 'uni0628', 'uni0633', 'uni0634', 'uni0637', 'uni0644', 'uni0646', 'uni066E', 'uni06BA', 'uniFBB3', 'uniFBB7', 'v', 'x', 'y', 'zero']
+2026-03-16 05:44:13,596 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 39, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96, 112, 113, 141, 909, 911, 945, 949, 961, 989, 997, 1320, 1325, 1327, 1551]
+2026-03-16 05:44:13,596 - INFO - Retaining 73 glyphs
+2026-03-16 05:44:13,596 - INFO - head subsetting not needed
+2026-03-16 05:44:13,601 - INFO - hhea subsetting not needed
+2026-03-16 05:44:13,601 - INFO - maxp subsetting not needed
+2026-03-16 05:44:13,601 - INFO - OS/2 subsetting not needed
+2026-03-16 05:44:13,619 - INFO - hmtx subsetted
+2026-03-16 05:44:13,620 - INFO - VDMX subsetting not needed
+2026-03-16 05:44:13,622 - INFO - cmap subsetted
+2026-03-16 05:44:13,622 - INFO - fpgm subsetting not needed
+2026-03-16 05:44:13,622 - INFO - prep subsetting not needed
+2026-03-16 05:44:13,622 - INFO - cvt  subsetting not needed
+2026-03-16 05:44:13,622 - INFO - loca subsetting not needed
+2026-03-16 05:44:13,622 - INFO - post subsetted
+2026-03-16 05:44:13,622 - INFO - gasp subsetting not needed
+2026-03-16 05:44:13,624 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-16 05:44:13,624 - INFO - name subsetting not needed
+2026-03-16 05:44:13,628 - INFO - glyf subsetted
+2026-03-16 05:44:13,628 - INFO - head pruned
+2026-03-16 05:44:13,628 - INFO - OS/2 Unicode ranges pruned: [0, 1, 13, 67]
+2026-03-16 05:44:13,629 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-16 05:44:13,629 - INFO - glyf pruned
+2026-03-16 05:44:13,641 - INFO - name pruned
+2026-03-16 05:44:13,717 - INFO - maxp pruned
+2026-03-16 05:44:13,717 - INFO - LTSH dropped
+2026-03-16 05:44:13,717 - INFO - hdmx dropped
+2026-03-16 05:44:13,717 - INFO - cmap pruned
+2026-03-16 05:44:13,717 - INFO - kern dropped
+2026-03-16 05:44:13,717 - INFO - post pruned
+2026-03-16 05:44:13,717 - INFO - PCLT dropped
+2026-03-16 05:44:13,717 - INFO - DSIG dropped
+2026-03-16 05:44:13,717 - INFO - GDEF dropped
+2026-03-16 05:44:13,717 - INFO - GPOS dropped
+2026-03-16 05:44:13,717 - INFO - GSUB dropped
+2026-03-16 05:44:13,730 - INFO - glyf pruned
+2026-03-16 05:44:13,733 - INFO - Added gid0 to subset
+2026-03-16 05:44:13,733 - INFO - Added first four glyphs to subset
+2026-03-16 05:44:13,733 - INFO - Closing glyph list over 'glyf': 25 glyphs before
+2026-03-16 05:44:13,733 - INFO - Glyph names: ['.notdef', 'G', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-16 05:44:13,733 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112]
+2026-03-16 05:44:13,733 - INFO - Closed glyph list over 'glyf': 26 glyphs after
+2026-03-16 05:44:13,733 - INFO - Glyph names: ['.notdef', 'G', 'acute', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-16 05:44:13,733 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112, 141]
+2026-03-16 05:44:13,733 - INFO - Retaining 26 glyphs
+2026-03-16 05:44:13,739 - INFO - head subsetting not needed
+2026-03-16 05:44:13,739 - INFO - hhea subsetting not needed
+2026-03-16 05:44:13,739 - INFO - maxp subsetting not needed
+2026-03-16 05:44:13,739 - INFO - OS/2 subsetting not needed
+2026-03-16 05:44:13,744 - INFO - hmtx subsetted
+2026-03-16 05:44:13,744 - INFO - VDMX subsetting not needed
+2026-03-16 05:44:13,745 - INFO - cmap subsetted
+2026-03-16 05:44:13,745 - INFO - fpgm subsetting not needed
+2026-03-16 05:44:13,745 - INFO - prep subsetting not needed
+2026-03-16 05:44:13,745 - INFO - cvt  subsetting not needed
+2026-03-16 05:44:13,745 - INFO - loca subsetting not needed
+2026-03-16 05:44:13,745 - INFO - post subsetted
+2026-03-16 05:44:13,745 - INFO - gasp subsetting not needed
+2026-03-16 05:44:13,745 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-16 05:44:13,745 - INFO - name subsetting not needed
+2026-03-16 05:44:13,745 - INFO - glyf subsetted
+2026-03-16 05:44:13,745 - INFO - head pruned
+2026-03-16 05:44:13,745 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-16 05:44:13,745 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-16 05:44:13,745 - INFO - glyf pruned
+2026-03-16 05:44:13,762 - INFO - name pruned
+2026-03-16 05:44:13,979 - ERROR - SMTP Fallback Failed: [Errno 22] Invalid argument
+2026-03-16 05:44:22,379 - INFO - Starting Lycée Al-Mansour Server on port 5000...
+2026-03-16 05:44:22,603 - INFO - Serving on http://127.0.0.1:5000
+2026-03-16 05:45:20,586 - INFO - Loading font CairoCustom from C:\Users\Dell\Desktop\Nouveau dossier (7)\lyceeAL-Mansour\server\fonts\Cairo-Regular.ttf
+2026-03-16 05:45:20,590 - ERROR - Failed to load font CairoCustom: Not a TrueType or OpenType font (bad sfntVersion)
+2026-03-16 05:45:20,590 - INFO - Loading font ArialCustom from C:\Windows\Fonts\arial.ttf
+2026-03-16 05:45:20,871 - INFO - maxp pruned
+2026-03-16 05:45:20,871 - INFO - LTSH dropped
+2026-03-16 05:45:20,871 - INFO - hdmx dropped
+2026-03-16 05:45:20,871 - INFO - cmap pruned
+2026-03-16 05:45:20,871 - INFO - kern dropped
+2026-03-16 05:45:20,871 - INFO - post pruned
+2026-03-16 05:45:20,871 - INFO - PCLT dropped
+2026-03-16 05:45:20,871 - INFO - JSTF dropped
+2026-03-16 05:45:20,871 - INFO - DSIG dropped
+2026-03-16 05:45:20,871 - INFO - GDEF dropped
+2026-03-16 05:45:20,871 - INFO - GPOS dropped
+2026-03-16 05:45:20,871 - INFO - GSUB dropped
+2026-03-16 05:45:20,883 - INFO - glyf pruned
+2026-03-16 05:45:20,889 - INFO - Added gid0 to subset
+2026-03-16 05:45:20,889 - INFO - Added first four glyphs to subset
+2026-03-16 05:45:20,889 - INFO - Closing glyph list over 'glyf': 42 glyphs before
+2026-03-16 05:45:20,889 - INFO - Glyph names: ['.notdef', 'E', 'S', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'v', 'x', 'zero']
+2026-03-16 05:45:20,893 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 40, 54, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 85, 86, 87, 88, 89, 91, 94, 96]
+2026-03-16 05:45:20,893 - INFO - Closed glyph list over 'glyf': 42 glyphs after
+2026-03-16 05:45:20,893 - INFO - Glyph names: ['.notdef', 'E', 'S', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'v', 'x', 'zero']
+2026-03-16 05:45:20,894 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 40, 54, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 85, 86, 87, 88, 89, 91, 94, 96]
+2026-03-16 05:45:20,894 - INFO - Retaining 42 glyphs
+2026-03-16 05:45:20,894 - INFO - head subsetting not needed
+2026-03-16 05:45:20,894 - INFO - hhea subsetting not needed
+2026-03-16 05:45:20,894 - INFO - maxp subsetting not needed
+2026-03-16 05:45:20,894 - INFO - OS/2 subsetting not needed
+2026-03-16 05:45:20,894 - INFO - hmtx subsetted
+2026-03-16 05:45:20,894 - INFO - VDMX subsetting not needed
+2026-03-16 05:45:20,894 - INFO - cmap subsetted
+2026-03-16 05:45:20,894 - INFO - fpgm subsetting not needed
+2026-03-16 05:45:20,894 - INFO - prep subsetting not needed
+2026-03-16 05:45:20,894 - INFO - cvt  subsetting not needed
+2026-03-16 05:45:20,894 - INFO - loca subsetting not needed
+2026-03-16 05:45:20,894 - INFO - post subsetted
+2026-03-16 05:45:20,894 - INFO - gasp subsetting not needed
+2026-03-16 05:45:20,894 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-16 05:45:20,894 - INFO - name subsetting not needed
+2026-03-16 05:45:20,910 - INFO - glyf subsetted
+2026-03-16 05:45:20,911 - INFO - head pruned
+2026-03-16 05:45:20,911 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-16 05:45:20,911 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-16 05:45:20,911 - INFO - glyf pruned
+2026-03-16 05:45:20,923 - INFO - name pruned
+2026-03-16 05:45:20,993 - INFO - maxp pruned
+2026-03-16 05:45:20,994 - INFO - LTSH dropped
+2026-03-16 05:45:20,994 - INFO - hdmx dropped
+2026-03-16 05:45:20,994 - INFO - cmap pruned
+2026-03-16 05:45:20,994 - INFO - kern dropped
+2026-03-16 05:45:20,994 - INFO - post pruned
+2026-03-16 05:45:20,994 - INFO - PCLT dropped
+2026-03-16 05:45:20,994 - INFO - JSTF dropped
+2026-03-16 05:45:20,994 - INFO - DSIG dropped
+2026-03-16 05:45:20,994 - INFO - GDEF dropped
+2026-03-16 05:45:20,994 - INFO - GPOS dropped
+2026-03-16 05:45:20,994 - INFO - GSUB dropped
+2026-03-16 05:45:21,004 - INFO - glyf pruned
+2026-03-16 05:45:21,011 - INFO - Added gid0 to subset
+2026-03-16 05:45:21,011 - INFO - Added first four glyphs to subset
+2026-03-16 05:45:21,011 - INFO - Closing glyph list over 'glyf': 66 glyphs before
+2026-03-16 05:45:21,011 - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0627', 'uni0628', 'uni0634', 'uni0637', 'uni0644', 'uni0646', 'v', 'x', 'y', 'zero']
+2026-03-16 05:45:21,011 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 39, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96, 112, 113, 909, 911, 949, 961, 989, 997]
+2026-03-16 05:45:21,011 - INFO - Closed glyph list over 'glyf': 73 glyphs after
+2026-03-16 05:45:21,011 - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'acute', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'grave', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0627', 'uni0628', 'uni0633', 'uni0634', 'uni0637', 'uni0644', 'uni0646', 'uni066E', 'uni06BA', 'uniFBB3', 'uniFBB7', 'v', 'x', 'y', 'zero']
+2026-03-16 05:45:21,011 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 39, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96, 112, 113, 141, 909, 911, 945, 949, 961, 989, 997, 1320, 1325, 1327, 1551]
+2026-03-16 05:45:21,011 - INFO - Retaining 73 glyphs
+2026-03-16 05:45:21,011 - INFO - head subsetting not needed
+2026-03-16 05:45:21,011 - INFO - hhea subsetting not needed
+2026-03-16 05:45:21,020 - INFO - maxp subsetting not needed
+2026-03-16 05:45:21,020 - INFO - OS/2 subsetting not needed
+2026-03-16 05:45:21,026 - INFO - hmtx subsetted
+2026-03-16 05:45:21,027 - INFO - VDMX subsetting not needed
+2026-03-16 05:45:21,027 - INFO - cmap subsetted
+2026-03-16 05:45:21,027 - INFO - fpgm subsetting not needed
+2026-03-16 05:45:21,027 - INFO - prep subsetting not needed
+2026-03-16 05:45:21,027 - INFO - cvt  subsetting not needed
+2026-03-16 05:45:21,027 - INFO - loca subsetting not needed
+2026-03-16 05:45:21,027 - INFO - post subsetted
+2026-03-16 05:45:21,027 - INFO - gasp subsetting not needed
+2026-03-16 05:45:21,027 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-16 05:45:21,027 - INFO - name subsetting not needed
+2026-03-16 05:45:21,027 - INFO - glyf subsetted
+2026-03-16 05:45:21,027 - INFO - head pruned
+2026-03-16 05:45:21,036 - INFO - OS/2 Unicode ranges pruned: [0, 1, 13, 67]
+2026-03-16 05:45:21,036 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-16 05:45:21,036 - INFO - glyf pruned
+2026-03-16 05:45:21,044 - INFO - name pruned
+2026-03-16 05:45:21,118 - INFO - maxp pruned
+2026-03-16 05:45:21,118 - INFO - LTSH dropped
+2026-03-16 05:45:21,118 - INFO - hdmx dropped
+2026-03-16 05:45:21,118 - INFO - cmap pruned
+2026-03-16 05:45:21,118 - INFO - kern dropped
+2026-03-16 05:45:21,124 - INFO - post pruned
+2026-03-16 05:45:21,124 - INFO - PCLT dropped
+2026-03-16 05:45:21,124 - INFO - DSIG dropped
+2026-03-16 05:45:21,125 - INFO - GDEF dropped
+2026-03-16 05:45:21,125 - INFO - GPOS dropped
+2026-03-16 05:45:21,125 - INFO - GSUB dropped
+2026-03-16 05:45:21,127 - INFO - glyf pruned
+2026-03-16 05:45:21,127 - INFO - Added gid0 to subset
+2026-03-16 05:45:21,127 - INFO - Added first four glyphs to subset
+2026-03-16 05:45:21,127 - INFO - Closing glyph list over 'glyf': 25 glyphs before
+2026-03-16 05:45:21,127 - INFO - Glyph names: ['.notdef', 'G', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-16 05:45:21,127 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112]
+2026-03-16 05:45:21,140 - INFO - Closed glyph list over 'glyf': 26 glyphs after
+2026-03-16 05:45:21,140 - INFO - Glyph names: ['.notdef', 'G', 'acute', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-16 05:45:21,140 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112, 141]
+2026-03-16 05:45:21,140 - INFO - Retaining 26 glyphs
+2026-03-16 05:45:21,142 - INFO - head subsetting not needed
+2026-03-16 05:45:21,142 - INFO - hhea subsetting not needed
+2026-03-16 05:45:21,142 - INFO - maxp subsetting not needed
+2026-03-16 05:45:21,142 - INFO - OS/2 subsetting not needed
+2026-03-16 05:45:21,144 - INFO - hmtx subsetted
+2026-03-16 05:45:21,144 - INFO - VDMX subsetting not needed
+2026-03-16 05:45:21,144 - INFO - cmap subsetted
+2026-03-16 05:45:21,144 - INFO - fpgm subsetting not needed
+2026-03-16 05:45:21,144 - INFO - prep subsetting not needed
+2026-03-16 05:45:21,144 - INFO - cvt  subsetting not needed
+2026-03-16 05:45:21,144 - INFO - loca subsetting not needed
+2026-03-16 05:45:21,144 - INFO - post subsetted
+2026-03-16 05:45:21,144 - INFO - gasp subsetting not needed
+2026-03-16 05:45:21,144 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-16 05:45:21,144 - INFO - name subsetting not needed
+2026-03-16 05:45:21,144 - INFO - glyf subsetted
+2026-03-16 05:45:21,156 - INFO - head pruned
+2026-03-16 05:45:21,156 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-16 05:45:21,156 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-16 05:45:21,159 - INFO - glyf pruned
+2026-03-16 05:45:21,160 - INFO - name pruned
+2026-03-16 05:45:21,403 - ERROR - SMTP Fallback Failed: [Errno 22] Invalid argument
+2026-03-16 05:47:11,359 - INFO - Loading font CairoCustom from C:\Users\Dell\Desktop\Nouveau dossier (7)\lyceeAL-Mansour\server\fonts\Cairo-Regular.ttf
+2026-03-16 05:47:11,359 - ERROR - Failed to load font CairoCustom: Not a TrueType or OpenType font (bad sfntVersion)
+2026-03-16 05:47:11,359 - INFO - Loading font ArialCustom from C:\Windows\Fonts\arial.ttf
+2026-03-16 05:47:11,668 - INFO - maxp pruned
+2026-03-16 05:47:11,668 - INFO - LTSH dropped
+2026-03-16 05:47:11,668 - INFO - hdmx dropped
+2026-03-16 05:47:11,672 - INFO - cmap pruned
+2026-03-16 05:47:11,673 - INFO - kern dropped
+2026-03-16 05:47:11,673 - INFO - post pruned
+2026-03-16 05:47:11,673 - INFO - PCLT dropped
+2026-03-16 05:47:11,674 - INFO - JSTF dropped
+2026-03-16 05:47:11,674 - INFO - DSIG dropped
+2026-03-16 05:47:11,674 - INFO - GDEF dropped
+2026-03-16 05:47:11,674 - INFO - GPOS dropped
+2026-03-16 05:47:11,674 - INFO - GSUB dropped
+2026-03-16 05:47:11,681 - INFO - glyf pruned
+2026-03-16 05:47:11,690 - INFO - Added gid0 to subset
+2026-03-16 05:47:11,691 - INFO - Added first four glyphs to subset
+2026-03-16 05:47:11,691 - INFO - Closing glyph list over 'glyf': 45 glyphs before
+2026-03-16 05:47:11,691 - INFO - Glyph names: ['.notdef', 'E', 'S', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uniFBAD', 'uniFE90', 'uniFE97', 'uniFE98', 'uniFEAE', 'uniFEE7', 'zero']
+2026-03-16 05:47:11,692 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 40, 54, 68, 69, 70, 71, 72, 73, 74, 76, 77, 78, 79, 80, 81, 82, 85, 86, 87, 88, 94, 96, 912, 919, 920, 942, 999, 1004]
+2026-03-16 05:47:11,692 - INFO - Closed glyph list over 'glyf': 50 glyphs after
+2026-03-16 05:47:11,692 - INFO - Glyph names: ['.notdef', 'E', 'S', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0631', 'uni066E', 'uniFBAD', 'uniFBB3', 'uniFBB5', 'uniFBE8', 'uniFE90', 'uniFE97', 'uniFE98', 'uniFEAE', 'uniFEE7', 'zero']
+2026-03-16 05:47:11,692 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 40, 54, 68, 69, 70, 71, 72, 73, 74, 76, 77, 78, 79, 80, 81, 82, 85, 86, 87, 88, 94, 96, 912, 919, 920, 941, 942, 999, 1004, 1320, 1321, 1325, 1326]
+2026-03-16 05:47:11,692 - INFO - Retaining 50 glyphs
+2026-03-16 05:47:11,692 - INFO - head subsetting not needed
+2026-03-16 05:47:11,692 - INFO - hhea subsetting not needed
+2026-03-16 05:47:11,692 - INFO - maxp subsetting not needed
+2026-03-16 05:47:11,692 - INFO - OS/2 subsetting not needed
+2026-03-16 05:47:11,706 - INFO - hmtx subsetted
+2026-03-16 05:47:11,706 - INFO - VDMX subsetting not needed
+2026-03-16 05:47:11,709 - INFO - cmap subsetted
+2026-03-16 05:47:11,709 - INFO - fpgm subsetting not needed
+2026-03-16 05:47:11,709 - INFO - prep subsetting not needed
+2026-03-16 05:47:11,709 - INFO - cvt  subsetting not needed
+2026-03-16 05:47:11,712 - INFO - loca subsetting not needed
+2026-03-16 05:47:11,712 - INFO - post subsetted
+2026-03-16 05:47:11,712 - INFO - gasp subsetting not needed
+2026-03-16 05:47:11,712 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-16 05:47:11,712 - INFO - name subsetting not needed
+2026-03-16 05:47:11,712 - INFO - glyf subsetted
+2026-03-16 05:47:11,712 - INFO - head pruned
+2026-03-16 05:47:11,712 - INFO - OS/2 Unicode ranges pruned: [0, 1, 63, 67]
+2026-03-16 05:47:11,718 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-16 05:47:11,719 - INFO - glyf pruned
+2026-03-16 05:47:11,726 - INFO - name pruned
+2026-03-16 05:47:11,824 - INFO - maxp pruned
+2026-03-16 05:47:11,824 - INFO - LTSH dropped
+2026-03-16 05:47:11,824 - INFO - hdmx dropped
+2026-03-16 05:47:11,824 - INFO - cmap pruned
+2026-03-16 05:47:11,824 - INFO - kern dropped
+2026-03-16 05:47:11,824 - INFO - post pruned
+2026-03-16 05:47:11,826 - INFO - PCLT dropped
+2026-03-16 05:47:11,826 - INFO - JSTF dropped
+2026-03-16 05:47:11,826 - INFO - DSIG dropped
+2026-03-16 05:47:11,826 - INFO - GDEF dropped
+2026-03-16 05:47:11,826 - INFO - GPOS dropped
+2026-03-16 05:47:11,826 - INFO - GSUB dropped
+2026-03-16 05:47:11,832 - INFO - glyf pruned
+2026-03-16 05:47:11,832 - INFO - Added gid0 to subset
+2026-03-16 05:47:11,832 - INFO - Added first four glyphs to subset
+2026-03-16 05:47:11,832 - INFO - Closing glyph list over 'glyf': 66 glyphs before
+2026-03-16 05:47:11,836 - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0627', 'uni0628', 'uni0634', 'uni0637', 'uni0644', 'uni0646', 'v', 'x', 'y', 'zero']
+2026-03-16 05:47:11,837 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 39, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96, 112, 113, 909, 911, 949, 961, 989, 997]
+2026-03-16 05:47:11,837 - INFO - Closed glyph list over 'glyf': 73 glyphs after
+2026-03-16 05:47:11,837 - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'acute', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'grave', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'parenleft', 'parenright', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'uni0627', 'uni0628', 'uni0633', 'uni0634', 'uni0637', 'uni0644', 'uni0646', 'uni066E', 'uni06BA', 'uniFBB3', 'uniFBB7', 'v', 'x', 'y', 'zero']
+2026-03-16 05:47:11,837 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 11, 12, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 39, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 94, 96, 112, 113, 141, 909, 911, 945, 949, 961, 989, 997, 1320, 1325, 1327, 1551]
+2026-03-16 05:47:11,837 - INFO - Retaining 73 glyphs
+2026-03-16 05:47:11,840 - INFO - head subsetting not needed
+2026-03-16 05:47:11,840 - INFO - hhea subsetting not needed
+2026-03-16 05:47:11,840 - INFO - maxp subsetting not needed
+2026-03-16 05:47:11,840 - INFO - OS/2 subsetting not needed
+2026-03-16 05:47:11,934 - INFO - hmtx subsetted
+2026-03-16 05:47:11,938 - INFO - VDMX subsetting not needed
+2026-03-16 05:47:11,940 - INFO - cmap subsetted
+2026-03-16 05:47:11,940 - INFO - fpgm subsetting not needed
+2026-03-16 05:47:11,940 - INFO - prep subsetting not needed
+2026-03-16 05:47:11,940 - INFO - cvt  subsetting not needed
+2026-03-16 05:47:11,940 - INFO - loca subsetting not needed
+2026-03-16 05:47:11,940 - INFO - post subsetted
+2026-03-16 05:47:11,940 - INFO - gasp subsetting not needed
+2026-03-16 05:47:11,940 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-16 05:47:11,940 - INFO - name subsetting not needed
+2026-03-16 05:47:11,940 - INFO - glyf subsetted
+2026-03-16 05:47:11,940 - INFO - head pruned
+2026-03-16 05:47:11,940 - INFO - OS/2 Unicode ranges pruned: [0, 1, 13, 67]
+2026-03-16 05:47:11,940 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-16 05:47:11,940 - INFO - glyf pruned
+2026-03-16 05:47:11,956 - INFO - name pruned
+2026-03-16 05:47:12,056 - INFO - maxp pruned
+2026-03-16 05:47:12,058 - INFO - LTSH dropped
+2026-03-16 05:47:12,058 - INFO - hdmx dropped
+2026-03-16 05:47:12,058 - INFO - cmap pruned
+2026-03-16 05:47:12,058 - INFO - kern dropped
+2026-03-16 05:47:12,058 - INFO - post pruned
+2026-03-16 05:47:12,058 - INFO - PCLT dropped
+2026-03-16 05:47:12,058 - INFO - DSIG dropped
+2026-03-16 05:47:12,058 - INFO - GDEF dropped
+2026-03-16 05:47:12,058 - INFO - GPOS dropped
+2026-03-16 05:47:12,058 - INFO - GSUB dropped
+2026-03-16 05:47:12,070 - INFO - glyf pruned
+2026-03-16 05:47:12,074 - INFO - Added gid0 to subset
+2026-03-16 05:47:12,076 - INFO - Added first four glyphs to subset
+2026-03-16 05:47:12,076 - INFO - Closing glyph list over 'glyf': 25 glyphs before
+2026-03-16 05:47:12,076 - INFO - Glyph names: ['.notdef', 'G', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-16 05:47:12,076 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112]
+2026-03-16 05:47:12,076 - INFO - Closed glyph list over 'glyf': 26 glyphs after
+2026-03-16 05:47:12,076 - INFO - Glyph names: ['.notdef', 'G', 'acute', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-16 05:47:12,079 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112, 141]
+2026-03-16 05:47:12,079 - INFO - Retaining 26 glyphs
+2026-03-16 05:47:12,079 - INFO - head subsetting not needed
+2026-03-16 05:47:12,079 - INFO - hhea subsetting not needed
+2026-03-16 05:47:12,079 - INFO - maxp subsetting not needed
+2026-03-16 05:47:12,079 - INFO - OS/2 subsetting not needed
+2026-03-16 05:47:12,082 - INFO - hmtx subsetted
+2026-03-16 05:47:12,082 - INFO - VDMX subsetting not needed
+2026-03-16 05:47:12,089 - INFO - cmap subsetted
+2026-03-16 05:47:12,090 - INFO - fpgm subsetting not needed
+2026-03-16 05:47:12,090 - INFO - prep subsetting not needed
+2026-03-16 05:47:12,091 - INFO - cvt  subsetting not needed
+2026-03-16 05:47:12,091 - INFO - loca subsetting not needed
+2026-03-16 05:47:12,091 - INFO - post subsetted
+2026-03-16 05:47:12,091 - INFO - gasp subsetting not needed
+2026-03-16 05:47:12,091 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-16 05:47:12,091 - INFO - name subsetting not needed
+2026-03-16 05:47:12,091 - INFO - glyf subsetted
+2026-03-16 05:47:12,091 - INFO - head pruned
+2026-03-16 05:47:12,091 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-16 05:47:12,091 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-16 05:47:12,091 - INFO - glyf pruned
+2026-03-16 05:47:12,176 - INFO - name pruned
+2026-03-16 05:47:12,593 - ERROR - SMTP Fallback Failed: [Errno 22] Invalid argument
+2026-03-16 05:59:20,186 - ERROR - SMTP Fallback Failed: [Errno 22] Invalid argument
+2026-03-16 05:59:20,189 - INFO - Password reset email status for lyceealmansour282@gmail.com: False
+2026-03-16 05:59:51,324 - INFO - Loading font CairoCustom from C:\Users\Dell\Desktop\Nouveau dossier (7)\lyceeAL-Mansour\server\fonts\Cairo-Regular.ttf
+2026-03-16 05:59:51,324 - ERROR - Failed to load font CairoCustom: Not a TrueType or OpenType font (bad sfntVersion)
+2026-03-16 05:59:51,324 - INFO - Loading font ArialCustom from C:\Windows\Fonts\arial.ttf
+2026-03-16 05:59:51,601 - INFO - maxp pruned
+2026-03-16 05:59:51,603 - INFO - LTSH dropped
+2026-03-16 05:59:51,603 - INFO - hdmx dropped
+2026-03-16 05:59:51,603 - INFO - cmap pruned
+2026-03-16 05:59:51,603 - INFO - kern dropped
+2026-03-16 05:59:51,603 - INFO - post pruned
+2026-03-16 05:59:51,603 - INFO - PCLT dropped
+2026-03-16 05:59:51,603 - INFO - JSTF dropped
+2026-03-16 05:59:51,603 - INFO - DSIG dropped
+2026-03-16 05:59:51,603 - INFO - GDEF dropped
+2026-03-16 05:59:51,603 - INFO - GPOS dropped
+2026-03-16 05:59:51,603 - INFO - GSUB dropped
+2026-03-16 05:59:51,617 - INFO - glyf pruned
+2026-03-16 05:59:51,624 - INFO - Added gid0 to subset
+2026-03-16 05:59:51,624 - INFO - Added first four glyphs to subset
+2026-03-16 05:59:51,624 - INFO - Closing glyph list over 'glyf': 40 glyphs before
+2026-03-16 05:59:51,624 - INFO - Glyph names: ['.notdef', 'E', 'S', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'zero']
+2026-03-16 05:59:51,624 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 40, 54, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 85, 86, 87, 88, 94, 96]
+2026-03-16 05:59:51,624 - INFO - Closed glyph list over 'glyf': 40 glyphs after
+2026-03-16 05:59:51,624 - INFO - Glyph names: ['.notdef', 'E', 'S', 'a', 'at', 'b', 'braceleft', 'braceright', 'c', 'd', 'e', 'eight', 'f', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'period', 'quotesingle', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'zero']
+2026-03-16 05:59:51,634 - INFO - Glyph IDs:   [0, 1, 2, 3, 10, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 35, 40, 54, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 85, 86, 87, 88, 94, 96]
+2026-03-16 05:59:51,637 - INFO - Retaining 40 glyphs
+2026-03-16 05:59:51,637 - INFO - head subsetting not needed
+2026-03-16 05:59:51,637 - INFO - hhea subsetting not needed
+2026-03-16 05:59:51,639 - INFO - maxp subsetting not needed
+2026-03-16 05:59:51,639 - INFO - OS/2 subsetting not needed
+2026-03-16 05:59:51,646 - INFO - hmtx subsetted
+2026-03-16 05:59:51,646 - INFO - VDMX subsetting not needed
+2026-03-16 05:59:51,646 - INFO - cmap subsetted
+2026-03-16 05:59:51,646 - INFO - fpgm subsetting not needed
+2026-03-16 05:59:51,650 - INFO - prep subsetting not needed
+2026-03-16 05:59:51,650 - INFO - cvt  subsetting not needed
+2026-03-16 05:59:51,651 - INFO - loca subsetting not needed
+2026-03-16 05:59:51,651 - INFO - post subsetted
+2026-03-16 05:59:51,651 - INFO - gasp subsetting not needed
+2026-03-16 05:59:51,653 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-16 05:59:51,653 - INFO - name subsetting not needed
+2026-03-16 05:59:51,653 - INFO - glyf subsetted
+2026-03-16 05:59:51,653 - INFO - head pruned
+2026-03-16 05:59:51,653 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-16 05:59:51,653 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-16 05:59:51,653 - INFO - glyf pruned
+2026-03-16 05:59:51,670 - INFO - name pruned
+2026-03-16 05:59:51,736 - INFO - maxp pruned
+2026-03-16 05:59:51,736 - INFO - LTSH dropped
+2026-03-16 05:59:51,736 - INFO - hdmx dropped
+2026-03-16 05:59:51,736 - INFO - cmap pruned
+2026-03-16 05:59:51,736 - INFO - kern dropped
+2026-03-16 05:59:51,736 - INFO - post pruned
+2026-03-16 05:59:51,736 - INFO - PCLT dropped
+2026-03-16 05:59:51,740 - INFO - JSTF dropped
+2026-03-16 05:59:51,740 - INFO - DSIG dropped
+2026-03-16 05:59:51,740 - INFO - GDEF dropped
+2026-03-16 05:59:51,740 - INFO - GPOS dropped
+2026-03-16 05:59:51,740 - INFO - GSUB dropped
+2026-03-16 05:59:51,750 - INFO - glyf pruned
+2026-03-16 05:59:51,752 - INFO - Added gid0 to subset
+2026-03-16 05:59:51,752 - INFO - Added first four glyphs to subset
+2026-03-16 05:59:51,752 - INFO - Closing glyph list over 'glyf': 55 glyphs before
+2026-03-16 05:59:51,752 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'x', 'y', 'zero']
+2026-03-16 05:59:51,752 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 91, 92, 94, 96, 112, 113]
+2026-03-16 05:59:51,752 - INFO - Closed glyph list over 'glyf': 57 glyphs after
+2026-03-16 05:59:51,752 - INFO - Glyph names: ['.notdef', 'A', 'C', 'E', 'F', 'I', 'L', 'M', 'N', 'O', 'R', 'S', 'T', 'V', 'Y', 'a', 'acute', 'b', 'braceleft', 'braceright', 'c', 'colon', 'd', 'e', 'eacute', 'egrave', 'eight', 'five', 'four', 'g', 'glyph00001', 'glyph00002', 'grave', 'h', 'hyphen', 'i', 'j', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'r', 's', 'seven', 'six', 'space', 't', 'three', 'two', 'u', 'x', 'y', 'zero']
+2026-03-16 05:59:51,752 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 36, 38, 40, 41, 44, 47, 48, 49, 50, 53, 54, 55, 57, 60, 67, 68, 69, 70, 71, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 91, 92, 94, 96, 112, 113, 141]
+2026-03-16 05:59:51,752 - INFO - Retaining 57 glyphs
+2026-03-16 05:59:51,752 - INFO - head subsetting not needed
+2026-03-16 05:59:51,752 - INFO - hhea subsetting not needed
+2026-03-16 05:59:51,752 - INFO - maxp subsetting not needed
+2026-03-16 05:59:51,752 - INFO - OS/2 subsetting not needed
+2026-03-16 05:59:51,771 - INFO - hmtx subsetted
+2026-03-16 05:59:51,771 - INFO - VDMX subsetting not needed
+2026-03-16 05:59:51,771 - INFO - cmap subsetted
+2026-03-16 05:59:51,771 - INFO - fpgm subsetting not needed
+2026-03-16 05:59:51,774 - INFO - prep subsetting not needed
+2026-03-16 05:59:51,774 - INFO - cvt  subsetting not needed
+2026-03-16 05:59:51,775 - INFO - loca subsetting not needed
+2026-03-16 05:59:51,775 - INFO - post subsetted
+2026-03-16 05:59:51,775 - INFO - gasp subsetting not needed
+2026-03-16 05:59:51,776 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-16 05:59:51,776 - INFO - name subsetting not needed
+2026-03-16 05:59:51,779 - INFO - glyf subsetted
+2026-03-16 05:59:51,780 - INFO - head pruned
+2026-03-16 05:59:51,780 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-16 05:59:51,780 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-16 05:59:51,782 - INFO - glyf pruned
+2026-03-16 05:59:51,790 - INFO - name pruned
+2026-03-16 05:59:51,853 - INFO - maxp pruned
+2026-03-16 05:59:51,861 - INFO - LTSH dropped
+2026-03-16 05:59:51,861 - INFO - hdmx dropped
+2026-03-16 05:59:51,861 - INFO - cmap pruned
+2026-03-16 05:59:51,861 - INFO - kern dropped
+2026-03-16 05:59:51,861 - INFO - post pruned
+2026-03-16 05:59:51,861 - INFO - PCLT dropped
+2026-03-16 05:59:51,861 - INFO - DSIG dropped
+2026-03-16 05:59:51,861 - INFO - GDEF dropped
+2026-03-16 05:59:51,861 - INFO - GPOS dropped
+2026-03-16 05:59:51,861 - INFO - GSUB dropped
+2026-03-16 05:59:51,870 - INFO - glyf pruned
+2026-03-16 05:59:51,874 - INFO - Added gid0 to subset
+2026-03-16 05:59:51,876 - INFO - Added first four glyphs to subset
+2026-03-16 05:59:51,876 - INFO - Closing glyph list over 'glyf': 25 glyphs before
+2026-03-16 05:59:51,877 - INFO - Glyph names: ['.notdef', 'G', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-16 05:59:51,877 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112]
+2026-03-16 05:59:51,877 - INFO - Closed glyph list over 'glyf': 26 glyphs after
+2026-03-16 05:59:51,877 - INFO - Glyph names: ['.notdef', 'G', 'acute', 'b', 'braceleft', 'braceright', 'colon', 'e', 'eacute', 'eight', 'five', 'four', 'glyph00001', 'glyph00002', 'hyphen', 'l', 'n', 'nine', 'one', 'r', 'seven', 'six', 'space', 'three', 'two', 'zero']
+2026-03-16 05:59:51,880 - INFO - Glyph IDs:   [0, 1, 2, 3, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 42, 69, 72, 79, 81, 85, 94, 96, 112, 141]
+2026-03-16 05:59:51,880 - INFO - Retaining 26 glyphs
+2026-03-16 05:59:51,880 - INFO - head subsetting not needed
+2026-03-16 05:59:51,880 - INFO - hhea subsetting not needed
+2026-03-16 05:59:51,880 - INFO - maxp subsetting not needed
+2026-03-16 05:59:51,880 - INFO - OS/2 subsetting not needed
+2026-03-16 05:59:51,885 - INFO - hmtx subsetted
+2026-03-16 05:59:51,886 - INFO - VDMX subsetting not needed
+2026-03-16 05:59:51,886 - INFO - cmap subsetted
+2026-03-16 05:59:51,886 - INFO - fpgm subsetting not needed
+2026-03-16 05:59:51,886 - INFO - prep subsetting not needed
+2026-03-16 05:59:51,886 - INFO - cvt  subsetting not needed
+2026-03-16 05:59:51,889 - INFO - loca subsetting not needed
+2026-03-16 05:59:51,890 - INFO - post subsetted
+2026-03-16 05:59:51,890 - INFO - gasp subsetting not needed
+2026-03-16 05:59:51,890 - WARNING - meta NOT subset; don't know how to subset; dropped
+2026-03-16 05:59:51,891 - INFO - name subsetting not needed
+2026-03-16 05:59:51,891 - INFO - glyf subsetted
+2026-03-16 05:59:51,891 - INFO - head pruned
+2026-03-16 05:59:51,891 - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2026-03-16 05:59:51,891 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-03-16 05:59:51,891 - INFO - glyf pruned
+2026-03-16 05:59:51,908 - INFO - name pruned
+2026-03-16 05:59:52,083 - ERROR - SMTP Fallback Failed: [Errno 22] Invalid argument

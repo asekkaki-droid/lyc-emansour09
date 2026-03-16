@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة التحكم الشاملة | ثانوية المنصور</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body { font-family: 'Cairo', sans-serif; background: #f0f2f5; display: flex; min-height: 100vh; margin: 0; }
+        .sidebar { width: 280px; background: var(--primary-dark); color: white; display: flex; flex-direction: column; position: fixed; height: 100vh; right: 0; transition: 0.3s; z-index: 1000; }
+        .main-content { margin-right: 280px; flex: 1; padding: 40px; }
+        
+        .side-link { padding: 15px 30px; display: flex; align-items: center; gap: 15px; color: rgba(255,255,255,0.7); text-decoration: none; transition: 0.3s; cursor: pointer; }
+        .side-link:hover, .side-link.active { background: rgba(255,255,255,0.1); color: white; border-right: 4px solid var(--primary-accent); }
+        
+        .dash-card { background: white; border-radius: 12px; padding: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 30px; }
+        .section-title { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 2px solid #f0f2f5; padding-bottom: 15px; }
+        .section-title h2 { margin: 0; color: var(--primary-dark); font-size: 1.5rem; }
+        
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+        .stat-input-card { background: #f8fafc; padding: 20px; border-radius: 10px; border: 1px solid #e2e8f0; }
+        .stat-input-card label { display: block; margin-bottom: 10px; font-weight: 600; }
+        .stat-input-card input { width: 100%; padding: 10px; border: 1px solid #cbd5e1; border-radius: 6px; }
+
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th { text-align: right; padding: 15px; background: #f8fafc; color: #64748b; font-weight: 700; }
+        td { padding: 15px; border-bottom: 1px solid #f1f5f9; }
+        
+        .btn-sm { padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; border: none; cursor: pointer; transition: 0.2s; }
+        .btn-danger { background: #fee2e2; color: #ef4444; }
+        .btn-danger:hover { background: #fecaca; }
+        
+        .content-section { display: none; }
+        .content-section.active { display: block; }
+        
+        .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 2000; align-items: center; justify-content: center; }
+        .modal-content { background: white; padding: 30px; border-radius: 15px; width: 500px; max-width: 90%; max-height: 90vh; overflow-y: auto; }
+        
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; margin-bottom: 8px; font-weight: 600; }
+        .form-control { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #ddd; box-sizing: border-box; }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div style="padding: 30px; text-align: center;">
+            <i class="fas fa-user-shield fa-2x"></i>
+            <h3 style="margin-top: 10px;">لوحة المدير</h3>
+        </div>
+        <div class="side-link active" onclick="showSection('stats')"><i class="fas fa-chart-bar"></i> الإحصائيات</div>
+        <div class="side-link" onclick="showSection('announcements')"><i class="fas fa-bullhorn"></i> الإعلانات</div>
+        <div class="side-link" onclick="showSection('staff')"><i class="fas fa-users"></i> الطاقم</div>
+        <div class="side-link" onclick="showSection('activities')"><i class="fas fa-calendar-alt"></i> الأنشطة</div>
+        <div class="side-link" onclick="showSection('gallery')"><i class="fas fa-images"></i> المعرض</div>
+        <div class="side-link" onclick="showSection('student-space')"><i class="fas fa-graduation-cap"></i> فضاء التلميذ</div>
+        <div class="side-link" onclick="showSection('messages')"><i class="fas fa-envelope"></i> الرسائل</div>
+        <a href="index.html" class="side-link" style="margin-top: auto; color: #fda4af;"><i class="fas fa-sign-out-alt"></i> خروج</a>
+    </div>
+
+    <div class="main-content">
+        <!-- Stats Section -->
+        <section id="section-stats" class="content-section active">
+            <div class="dash-card">
+                <div class="section-title">
+                    <h2>إدارة لوحة تحكم مؤسسة الثانوية الاعدادية المنصور بمكناس</h2>
+                    <button class="btn nav-cta" onclick="saveStats()">حفظ التغييرات</button>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-input-card">
+                        <label>عدد التلاميذ</label>
+                        <input type="number" id="stats-students" value="0">
+                    </div>
+                    <div class="stat-input-card">
+                        <label>عدد الأساتذة</label>
+                        <input type="number" id="stats-teachers" value="0">
+                    </div>
+                    <div class="stat-input-card">
+                        <label>سنوات الخبرة</label>
+                        <input type="number" id="stats-experience" value="0">
+                    </div>
+                    <div class="stat-input-card">
+                        <label>جوائز التفوق</label>
+                        <input type="number" id="stats-awards" value="0">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Messages Section -->
+        <section id="section-messages" class="content-section">
+            <div class="dash-card">
+                <div class="section-title">
+                    <h2>الرسائل الواردة</h2>
+                </div>
+                <table>
+                    <thead><tr><th>المرسل</th><th>النوع</th><th>الموضوع</th><th>التاريخ</th><th>إجراء</th></tr></thead>
+                    <tbody id="table-messages"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Dynamic Sections Component (Announcements, Staff, etc.) -->
+        <div id="dynamic-sections"></div>
+    </div>
+
+    <!-- Generic Modal -->
+    <div class="modal" id="form-modal">
+        <div class="modal-content">
+            <h3 id="modal-title">إضافة عنصر</h3>
+            <form id="generic-form"></form>
+            <div style="display: flex; gap: 10px; margin-top: 20px;">
+                <button type="submit" form="generic-form" class="btn nav-cta" style="flex: 1;">حفظ</button>
+                <button type="button" class="btn btn-outline" onclick="closeModal()" style="flex: 1;">إلغاء</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        if (!localStorage.getItem('adminToken')) window.location.href = 'admin-login.html';
+
+        const sections = ['stats', 'announcements', 'staff', 'activities', 'gallery', 'student-space', 'messages'];
+        const API_BASE = window.location.protocol === 'file:' ? 'http://127.0.0.1:5000' : '';
+        const apiBase = '/api';
+
+        function showSection(id) {
+            document.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
+            document.querySelectorAll('.side-link').forEach(l => l.classList.remove('active'));
+            document.getElementById('section-' + id).classList.add('active');
+            event.currentTarget.classList.add('active');
+            loadData(id);
+        }
+
+        async function loadData(id) {
+            const container = document.getElementById(`table-${id}`);
+            if (id !== 'stats' && container) container.innerHTML = '<tr><td colspan="100%" style="text-align:center;">جاري التحميل...</td></tr>';
+            
+            const endpoint = id === 'student-space' ? 'resources' : id;
+            const endpoints = [`${API_BASE}${apiBase}/${endpoint}`, `${apiBase}/${endpoint}`.replace('/api', '')].filter((v, i, a) => a.indexOf(v) === i);
+            
+            let response = null;
+            let lastError = null;
+
+            for (const url of endpoints) {
+                try {
+                    const res = await fetch(url);
+                    if (res.ok) {
+                        response = res;
+                        break;
+                    } else if (res.status === 404) continue;
+                } catch (err) {
+                    lastError = err;
+                }
+            }
+
+            try {
+                if (!response) throw new Error(lastError?.message || 'Endpoint not found');
+                const data = await response.json();
+
+                if (id === 'stats') {
+                    document.getElementById('stats-students').value = data.students || 0;
+                    document.getElementById('stats-teachers').value = data.teachers || 0;
+                    document.getElementById('stats-experience').value = data.experience || 0;
+                    document.getElementById('stats-awards').value = data.awards || 0;
+                } else if (id === 'messages') {
+                    renderTable('messages', data, ['sender_name', 'msg_type', 'subject', 'created_at']);
+                } else {
+                    renderTable(id, data);
+                }
+            } catch (err) {
+                console.error(`Error loading ${id}:`, err);
+                const tbody = document.getElementById(`table-${id}`);
+                if (tbody) tbody.innerHTML = `<tr><td colspan="100%" style="text-align:center; color:red;">فشل تحميل البيانات. (${err.message})</td></tr>`;
+                else if (id === 'stats') alert('فشل تحميل الإحصائيات: ' + err.message);
+            }
+        }
+
+        function renderTable(id, data, fields) {
+            const tbody = document.getElementById(`table-${id}`);
+            if (!tbody) return;
+            if (data.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="100%" style="text-align:center;">لا توجد بيانات حالياً</td></tr>';
+                return;
+            }
+            tbody.innerHTML = data.map(item => `
+                <tr>
+                    ${(fields || Object.keys(item).filter(k => !['id', 'content', 'message', 'image_url', 'pdf_url', 'link_url'].includes(k))).map(f => `<td>${item[f]}</td>`).join('')}
+                    <td><button class="btn-sm btn-danger" onclick="deleteItem('${id}', ${item.id})">حذف</button></td>
+                </tr>
+            `).join('');
+        }
+
+        async function saveStats() {
+            const data = {
+                students: document.getElementById('stats-students').value,
+                teachers: document.getElementById('stats-teachers').value,
+                experience: document.getElementById('stats-experience').value,
+                awards: document.getElementById('stats-awards').value
+            };
+            
+            const endpoints = [`${API_BASE}${apiBase}/stats`, '/stats'].filter((v, i, a) => a.indexOf(v) === i);
+            for (const url of endpoints) {
+                try {
+                    const res = await fetch(url, {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify(data)
+                    });
+                    if (res.ok) {
+                        const alertBox = document.createElement('div');
+                        alertBox.style.cssText = 'position:fixed; top:20px; left:50%; transform:translateX(-50%); padding:15px 30px; background:#c6f6d5; color:#22543d; border-radius:10px; font-weight:bold; box-shadow:0 10px 15px -3px rgba(0,0,0,0.1); z-index:9999; border:2px solid #48bb78;';
+                        alertBox.innerHTML = '<i class="fas fa-check-circle"></i> تم تحديث الإحصائيات بنجاح ✅';
+                        document.body.appendChild(alertBox);
+                        setTimeout(() => alertBox.remove(), 3000);
+                        return;
+                    }
+                } catch (err) {}
+            }
+            alert('فشل حفظ الإحصائيات. يرجى التحقق من الاتصال.');
+        }
+
+        async function deleteItem(id, itemId) {
+            if (!confirm('هل أنت متأكد من الحذف؟')) return;
+            const endpoint = id === 'student-space' ? 'resources' : id;
+            const endpoints = [`${API_BASE}${apiBase}/${endpoint}?id=${itemId}`, `${apiBase}/${endpoint}?id=${itemId}`.replace('/api', '')].filter((v, i, a) => a.indexOf(v) === i);
+            
+            for (const url of endpoints) {
+               try {
+                   const res = await fetch(url, { method: 'DELETE' });
+                   if (res.ok) { loadData(id); return; }
+               } catch (err) {}
+            }
+            alert('فشل الحذف. يرجى المحاولة لاحقاً.');
+        }
+
+        // Initialize Dynamic UI
+        const dynContainer = document.getElementById('dynamic-sections');
+        const configs = {
+            'announcements': { title: 'إدارة الإعلانات', fields: [{name:'title', label:'العنوان'}, {name:'type', label:'النوع', type:'select', options:['news','exam','activity']}, {name:'image_url', label:'رفع الصور', type:'file', multiple:true}, {name:'pdf_url', label:'رفع ملف PDF (اختياري)', type:'file'}, {name:'content', label:'المحتوى', type:'textarea'}] },
+            'staff': { title: 'إدارة الطاقم', fields: [{name:'name', label:'الاسم'}, {name:'role', label:'المنصب'}, {name:'staff_type', label:'النوع', type:'select', options:['admin','teaching']}, {name:'image_url', label:'رفع الصورة', type:'file'}] },
+            'activities': { title: 'إدارة الأنشطة', fields: [{name:'title', label:'العنوان'}, {name:'content', label:'الوصف', type:'textarea'}, {name:'image_url', label:'رفع الصور', type:'file', multiple:true}] },
+            'gallery': { title: 'إدارة المعرض', fields: [{name:'title', label:'العنوان'}, {name:'image_url', label:'رفع الصورة', type:'file'}, {name:'category', label:'التصنيف', type:'select', options:['activities','school','students']}] },
+            'student-space': { title: 'فضاء التلميذ', fields: [{name:'title', label:'العنوان'}, {name:'category', label:'التصنيف'}, {name:'description', label:'الوصف'}, {name:'link_url', label:'رفع الملف', type:'file'}] }
+        };
+
+        Object.keys(configs).forEach(id => {
+            const conf = configs[id];
+            dynContainer.innerHTML += `
+                <section id="section-${id}" class="content-section">
+                    <div class="dash-card">
+                        <div class="section-title">
+                            <h2>${conf.title}</h2>
+                            <button class="btn nav-cta" onclick="openModal('${id}')">إضافة جديد</button>
+                        </div>
+                        <table><tbody id="table-${id}"></tbody></table>
+                    </div>
+                </section>
+            `;
+        });
+
+        function openModal(id) {
+            const conf = configs[id];
+            const form = document.getElementById('generic-form');
+            document.getElementById('modal-title').innerText = conf.title;
+            form.innerHTML = conf.fields.map(f => `
+                <div class="form-group">
+                    <label>${f.label}</label>
+                    ${f.type === 'select' ? 
+                        `<select name="${f.name}" class="form-control">${f.options.map(o => `<option value="${o}">${o}</option>`).join('')}</select>` :
+                        f.type === 'textarea' ?
+                        `<textarea name="${f.name}" class="form-control" rows="4"></textarea>` :
+                        f.type === 'file' ?
+                        `<input type="file" name="${f.name}_file" class="form-control" ${f.multiple ? 'multiple' : ''}>` :
+                        `<input type="text" name="${f.name}" class="form-control">`
+                    }
+                </div>
+            `).join('');
+            form.onsubmit = (e) => handleSubmit(e, id);
+            document.getElementById('form-modal').style.display = 'flex';
+        }
+
+        function closeModal() { document.getElementById('form-modal').style.display = 'none'; }
+
+        async function handleSubmit(e, id) {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const data = {};
+            
+            // Handle File Uploads first
+            for (const field of configs[id].fields) {
+                if (field.type === 'file') {
+                    const fileInput = e.target.querySelector(`[name="${field.name}_file"]`);
+                    if (fileInput && fileInput.files.length > 0) {
+                        const uploadData = new FormData();
+                        if (field.multiple) {
+                            for (let i = 0; i < fileInput.files.length; i++) {
+                                uploadData.append('files', fileInput.files[i]);
+                            }
+                        } else {
+                            uploadData.append('file', fileInput.files[0]);
+                        }
+
+                        try {
+                            const uploadRes = await fetch(`${apiBase}/upload`, {
+                                method: 'POST',
+                                body: uploadData
+                            });
+                            const uploadResult = await uploadRes.json();
+                            if (uploadRes.ok) {
+                                data[field.name] = field.multiple ? uploadResult.urls.join(',') : uploadResult.url;
+                            } else {
+                                alert('فشل رفع الصور: ' + uploadResult.message);
+                                return;
+                            }
+                        } catch (err) {
+                            console.error('Upload error:', err);
+                            alert('خطأ أثناء رفع الصور.');
+                            return;
+                        }
+                    }
+                } else {
+                    data[field.name] = formData.get(field.name);
+                }
+            }
+
+            try {
+                const endpoint = id === 'student-space' ? 'resources' : id;
+                const res = await fetch(`${apiBase}/${endpoint}`, {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify(data)
+                });
+                const result = await res.json();
+                if (res.ok) {
+                    const alertBox = document.createElement('div');
+                    alertBox.style.cssText = 'position:fixed; top:20px; left:50%; transform:translateX(-50%); padding:15px 30px; background:#c6f6d5; color:#22543d; border-radius:10px; font-weight:bold; box-shadow:0 10px 15px -3px rgba(0,0,0,0.1); z-index:9999; border:2px solid #48bb78;';
+                    alertBox.innerHTML = `<i class="fas fa-check-circle"></i> ${result.message || 'تمت العملية بنجاح'} ✅`;
+                    document.body.appendChild(alertBox);
+                    setTimeout(() => alertBox.remove(), 3000);
+                    closeModal(); 
+                    loadData(id); 
+                } else {
+                    console.error('Submit error:', result);
+                    const errorBox = document.createElement('div');
+                    errorBox.style.cssText = 'padding:10px; background:#fff5f5; color:#c53030; border-radius:8px; margin-top:15px; font-weight:bold; text-align:center; border:1px solid #feb2b2;';
+                    errorBox.innerText = '❌ خطأ في الحفظ: ' + (result.message || 'تأكد من البيانات.');
+                    e.target.appendChild(errorBox);
+                    setTimeout(() => errorBox.remove(), 4000);
+                }
+            } catch (err) {
+                console.error(`Error saving ${id}:`, err);
+                
+                let technicalSuffix = `\n(Error: ${err.message})`;
+                try {
+                    const healthRes = await fetch('/api/health');
+                    const healthData = await healthRes.json();
+                    if (healthRes.ok) {
+                        technicalSuffix += `\n[Backend Status: UP - ${healthData.status}]`;
+                    }
+                } catch (hErr) {}
+
+                alert('حدث خطأ في الاتصال بالخادم. تأكد من تشغيل السيرفر ومن صحة الرابط.' + technicalSuffix);
+            }
+        }
+
+        loadData('stats');
+    </script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>طلب تنظيم نشاط | ثانوية المنصور الإعدادية</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body { font-family: 'Cairo', sans-serif; }
+        .page-header { padding: 120px 0 60px; background: var(--primary-dark); color: var(--white); text-align: center; }
+        
+        .contact-section { padding: 80px 0; }
+        .contact-grid { display: grid; grid-template-columns: 1fr 2fr; gap: 40px; }
+        
+        .contact-info { background: var(--primary-dark); color: var(--white); padding: 40px; border-radius: 20px; }
+        .contact-info h3 { color: var(--white); margin-bottom: 30px; }
+        .info-item { display: flex; align-items: center; gap: 15px; margin-bottom: 25px; }
+        .info-item i { font-size: 1.2rem; color: var(--primary-accent); background: var(--white); width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+        
+        .contact-form { background: var(--white); padding: 40px; border-radius: 20px; box-shadow: var(--shadow-lg); }
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; margin-bottom: 8px; font-weight: 600; }
+        .form-control { width: 100%; padding: 12px 16px; border-radius: 10px; border: 1px solid #e2e8f0; font-family: 'Cairo', sans-serif; transition: var(--transition); }
+        .form-control:focus { outline: none; border-color: var(--primary-accent); box-shadow: 0 0 0 3px rgba(18, 58, 122, 0.1); }
+        
+        .important-note { background: #fffbeb; border-right: 4px solid #f59e0b; padding: 15px; border-radius: 8px; margin-bottom: 30px; }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <i class="fas fa-school"></i>
+                <span>مؤسسة الثانوية الاعدادية المنصور بمكناس</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="about.html">من نحن</a></li>
+                <li><a href="announcements.html">الإعلانات</a></li>
+                <li><a href="activities.html">الأنشطة</a></li>
+                <li><a href="gallery.html">المعرض</a></li>
+                <li><a href="student-space.html">فضاء التلميذ</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+            <a href="request-activity.html" class="nav-cta active">طلب نشاط</a>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>طلب تنظيم نشاط</h1>
+            <p>ضع بصمتك في مدرستك من خلال اقتراح وتنظيم أنشطة مدرسية.</p>
+        </div>
+    </header>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>لماذا تنظم نشاطاً؟</h3>
+                    <p style="margin-bottom: 20px;">الأنشطة الموازية هي جزء أساسي من الحياة المدرسية وتساهم في:</p>
+                    <div class="info-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <div>
+                            <strong>تنمية المواهب والمهارات</strong>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-users"></i>
+                        <div>
+                            <strong>تعزيز العمل الجماعي</strong>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-star"></i>
+                        <div>
+                            <strong>خلق جو من الإبداع والمرح</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <div class="important-note">
+                        <p><i class="fas fa-info-circle"></i> يرجى ملء كافة المعلومات بدقة. سيتم مراجعة طلبكم من طرف الإدارة والرد عليكم في أقرب وقت.</p>
+                    </div>
+                    <form id="activityForm">
+                        <input type="hidden" name="msg_type" value="activity_request">
+                        <div class="form-group">
+                            <label>الاسم الكامل لمقدم الطلب</label>
+                            <input type="text" class="form-control" name="sender_name" required>
+                        </div>
+                        <div class="form-row" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                            <div class="form-group">
+                                <label>البريد الإلكتروني</label>
+                                <input type="email" class="form-control" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label>رقم الهاتف</label>
+                                <input type="tel" class="form-control" name="phone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>عنوان النشاط المقترح</label>
+                            <input type="text" class="form-control" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label>تفاصيل النشاط (الأهداف، التوقيت المقترح، والوسائل المطلوبة)</label>
+                            <textarea class="form-control" name="message" rows="6" required placeholder="يرجى ذكر تفاصيل النشاط هنا..."></textarea>
+                        </div>
+                        <button type="button" onclick="handleFinalActivitySubmit()" class="btn nav-cta" style="width: 100%; font-size: 1.1rem;">إرسال الطلب</button>
+                    </form>
+                    <div id="formStatus" style="margin-top: 20px; text-align: center;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>مؤسسة الثانوية الاعدادية المنصور بمكناس</h3>
+                    <p>المؤسسة التربوية الرائدة في تقديم تعليم متميز وبناء أجيال الغد بمكناس.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="announcements.html">الإعلانات</a></li>
+                        <li><a href="activities.html">الأنشطة</a></li>
+                        <li><a href="gallery.html">المعرض</a></li>
+                        <li><a href="student-space.html">فضاء التلميذ</a></li>
+                        <li><a href="privacy-policy.html">سياسة الخصوصية</a></li>
+                        <li><a href="contact.html">تواصل معنا</a></li>
+                        <li><a href="admin-login.html" style="color: #fda4af;"><i class="fas fa-lock"></i> إدارة الموقع</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>معلومات الاتصال</h3>
+                    <p><i class="fas fa-phone"></i> 05XXXXXXXX</p>
+                    <p><i class="fas fa-envelope"></i> lyceealmansour282@gmail.com</p>
+                    <p><i class="fas fa-location-dot"></i> مكناس، المغرب</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ثانوية المنصور الإعدادية. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const API_BASE = window.location.protocol === 'file:' ? 'http://127.0.0.1:5000' : '';
+
+        // GLOBAL FUNCTION - UNSTOPPABLE
+        async function handleFinalActivitySubmit() {
+            console.log("Ultimate Activity Handler Triggered!");
+            const form = document.getElementById('activityForm');
+            const status = document.getElementById('formStatus');
+            
+            if (!form.checkValidity()) {
+                form.reportValidity();
+                return;
+            }
+
+            // Show loading immediately
+            status.innerHTML = '<div style="padding: 15px; background: #ebf8ff; color: #2b6cb0; border-radius: 8px; margin-top: 15px; font-weight: bold; border: 1px solid #bee3f8; text-align: center;"><i class="fas fa-spinner fa-spin"></i> جاري إرسال طلبكم...</div>';
+            status.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            const formData = new FormData(form);
+            const data = Object.fromEntries(formData.entries());
+
+            // Multi-endpoint for reliability
+            const endpoints = [`${API_BASE}/api/messages`, `${API_BASE}/messages`].filter((v, i, a) => a.indexOf(v) === i);
+            let lastError = null;
+
+            for (const url of endpoints) {
+                try {
+                    console.log('Sending Activity to:', url);
+                    const res = await fetch(url, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(data)
+                    });
+
+                    if (res.ok) {
+                        const result = await res.json();
+                        status.innerHTML = `<div style="padding: 20px; background: #c6f6d5; color: #22543d; border-radius: 12px; margin-top: 20px; font-weight: bold; border: 2px solid #9ae6b4; text-align: center; border-right: 10px solid #48bb78; box-shadow: 0 4px 6px rgba(0,0,0,0.1); font-size: 1.1rem;">✅ ${result.message}</div>`;
+                        form.reset();
+                        status.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        return;
+                    } else if (res.status === 404) {
+                        continue;
+                    } else {
+                        const errorData = await res.json().catch(() => ({}));
+                        throw new Error(errorData.message || `Server Error (${res.status})`);
+                    }
+                } catch (err) {
+                    console.error('Fetch error:', err);
+                    lastError = err;
+                }
+            }
+
+            status.innerHTML = `<div style="padding: 15px; background: #fff5f5; color: #c53030; border-radius: 8px; margin-top: 15px; font-weight: bold; border: 1px solid #feb2b2; text-align: center; border-right: 10px solid #f56565;">❌ فشل الإرسال: ${lastError?.message || 'خطأ في الاتصال بالسيرفر (Network Error)'}</div>`;
+            console.error("Last activity submission error:", lastError);
+            status.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    </script>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/index.py",
+      "use": "@vercel/python"
+    },
+    {
+      "src": "client/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index.py" },
+    { "source": "/uploads/(.*)", "destination": "/api/index.py" },
+    { "source": "/", "destination": "/client/index.html" },
+    { "source": "/(.*)", "destination": "/client/$1" }
+  ]
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الإعلانات | ثانوية المنصور الإعدادية</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body { font-family: 'Cairo', sans-serif; }
+        .page-header {
+            padding: 120px 0 60px;
+            background: var(--primary-dark);
+            color: var(--white);
+            text-align: center;
+        }
+        .filter-bar {
+            background: var(--white);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: var(--shadow-sm);
+            margin-top: -40px;
+            margin-bottom: 60px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            position: relative;
+            z-index: 10;
+        }
+        .filter-btn {
+            padding: 8px 20px;
+            border-radius: 20px;
+            border: 1px solid #e2e8f0;
+            background: transparent;
+            cursor: pointer;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+        .filter-btn.active, .filter-btn:hover {
+            background: var(--primary-accent);
+            color: var(--white);
+            border-color: var(--primary-accent);
+        }
+        .announcements-grid { margin-bottom: 80px; }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <i class="fas fa-school"></i>
+                <span>ثانوية المنصور</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="about.html">من نحن</a></li>
+                <li><a href="announcements.html" class="active">الإعلانات</a></li>
+                <li><a href="activities.html">الأنشطة</a></li>
+                <li><a href="gallery.html">المعرض</a></li>
+                <li><a href="student-space.html">فضاء التلميذ</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+            <a href="request-activity.html" class="nav-cta">طلب نشاط</a>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>الإعلانات والمستجدات</h1>
+            <p>تابع آخر الأخبار والنتائج والأنشطة الخاصة بالمؤسسة.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="filter-bar">
+            <button class="filter-btn active" data-filter="all">الكل</button>
+            <button class="filter-btn" data-filter="exam">الامتحانات</button>
+            <button class="filter-btn" data-filter="result">النتائج</button>
+            <button class="filter-btn" data-filter="news">أخبار</button>
+            <button class="filter-btn" data-filter="activity">أنشطة</button>
+        </div>
+
+        <div class="announcement-grid" id="full-announcements">
+            <div class="loading">جاري التحميل...</div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>ثانوية المنصور</h3>
+                    <p>المؤسسة التربوية الرائدة في تقديم تعليم متميز وبناء أجيال الغد بمكناس.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="announcements.html">الإعلانات</a></li>
+                        <li><a href="activities.html">الأنشطة</a></li>
+                        <li><a href="gallery.html">المعرض</a></li>
+                        <li><a href="student-space.html">فضاء التلميذ</a></li>
+                        <li><a href="privacy-policy.html">سياسة الخصوصية</a></li>
+                        <li><a href="contact.html">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>معلومات الاتصال</h3>
+                    <p><i class="fas fa-phone"></i> 05XXXXXXXX</p>
+                    <p><i class="fas fa-envelope"></i> lyceealmansour282@gmail.com</p>
+                    <p><i class="fas fa-location-dot"></i> مكناس، المغرب</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ثانوية المنصور الإعدادية. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script>
+        // Additional filter logic
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelector('.filter-btn.active').classList.remove('active');
+                btn.classList.add('active');
+                const filter = btn.getAttribute('data-filter');
+                
+                // Fetch with filter (simulated here, but can call API with param)
+                // For now, we'll just handle it in app.js or here
+            });
+        });
+    </script>
+</body>
+</html>

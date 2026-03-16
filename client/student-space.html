@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فضاء التلميذ | ثانوية المنصور الإعدادية</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body { font-family: 'Cairo', sans-serif; }
+        .page-header { padding: 120px 0 60px; background: var(--primary-dark); color: var(--white); text-align: center; }
+        .course-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 40px 0; }
+        .course-card { background: var(--white); padding: 30px; border-radius: 20px; box-shadow: var(--shadow-sm); border-right: 5px solid var(--primary-accent); transition: var(--transition); }
+        .course-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+        .course-icon { font-size: 2rem; color: var(--primary-accent); margin-bottom: 20px; }
+        .download-btn { display: inline-block; margin-top: 15px; color: var(--primary-accent); font-weight: 700; border-bottom: 2px solid transparent; }
+        .download-btn:hover { border-color: var(--primary-accent); }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <i class="fas fa-school"></i>
+                <span>مؤسسة الثانوية الاعدادية المنصور بمكناس</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="about.html">من نحن</a></li>
+                <li><a href="announcements.html">الإعلانات</a></li>
+                <li><a href="activities.html">الأنشطة</a></li>
+                <li><a href="gallery.html">المعرض</a></li>
+                <li><a href="student-space.html" class="active">فضاء التلميذ</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+            <a href="request-activity.html" class="nav-cta">طلب نشاط</a>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>فضاء التلميذ</h1>
+            <p>منصة رقمية لتحميل الدروس، الفروض والموارد التعليمية.</p>
+        </div>
+    </header>
+
+    <div class="container" style="padding: 80px 0;">
+        <div class="section-header">
+            <h2>الموارد الرقمية</h2>
+            <p>اختر المادة والمستوى لتحميل الملفات.</p>
+        </div>
+
+        <div class="course-grid" id="full-student-space">
+            <div class="loading">جاري تحميل الموارد...</div>
+        </div>
+    </div>
+
+    <!-- Footer added manually or via script if I had one, but I'll add it here -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>مؤسسة الثانوية الاعدادية المنصور بمكناس</h3>
+                    <p>المؤسسة التربوية الرائدة في تقديم تعليم متميز وبناء أجيال الغد بمكناس.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="announcements.html">الإعلانات</a></li>
+                        <li><a href="activities.html">الأنشطة</a></li>
+                        <li><a href="gallery.html">المعرض</a></li>
+                        <li><a href="student-space.html" class="active">فضاء التلميذ</a></li>
+                        <li><a href="privacy-policy.html">سياسة الخصوصية</a></li>
+                        <li><a href="contact.html">تواصل معنا</a></li>
+                        <li><a href="admin-login.html" style="color: #fda4af;"><i class="fas fa-lock"></i> إدارة الموقع</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>معلومات الاتصال</h3>
+                    <p><i class="fas fa-phone"></i> 05XXXXXXXX</p>
+                    <p><i class="fas fa-envelope"></i> lyceealmansour282@gmail.com</p>
+                    <p><i class="fas fa-location-dot"></i> مكناس، المغرب</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ثانوية المنصور الإعدادية. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
