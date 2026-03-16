@@ -258,44 +258,25 @@ def load_user(user_id):
 def generate_contact_pdf(data):
     # Professional PDF Generation for Contact Messages
     pdf = FPDF()
-    # Add Arabic font support
-    font_name = "CairoCustom"
+    # Add Arabic font support (Amiri)
+    font_name = "Amiri-Regular"
     
     # Define potential font locations
     server_dir = os.path.abspath(os.path.dirname(__file__))
     local_fonts_dir = os.path.join(server_dir, "fonts")
     tmp_fonts_dir = "/tmp/fonts"
     
-    if not os.path.exists(tmp_fonts_dir):
-        try: os.makedirs(tmp_fonts_dir)
-        except: pass
-
-    # Always try to ensure Cairo is downloaded & available in /tmp for Vercel
-    cairo_reg = os.path.join(tmp_fonts_dir, "Cairo-Regular.ttf")
-    cairo_bold = os.path.join(tmp_fonts_dir, "Cairo-Bold.ttf")
+    reg_font_path = ""
+    if os.path.exists(os.path.join(local_fonts_dir, "Amiri-Regular.ttf")):
+        reg_font_path = os.path.join(local_fonts_dir, "Amiri-Regular.ttf")
+    elif os.path.exists(os.path.join(tmp_fonts_dir, "Amiri-Regular.ttf")):
+        reg_font_path = os.path.join(tmp_fonts_dir, "Amiri-Regular.ttf")
     
-    try:
-        import urllib.request
-        # Download fonts to /tmp if they do not exist
-        if not os.path.exists(cairo_reg):
-            urllib.request.urlretrieve("https://github.com/google/fonts/raw/main/ofl/cairo/Cairo-Regular.ttf", cairo_reg)
-        if not os.path.exists(cairo_bold):
-            urllib.request.urlretrieve("https://github.com/google/fonts/raw/main/ofl/cairo/Cairo-Bold.ttf", cairo_bold)
-            
-        pdf.add_font(font_name, "", cairo_reg)
-        pdf.add_font(font_name, "B", cairo_bold)
-        logger.info("Successfully loaded Cairo Custom font for Arabic support")
-    except Exception as e:
-        logger.error(f"Failed to load / download Arabic font: {e}")
-        # Fallback to local if download fails
-        reg_local = os.path.join(local_fonts_dir, "Cairo-Regular.ttf")
-        bold_local = os.path.join(local_fonts_dir, "Cairo-Bold.ttf")
-        if os.path.exists(reg_local):
-            pdf.add_font(font_name, "", reg_local)
-            if os.path.exists(bold_local):
-                pdf.add_font(font_name, "B", bold_local)
-        else:
-            font_name = "Helvetica" # Last resort
+    if reg_font_path:
+        pdf.add_font(font_name, "", reg_font_path)
+    else:
+        font_name = "Helvetica" # Fallback if font missing
+        logger.warning("Amiri font not found. Falling back to Helvetica (Arabic may not render correctly).")
 
     pdf.add_page()
     
@@ -321,9 +302,9 @@ def generate_contact_pdf(data):
     msg_type = data.get('msg_type', '')
     title_text = "Rapport de Message"
     if msg_type == 'activity_request':
-        title_text = safe_arabic_text("Demande d'Activité (طلب نشاط)")
+        title_text = "Demande d'Activite (طلب نشاط)"
     elif msg_type == 'inquiry':
-        title_text = safe_arabic_text("Inquiry (استفسار)")
+        title_text = "Inquiry"
     
     pdf.cell(0, 12, title_text, ln=True, align='C', fill=True)
 
@@ -332,7 +313,13 @@ def generate_contact_pdf(data):
     pdf.set_font(font_name, 'B', 12)
     pdf.cell(50, 10, "Expéditeur:")
     pdf.set_font(font_name, '', 12)
-    pdf.cell(0, 10, safe_arabic_text(data.get('sender_name')), ln=True, align='R')
+    
+    try:
+        sender_reshaped = arabic_reshaper.reshape(data.get('sender_name', ''))
+        sender_bidi = get_display(sender_reshaped)
+    except:
+        sender_bidi = str(data.get('sender_name', ''))
+    pdf.cell(0, 10, sender_bidi, ln=True, align='R')
     
     pdf.set_font(font_name, 'B', 12)
     pdf.cell(50, 10, "Email:")
@@ -347,19 +334,29 @@ def generate_contact_pdf(data):
     pdf.set_font(font_name, 'B', 12)
     pdf.cell(50, 10, "Sujet:")
     pdf.set_font(font_name, '', 12)
-    pdf.cell(0, 10, safe_arabic_text(data.get('subject')), align='R', ln=True)
+    try:
+        subject_reshaped = arabic_reshaper.reshape(data.get('subject', ''))
+        subject_bidi = get_display(subject_reshaped)
+    except:
+        subject_bidi = str(data.get('subject', ''))
+    pdf.cell(0, 10, subject_bidi, align='R')
+    pdf.ln(10)
     
     pdf.ln(10)
     pdf.set_font(font_name, 'B', 12)
     pdf.cell(0, 10, "Message:")
-    pdf.ln(10)
     pdf.ln(10)
     pdf.set_font(font_name, '', 11)
     
     # Process Arabic text for message
     raw_message = str(data.get('message', ''))
     try:
-        pdf.multi_cell(0, 7, safe_arabic_text(raw_message), align='R')
+        if font_name != "Helvetica":
+            reshaped_text = arabic_reshaper.reshape(raw_message)
+            bidi_text = get_display(reshaped_text)
+            pdf.multi_cell(0, 7, bidi_text, align='R')
+        else:
+            pdf.multi_cell(0, 7, raw_message, align='R')
     except Exception as e:
         logger.error(f"Arabic Error in Body: {e}")
         pdf.multi_cell(0, 7, "Message contains unsupported characters.")
@@ -580,21 +577,8 @@ def handle_messages():
             subject = f"رسالة جديدة من الموقع: {data.get('subject')}"
             body = f"المرسل: {data.get('sender_name')}\nالبريد: {data.get('email')}\nالهاتف: {data.get('phone')}\nالنوع: {data.get('msg_type')}\nالرسالة:\n{data.get('message')}"
             
-            # إذا كان طلب نشاط، احفظه فقط ولا ترسله كإيميل حسب طلب المستخدم
-            if data.get('msg_type') == 'activity_request':
-                return jsonify({'message': 'تم تسجيل طلب النشاط بنجاح في قاعدة البيانات ولتطّلع عليه الإدارة.', 'email_sent': False}), 201
-
-            # Generate PDF report for other types with fallback
-            pdf_content = None
-            try:
-                pdf_content = generate_contact_pdf(data)
-            except Exception as pdf_err:
-                try:
-                    print(f"!!! PDF Generation Failed, sending plain email instead. Error: {str(pdf_err)}".encode('ascii', errors='replace').decode('ascii'))
-                except:
-                    pass
-                pdf_content = None
-                
+            # Generate PDF report
+            pdf_content = generate_contact_pdf(data)
             success, status_or_error = send_email_with_pdf(subject, body, ADMIN_EMAIL, pdf_content, "rapport_contact.pdf")
             
             if success and status_or_error == "resend":
